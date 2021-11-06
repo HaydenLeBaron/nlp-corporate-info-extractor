@@ -21,3 +21,23 @@ An example of semantic role labeling being used in allennlp. Note the allennlp v
 https://demo.allennlp.org/semantic-role-labeling
 
 
+### Answer key template
+
+TEXT (ID)
+ACQUIRED* (F1)
+ACQBUS* (F2)
+ACQLOC* (F3)
+DLRAMT* (F4)
+PURCHASER* (F5)
+SELLER* (F6)
+STATUS* (F7)
+
+### HYPOTHESES:
+- In general:
+  - PURCHASER, SELLER, and ACQUIRED will most often be named entities
+
+
+- For "Buy" verbs
+  - Allen SRL:
+     - PROTO-AGENT(ARG-0) => PURCHASER
+ 
