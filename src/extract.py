@@ -25,26 +25,23 @@ def main():
     doclist_file_path = sys.argv[1]
     doc_series = pd.read_table(doclist_file_path, header=None).transpose().iloc[0]
 
-    '''Perform information extraction into Template object'''
+    '''Perform information extraction into Template objects'''
     #TODO
-
-
-    '''Write to output file'''
-    output_file_path = OUTPUT_DIR_PATH + doclist_file_path.split('/')[-1] + '.templates'
-    dummy_template_1 = Template(text='ShouldbeAllEmpty')
-    dummy_template_2 = Template(text='123',
+    template_list = [Template(text='ShouldbeAllEmpty'),
+                     Template(text='123',
                                 acquired=['Acquired 1', 'Acquired 2'],
                                 acqbus=['Acqbus1', 'Acqbus2'],
                                 acqloc=['Acqloc'],
                                 dlramt=['$1'],
                                 purchaser=['Purchaser'],
                                 seller=['Seller'],
-                                status=['Current Status'])
+                                status=['Current Status'])]
+
+    '''Write to output file'''
+    output_file_path = OUTPUT_DIR_PATH + doclist_file_path.split('/')[-1] + '.templates' 
     with open(output_file_path, "w") as outf:
-        outf.write('%s' % dummy_template_1)
-        outf.write('\n')
-        outf.write('%s' % dummy_template_2)
-        outf.write('\n')
+        for template in template_list:
+            outf.write('%s\n' % template)
 
 if __name__ == '__main__':
     main()

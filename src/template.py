@@ -25,7 +25,14 @@ class Template:
     seller -- Entities that sold the acquired entities
     status -- Status description of the acquisition event
     """
-    def __init__(self, *, text, acquired=None, acqbus=None, acqloc=None, dlramt=None, purchaser=None, seller=None, status=None):
+    def __init__(self, *, text,
+                 acquired=None,
+                 acqbus=None,
+                 acqloc=None,
+                 dlramt=None,
+                 purchaser=None,
+                 seller=None,
+                 status=None):
         self.text = text
         self.acquired = acquired
         self.acqbus = acqbus
