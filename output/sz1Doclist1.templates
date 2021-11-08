@@ -1,0 +1,20 @@
+TEXT: ShouldbeAllEmpty
+ACQUIRED: ---
+ACQBUS: ---
+ACQLOC: ---
+DLRAMT: ---
+PURCHASER: ---
+SELLER: ---
+STATUS: ---
+
+TEXT: 123
+ACQUIRED: Acquired 1
+ACQUIRED: Acquired 2
+ACQBUS: Acqbus1
+ACQBUS: Acqbus2
+ACQLOC: Acqloc
+DLRAMT: $1
+PURCHASER: Purchaser
+SELLER: Seller
+STATUS: Current Status
+
