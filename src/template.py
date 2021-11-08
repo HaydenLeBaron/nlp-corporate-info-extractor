@@ -4,35 +4,34 @@ GitHub: HaydenTheBaron
 Date: Nov 7, 2021
 '''
 
-"""
-Represents an output IE template to be written to a file.
-"""
 class Template:
+    """Represents an output IE template to be written to a file."""
 
-    """
-    (NAMED) ARGUMENTS:
-    ===================
+    def __init__(self, *, text:str,
+                 acquired:list[str]=None,
+                 acqbus:list[str]=None,
+                 acqloc:list[str]=None,
+                 dlramt:list[str]=None,
+                 purchaser:list[str]=None,
+                 seller:list[str]=None,
+                 status:list[str]=None):
+        """
+        (NAMED) ARGUMENTS:
+        ===================
+        REQUIRED:
+        ----------
+        text -- The unique filename identifier
 
-    REQUIRED:
-    text -- (STRING) The unique filename identifier
-
-    LIST(STRING) | NONE :
-    acquired -- Entities that were acquired
-    acqbus --  The business focus of the acquired entities
-    acqloc --  The location of the acquired entities
-    dlramt --  The amount paid for the acquired entities
-    purchaser -- The entities that purchased the acquired entities
-    seller -- Entities that sold the acquired entities
-    status -- Status description of the acquisition event
-    """
-    def __init__(self, *, text,
-                 acquired=None,
-                 acqbus=None,
-                 acqloc=None,
-                 dlramt=None,
-                 purchaser=None,
-                 seller=None,
-                 status=None):
+        OPTIONAL:
+        ----------
+        acquired -- Entities that were acquired
+        acqbus --  The business focus of the acquired entities
+        acqloc --  The location of the acquired entities
+        dlramt --  The amount paid for the acquired entities
+        purchaser -- The entities that purchased the acquired entities
+        seller -- Entities that sold the acquired entities
+        status -- Status description of the acquisition event
+        """
         self.text = text
         self.acquired = acquired
         self.acqbus = acqbus
@@ -42,10 +41,9 @@ class Template:
         self.seller = seller
         self.status = status
 
-    """
-    Prints a string representation of the template in the same form as expected of the .templates output files.
-    """
     def __str__(self):
+        """Returns str of the template in the form expected by .templates output files."""
+
         # TEXT
         out = 'TEXT: %s\n' % self.text
         # AQCUIRED

@@ -10,10 +10,14 @@ from template import Template
 
 OUTPUT_DIR_PATH = '../output/'
 
-"""
-Main entry point for the information extraction program.
-"""
+def extract(doc:str) -> Template:
+    """Extracts corporate acquisition info from doc into a Template."""
+    pass
+
+
 def main():
+    """Main entry point for the information extraction program."""
+
     '''Print help message'''
     if sys.argv[1] == '-h' \
        or sys.argv[1] == '--help' \
@@ -26,6 +30,10 @@ def main():
     doc_series = pd.read_table(doclist_file_path, header=None).transpose().iloc[0]
 
     '''Perform information extraction into Template objects'''
+    template_list = []
+    for doc in doc_series:
+        extract(doc)
+
     #TODO
     template_list = [Template(text='ShouldbeAllEmpty'),
                      Template(text='123',
