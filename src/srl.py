@@ -3,7 +3,6 @@ from allennlp.models.archival import load_archive
 import argparse
 import json
 
-#TODO: add type annotations to methods
 #TODO: call this in main script
 #TODO: delete tests at the bottom
 class SRLPredictor:
@@ -16,11 +15,11 @@ class SRLPredictor:
         #Should work for pip3 install allennlp==2.1.0 allennlp-models==2.1.0
         self._model =  Predictor.from_path("https://storage.googleapis.com/allennlp-public-models/structured-prediction-srl-bert.2020.12.15.tar.gz")
 
-    def text_to_batch_data(self, text):
+    def text_to_batch_data(self, text:str) -> list[dict[str,str]]:
         #TODO: implement
         pass
 
-    def label_batch(self, batch_data):
+    def label_batch(self, batch_data:list[dict[str,str]]) -> str:
         """Perform SRL prediction on batch_data formatted like so:
         EXAMPLE:
           [{'sentence': 'Which NFL team represented the AFC at Super Bowl 50?'},
@@ -38,7 +37,7 @@ class SRLPredictor:
         return string_output
 
 
-    def label_sentence(self, sentence):
+    def label_sentence(self, sentence:str) -> str:
         return self._model.predict(sentence)
 
 '''Test script'''
