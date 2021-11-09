@@ -1,3 +1,5 @@
+rm output/allDoclist.templates
+
 cd src/
 python3 extract.py ../config/allDoclist
 cd ../scorer/
