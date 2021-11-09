@@ -58,20 +58,10 @@ def main():
     doc_series = pd.read_table(doclist_file_path, header=None).transpose().iloc[0]
 
     '''Perform information extraction into Template objects'''
-    # TODO: initialize template_list to an empty list
-    template_list = [Template(text='ShouldbeAllEmpty'),
-                     Template(text='123',
-                              acquired=['Acquired 1', 'Acquired 2'],
-                              acqbus=['Acqbus1', 'Acqbus2'],
-                              acqloc=['Acqloc'],
-                              dlramt=['$1'],
-                              purchaser=['Purchaser'],
-                              seller=['Seller'],
-                              status=['Current Status'])]
+    template_list = []
     for doc in doc_series:
         template_list.append(extract(doc))
 
-    
 
     '''Write to output file'''
     output_file_path = OUTPUT_DIR_PATH + doclist_file_path.split('/')[-1] + '.templates' 
