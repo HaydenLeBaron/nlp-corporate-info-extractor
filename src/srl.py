@@ -16,7 +16,7 @@ class SRLPredictor:
         self._model =  Predictor.from_path("https://storage.googleapis.com/allennlp-public-models/structured-prediction-srl-bert.2020.12.15.tar.gz")
 
     def text_to_batch_data(self, text:str) -> list[dict[str,str]]:
-        #TODO: implement
+        #TODO: implement. Separate by sentences
         pass
 
     def label_batch(self, batch_data:list[dict[str,str]]) -> str:
@@ -38,6 +38,7 @@ class SRLPredictor:
 
 
     def label_sentence(self, sentence:str) -> str:
+        """Perform SRL prediction on a single sentence, like 'I bought eggs from Sam'"""
         return self._model.predict(sentence)
 
 '''Test script'''
