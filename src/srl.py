@@ -27,10 +27,6 @@ class SRLPredictor:
         #Should work for pip3 install allennlp==2.1.0 allennlp-models==2.1.0
         self._model =  Predictor.from_path("https://storage.googleapis.com/allennlp-public-models/structured-prediction-srl-bert.2020.12.15.tar.gz")
 
-    def text_to_batch_data(self, text:str) -> list[dict[str,str]]:
-        #TODO: implement. Separate by sentences
-        pass
-
     def label_batch(self, batch_data:list[dict[str,str]]) -> str:
         """Perform SRL prediction on batch_data formatted like so:
         EXAMPLE:

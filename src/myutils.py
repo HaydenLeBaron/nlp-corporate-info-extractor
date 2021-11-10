@@ -24,10 +24,14 @@ def batchtexts_to_batchdata_batch(texts:list[str], rule_based:bool=False) -> lis
     """
     sentence_splitter = SpacySentenceSplitter(rule_based=rule_based)
     texts = sentence_splitter.batch_split_sentences(texts=texts)
+
+    # encase each sentence in a dictionary to get it ready to feed to the SRLPredictor
     return list(map(lambda text :
                     list(map(lambda sentence:
-                             {'sentence' : sentence}, text)),
+                             # And replace newlines with spaces
+                             {'sentence' : sentence.replace('\n', ' ')}, text)),
                     texts))
 
-
+'''
 print(batchtexts_to_batchdata_batch(texts=['I like sushi. My favorite sushi restaurant is Itto.', 'You are stupid. I hate you.']))
+'''
