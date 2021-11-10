@@ -37,8 +37,16 @@ def extract(doc_path:str, text_data:list[dict[str,str]], is_verbose:bool=False) 
                                                     # redundant and can be derived with "words" and 'tags'
     if is_verbose : print('SEMANTIC ROLE DATAFRAME:\n{}'.format(srl_df))
 
+    """
+EXAMPLE SEMANTIC ROLE DATAFRAME (srl_df):
+          verb                                               tags                                              words
+0         said  [B-ARG0, I-ARG0, I-ARG0, I-ARG0, I-ARG0, B-V, ...  [Santa, Fe, Southern, Pacific, Corp, said, it,...
+1        filed  [O, O, O, O, O, O, B-ARG0, B-V, B-ARG1, I-ARG1...  [Santa, Fe, Southern, Pacific, Corp, said, it,...
+2       asking  [O, O, O, O, O, O, O, O, B-ARG0, I-ARG0, B-V, ...  [Santa, Fe, Southern, Pacific, Corp, said, it,...
+    """
 
-    '''Extract Acqloc:
+    '''
+    Extract Acqloc:
            1. Accumulate all "ARGM-LOC" entities into a list
            2. Map over ARGM-LOC entites, running a NER on each elt. Return a list of places.
            3. Rank options (sort list by rank) (TODO: implement this)
@@ -47,21 +55,40 @@ def extract(doc_path:str, text_data:list[dict[str,str]], is_verbose:bool=False) 
 
     '''Accumulate all "ARGM-LOC" entites into a list'''
     argmloc_entities = []
+    print('for loop begin')
+    for index, row in srl_df.iterrows():
+        print('index: ', index)
+        tags = row['tags']
+        words = row['words']
+        print('tags: ', tags)
+        print('words: ', words)
+
+        i = 0
+        curr_begin = None
+        curr_in = None
+        while i < len(tags):
+            # Extract entry
+            if tags[i] == 'B-ARGM-LOC':
+                curr_begin = i
+                i+=1
+                while i < len(tags) and tags[i] == 'I-ARGM-LOC':
+                    curr_in = i
+                    i+=1
+                    # Leave loop => Found entity start/end indices (inclusive)
+                if curr_in is None: # Single word entity
+                    argmloc_entities.append(words[curr_begin])
+                else:
+                    argmloc_entities.append(words[curr_begin:(curr_in+1)])
+                # Reset slice vars
+                curr_begin = None
+                curr_in = None
+            i+=1
+        print('===ARGMLOC_ENTITIES:===\n{}'.format(argmloc_entities))
+
+        #TODO: extract argloc entities # BKMRK
+
     #TODO: extract Aqcloc
-
-
-
     # TODO: From buffer, generate pandas dataframe that effectively maps template fields to candidates and metadata about those candidates (using SRL)
-    '''>
-    # TODO: draw structure of data frame
-    acquired
-    acqbus
-    acqloc
-    dlramt
-    purchaser
-    seller
-    status
-    ...>'''
     #TODO: implement step
     '''>Output SR labeled JSON to output files: one file per doc....>'''
     #TODO: implement
