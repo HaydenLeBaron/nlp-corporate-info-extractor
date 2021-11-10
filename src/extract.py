@@ -11,16 +11,46 @@ import pandas as pd
 from template import Template
 from myutils import batchtexts_to_batchdata_batch
 from srl import SRLPredictor
+import json
 
 OUTPUT_DIR_PATH = '../output/'
 
-def extract(doc_path:str, text_data:list[dict[str,str]], verbose:bool=False) -> Template:
+def extract(doc_path:str, text_data:list[dict[str,str]], is_verbose:bool=False) -> Template:
     """Extracts corporate acquisition info from a text into a Template.
     EXAMPLE text_data:
     [{'sentence': 'This is an example sentence'}, ...]
     """
 
-    '''Generate candidates via semantic role labeling'''
+
+    '''Run semantic role labler'''
+    srl_predictor = SRLPredictor()
+    srl_json_str = json.dumps(srl_predictor.label_batch(text_data))
+    if is_verbose: print('=====SRL_JSON_STR for {}=====\n{}\n'.format(doc_path, srl_json_str))
+
+    # Read to dataframe, flattening "verbs" list of dicts
+    #srl_df = pd.json_normalize(json.loads(srl_json_str), record_path=['verbs'])
+    #srl_df = pd.json_normalize(json.loads(srl_json_str), record_path=['verbs'], meta=['words']) # Gives us everything we want, except also includes "description" which is redundant data.
+
+    srl_df = pd.json_normalize(json.loads(srl_json_str),
+                               record_path=['verbs'],
+                               meta=['words']).drop(columns=['description']) #'description' is
+                                                    # redundant and can be derived with "words" and 'tags'
+    if is_verbose : print('SEMANTIC ROLE DATAFRAME:\n{}'.format(srl_df))
+
+
+    '''Extract Acqloc:
+           1. Accumulate all "ARGM-LOC" entities into a list
+           2. Map over ARGM-LOC entites, running a NER on each elt. Return a list of places.
+           3. Rank options (sort list by rank) (TODO: implement this)
+           4. If the list is empty, output '---'. Else choose the highest ranked option.
+    '''
+
+    '''Accumulate all "ARGM-LOC" entites into a list'''
+    argmloc_entities = []
+    #TODO: extract Aqcloc
+
+
+
     # TODO: From buffer, generate pandas dataframe that effectively maps template fields to candidates and metadata about those candidates (using SRL)
     '''>
     # TODO: draw structure of data frame
@@ -40,12 +70,6 @@ def extract(doc_path:str, text_data:list[dict[str,str]], verbose:bool=False) -> 
     #TODO
 
     '''Construct and return template'''
-    if verbose:
-        srl_predictor = SRLPredictor()
-        srl_out = srl_predictor.label_batch(text_data)
-        print('doc={} --> {}\n'.format(doc_path, srl_out))
-
-
     return Template(text=doc_path.split('/')[-1])
 
 
@@ -78,7 +102,7 @@ def main():
     '''Perform information extraction into Template objects'''
     template_list = []
     for doc_path, text_data in zip(doc_series, batchdata_batch):
-        template_list.append(extract(doc_path, text_data, verbose=is_verbose))
+        template_list.append(extract(doc_path, text_data, is_verbose=is_verbose))
 
     '''Write to output file'''
     output_file_path = OUTPUT_DIR_PATH + doclist_file_path.split('/')[-1] + '.templates' 
