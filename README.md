@@ -5,6 +5,7 @@
 pip3 install allennlp==2.1.0 allennlp-models==2.1.0
 #Need this to use SRL model https://storage.googleapis.com/allennlp-public-models/structured-prediction-srl-bert.2020.12.15.tar.gz
 ```
+spacy version 3.0.7
 
 ## NOTES
 
