@@ -37,13 +37,43 @@ def extract(doc_path:str,
 
     # Read to dataframe, flattening "verbs" list of dicts
     #srl_df = pd.json_normalize(json.loads(srl_json_str), record_path=['verbs'])
-    #srl_df = pd.json_normalize(json.loads(srl_json_str), record_path=['verbs'], meta=['words']) # Gives us everything we want, except also includes "description" which is redundant data.
+    #srl_df = pd.json_normalize(json.loads(srl_json_str), record_path=['verbs'], meta=[['words']],errors='ignore') # Gives us everything we want, except also includes "description" which is redundant data.
+    #words_df = pd.json_normalize(json.loads(srl_json_str), record_path=['words']) # Gives us everything we want, except also includes "description" which is redundant data.
 
-    srl_df = pd.json_normalize(json.loads(srl_json_str),
-                               record_path=['verbs'],
-                               meta=['words']).drop(columns=['description']) #'description' is
+    #FIXME: restructure data #BKMRK
+    #srl_df = pd.json_normalize(json.loads(srl_json_str),
+    #                           record_path=['verbs'],
+    #                           meta=['words'], errors='ignore').drop(columns=['description']) #'description' is
+    #srl_df = pd.json_normalize(json.loads(srl_json_str), max_level=2)
+    #srl_df = pd.json_normalize(json.loads(srl_json_str), record_path=['verbs'], meta=['verbs', 'description'], errors='ignore')
+
+    #GOOD
+    #srl_df = pd.json_normalize(json.loads(srl_json_str), record_path=['verbs'])['description']
+
+    #srl_df = pd.json_normalize(json.loads(srl_json_str))
+    #df2 = pd.read_json(json.dumps(srl_df['verbs']))
+    #df2 = pd.json_normalize(json.loads(json.dumps(srl_df['verbs'].jloc[0])))
+    #srl_tags_df = srl_verbs_df['tags']
+    #srl_tags_df = pd.json_normalize(json.loads(srl_json_str), record_path=['verbs'])['tags']
+    #words_df = pd.json_normalize(json.loads(srl_json_str))['words'] # Get words df
+
+
+
+    #df2 = pd.read_json(srl_json_str).transpose().iloc[1]
+    #words = df2
                                                     # redundant and can be derived with "words" and 'tags'
-    if is_verbose : print('SEMANTIC ROLE DATAFRAME:\n{}'.format(srl_df))
+
+
+    srl_df = pd.json_normalize(json.loads(srl_json_str), record_path=['verbs'])['description']
+
+    if is_verbose:
+        print('SEMANTIC ROLE DATAFRAME:\n{}'.format(srl_df))
+        #print('DF 2:\n{}'.format(df2))
+        #print('SEMANTIC ROLE VERBS_DATAFRAME:\n{}'.format(srl_verbs_df))
+        #print('SEMANTIC ROLE TAGS DATAFRAME:\n{}'.format(srl_tags_df))
+        #print('WORDS:\n{}'.format(words_df))
+
+
 
     """
 EXAMPLE SEMANTIC ROLE DATAFRAME (srl_df):
@@ -62,13 +92,16 @@ EXAMPLE SEMANTIC ROLE DATAFRAME (srl_df):
     '''
 
     '''1. Accumulate all "ARGM-LOC" entites into a list'''
+
+    #re.findall('\(.*?\)',s)
     argmloc_spans = []
     for index, row in srl_df.iterrows():
-        print('index: ', index)
-        tags = row['tags']
         words = row['words']
-        print('tags: ', tags)
+        tags = row['tags']
+        print('NUMtags={}, NUMwords={}'.format(len(tags), len(words)))
+        assert len(words) == len(tags)
         print('words: ', words)
+        print('tags: ', tags)
 
         i = 0
         curr_begin = None
@@ -77,18 +110,19 @@ EXAMPLE SEMANTIC ROLE DATAFRAME (srl_df):
             # Extract entry
             if tags[i] == 'B-ARGM-LOC':
                 curr_begin = i
-                i+=1
-                while i < len(tags) and tags[i] == 'I-ARGM-LOC':
+                curr_in = i
+                while i < len(tags) and tags[i] == 'I-ARGM-LOC' and curr_begin < len(tags) and curr_in < len(tags):
                     curr_in = i
                     i+=1
                     # Leave loop => Found entity start/end indices (inclusive)
-                if curr_in is None: # Single-word span
-                    argmloc_spans.append(' '.join(words[curr_begin]))
+                if curr_begin == curr_in: # Single-word span
+                    argmloc_spans.append(words[curr_begin])
                 else: # Multi-word span
+                    print('DBG:', words[curr_begin:(curr_in+1)])
                     argmloc_spans.append(' '.join(words[curr_begin:(curr_in+1)]))
                 # Reset temp span idx vars
-                curr_begin = None
-                curr_in = None
+            curr_begin = None
+            curr_in = None
             i+=1
             if is_verbose : print('===ARGMLOC_SPANS:===\n{}'.format(argmloc_spans))
 
@@ -98,16 +132,21 @@ EXAMPLE SEMANTIC ROLE DATAFRAME (srl_df):
        > ORDINAL, ORG, PERCENT, PERSON, PRODUCT, QUANTITY, TIME, WORK_OF_ART
     '''
     #https://spacy.io/usage/linguistic-features#named-entities
-    doc = spacy_model("Apple is looking at buying U.K. startup for $1 billion")
+    loc_ents = []
     for span in argmloc_spans: # TODO: use list comprehension
         labeled_span = spacy_model(span)
         print('LABELED_SPAN:', labeled_span)
 
-        #TODO: BKMRK: filter labeled_span.ents such that ent.label_ == 'LOC'. Then extract the first LOC and fill it in the template
-        for ent in labeled_span.ents:
-            print(ent.text, ent.start_char, ent.end_char, ent.label_)
+        #filter labeled_span.ents such that ent.label_ == 'LOC'.
+        loc_ents += list(map(lambda ent : ent.text,
+                             list(filter(lambda ent: ent.label_ == 'LOC',
+                                         labeled_span.ents))))
 
-
+    '''4. Choose the highest ranked entity, or None if no candiates remaining candidates'''
+    if loc_ents:
+        acqloc = loc_ents[0] # Just choose the first location entity
+    else:
+        acqloc = None
 
 
 
@@ -122,7 +161,7 @@ EXAMPLE SEMANTIC ROLE DATAFRAME (srl_df):
     #TODO
 
     '''Construct and return template'''
-    return Template(text=doc_path.split('/')[-1])
+    return Template(text=doc_path.split('/')[-1], acqloc=acqloc)
 
 
 
