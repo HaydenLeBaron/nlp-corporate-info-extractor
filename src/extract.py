@@ -12,18 +12,26 @@ from template import Template
 from myutils import batchtexts_to_batchdata_batch
 from srl import SRLPredictor
 import json
+from allennlp.predictors.sentence_tagger import SentenceTaggerPredictor
+import spacy
 
+'''
+TODO: change spacy.load("en_core_web_sm") to spacy.load("en_core_web_trf") for slower, but more accurate model
+and run python -m spacy download en_core_web_trf to install the larger model. Create a flag for the program that chooses which models/options to use (fast/accurate flag)
+'''
 OUTPUT_DIR_PATH = '../output/'
 
-def extract(doc_path:str, text_data:list[dict[str,str]], is_verbose:bool=False) -> Template:
+def extract(doc_path:str,
+            text_data:list[dict[str,str]],
+            srl_predictor:SRLPredictor,
+            spacy_model, #TODO: put type annotation by what is returned by spacy.load()
+            is_verbose:bool=False) -> Template:
     """Extracts corporate acquisition info from a text into a Template.
     EXAMPLE text_data:
     [{'sentence': 'This is an example sentence'}, ...]
     """
 
-
     '''Run semantic role labler'''
-    srl_predictor = SRLPredictor()
     srl_json_str = json.dumps(srl_predictor.label_batch(text_data))
     if is_verbose: print('=====SRL_JSON_STR for {}=====\n{}\n'.format(doc_path, srl_json_str))
 
@@ -47,15 +55,14 @@ EXAMPLE SEMANTIC ROLE DATAFRAME (srl_df):
 
     '''
     Extract Acqloc:
-           1. Accumulate all "ARGM-LOC" entities into a list
+           1. Accumulate all "ARGM-LOC" spans of text into a list
            2. Map over ARGM-LOC entites, running a NER on each elt. Return a list of places.
            3. Rank options (sort list by rank) (TODO: implement this)
            4. If the list is empty, output '---'. Else choose the highest ranked option.
     '''
 
-    '''Accumulate all "ARGM-LOC" entites into a list'''
-    argmloc_entities = []
-    print('for loop begin')
+    '''1. Accumulate all "ARGM-LOC" entites into a list'''
+    argmloc_spans = []
     for index, row in srl_df.iterrows():
         print('index: ', index)
         tags = row['tags']
@@ -75,17 +82,35 @@ EXAMPLE SEMANTIC ROLE DATAFRAME (srl_df):
                     curr_in = i
                     i+=1
                     # Leave loop => Found entity start/end indices (inclusive)
-                if curr_in is None: # Single word entity
-                    argmloc_entities.append(words[curr_begin])
-                else:
-                    argmloc_entities.append(words[curr_begin:(curr_in+1)])
-                # Reset slice vars
+                if curr_in is None: # Single-word span
+                    argmloc_spans.append(' '.join(words[curr_begin]))
+                else: # Multi-word span
+                    argmloc_spans.append(' '.join(words[curr_begin:(curr_in+1)]))
+                # Reset temp span idx vars
                 curr_begin = None
                 curr_in = None
             i+=1
-        print('===ARGMLOC_ENTITIES:===\n{}'.format(argmloc_entities))
+            if is_verbose : print('===ARGMLOC_SPANS:===\n{}'.format(argmloc_spans))
 
-        #TODO: extract argloc entities # BKMRK
+    '''2. Map over ARGM-LOC spans, running a NER on each elt. Return a list of places.'''
+    '''> spacy NER labels # TODO: encapsulate these programmatically in a class or something.
+       > CARDINAL, DATE, EVENT, FAC, GPE, LANGUAGE, LAW, LOC, MONEY, NORP,
+       > ORDINAL, ORG, PERCENT, PERSON, PRODUCT, QUANTITY, TIME, WORK_OF_ART
+    '''
+    #https://spacy.io/usage/linguistic-features#named-entities
+    doc = spacy_model("Apple is looking at buying U.K. startup for $1 billion")
+    for span in argmloc_spans: # TODO: use list comprehension
+        labeled_span = spacy_model(span)
+        print('LABELED_SPAN:', labeled_span)
+
+        #TODO: BKMRK: filter labeled_span.ents such that ent.label_ == 'LOC'. Then extract the first LOC and fill it in the template
+        for ent in labeled_span.ents:
+            print(ent.text, ent.start_char, ent.end_char, ent.label_)
+
+
+
+
+
 
     #TODO: extract Aqcloc
     # TODO: From buffer, generate pandas dataframe that effectively maps template fields to candidates and metadata about those candidates (using SRL)
@@ -112,6 +137,7 @@ def main():
     if is_verbose : print('VERBOSE=TRUE')
 
 
+
     '''Extract docs into pandas series'''
     doclist_file_path = sys.argv[1]
     doc_series = pd.read_table(doclist_file_path, header=None).transpose().iloc[0]
@@ -127,9 +153,17 @@ def main():
     if is_verbose : print('BATCHDATA_BATCH = %s\n' % batchdata_batch)
 
     '''Perform information extraction into Template objects'''
+    if is_verbose : print('Loading models...')
+    srl_predictor = SRLPredictor()
+    spacy_model = spacy.load("en_core_web_sm")
+    if is_verbose : print('Models loaded.')
     template_list = []
     for doc_path, text_data in zip(doc_series, batchdata_batch):
-        template_list.append(extract(doc_path, text_data, is_verbose=is_verbose))
+        template_list.append(extract(doc_path,
+                                     text_data,
+                                     srl_predictor=srl_predictor,
+                                     spacy_model=spacy_model,
+                                     is_verbose=is_verbose))
 
     '''Write to output file'''
     output_file_path = OUTPUT_DIR_PATH + doclist_file_path.split('/')[-1] + '.templates' 
