@@ -13,15 +13,14 @@ from allennlp.data.tokenizers.sentence_splitter import SpacySentenceSplitter
 #TODO: potentially improve sentence splitting performance (and make warnings go away) by adding spacy POS tagging in the pipeline?
 def batchtexts_to_batchdata_batch(texts:list[str], rule_based:bool=False) -> list[list[dict[str,str]]]:
     """Takes texts (each text represented by a string) and returns output of form
-    list[ # This list contains all texts
-      list[ #This list contains the sentences of a single text
+    [ # This list contains all texts
+      [ #This list contains the sentences of a single text
         {'sentence': 'This is an example sentence'}
         ....
       ]
       ....
-
-    rule_based -- slower, but more accurate sentence splitting
     ]
+    rule_based -- slower, but more accurate sentence splitting
     """
     sentence_splitter = SpacySentenceSplitter(rule_based=rule_based)
     texts = sentence_splitter.batch_split_sentences(texts=texts)
