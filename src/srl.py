@@ -1,3 +1,12 @@
+"""
+Author: Hayden LeBaron
+GitHub: HaydenTheBaron
+Date: November 9, 2021
+
+Used https://github.com/masrb/Semantic-Role-Labeling-allenNLP- as a starting point.
+"""
+
+
 from allennlp.predictors import Predictor
 from allennlp.models.archival import load_archive
 import argparse
@@ -5,6 +14,9 @@ import json
 
 #TODO: call this in main script
 #TODO: delete tests at the bottom
+#TODO: test SpacySentenceSplitter on Cade
+#TODO: implement ability to pass flags to the main program that will decide whether to set spacy_sentence_splitter "rule_based:" parameter to true (more accurate, but slow) or false (faster).
+
 class SRLPredictor:
     """
     Encapsulates a semantic role labeling model and methods for performing
@@ -42,7 +54,15 @@ class SRLPredictor:
         return self._model.predict(sentence)
 
 '''Test script'''
+'''
+text = 'Which NFL team represented the AFC at Super Bowl 50? Where did Super Bowl 50 take place? Which NFL team won Super Bowl 50?'
+#allennlp+spacy
+print(splitter.split_sentences(texts=[text]))
+'''
+
+'''
 predictor = SRLPredictor()
+
 batch_data = [{'sentence': 'Which NFL team represented the AFC at Super Bowl 50?'},
               {'sentence': 'Where did Super Bowl 50 take place?'},
               {'sentence': 'Which NFL team won Super Bowl 50?'}]
@@ -52,3 +72,5 @@ print('batch_output: ', batch_output)
 sentence = 'I bought eggs from Sam'
 sentence_output = predictor.label_sentence(sentence)
 print ('sentence_output: ', sentence_output)
+'''
+
