@@ -14,6 +14,7 @@ from srl import SRLPredictor
 import json
 from allennlp.predictors.sentence_tagger import SentenceTaggerPredictor
 import spacy
+import re
 
 '''
 TODO: change spacy.load("en_core_web_sm") to spacy.load("en_core_web_trf") for slower, but more accurate model
@@ -33,7 +34,9 @@ def extract(doc_path:str,
 
     '''Run semantic role labler'''
     srl_json_str = json.dumps(srl_predictor.label_batch(text_data))
-    if is_verbose: print('=====SRL_JSON_STR for {}=====\n{}\n'.format(doc_path, srl_json_str))
+
+    #TODO: uncommentme
+    #if is_verbose: print('=====SRL_JSON_STR for {}=====\n{}\n'.format(doc_path, srl_json_str))
 
     # Read to dataframe, flattening "verbs" list of dicts
     #srl_df = pd.json_normalize(json.loads(srl_json_str), record_path=['verbs'])
@@ -64,7 +67,7 @@ def extract(doc_path:str,
                                                     # redundant and can be derived with "words" and 'tags'
 
 
-    srl_df = pd.json_normalize(json.loads(srl_json_str), record_path=['verbs'])['description']
+    srl_df = pd.json_normalize(json.loads(srl_json_str), record_path=['verbs'])['description'].tolist()
 
     if is_verbose:
         print('SEMANTIC ROLE DATAFRAME:\n{}'.format(srl_df))
@@ -93,38 +96,10 @@ EXAMPLE SEMANTIC ROLE DATAFRAME (srl_df):
 
     '''1. Accumulate all "ARGM-LOC" entites into a list'''
 
-    #re.findall('\(.*?\)',s)
     argmloc_spans = []
-    for index, row in srl_df.iterrows():
-        words = row['words']
-        tags = row['tags']
-        print('NUMtags={}, NUMwords={}'.format(len(tags), len(words)))
-        assert len(words) == len(tags)
-        print('words: ', words)
-        print('tags: ', tags)
-
-        i = 0
-        curr_begin = None
-        curr_in = None
-        while i < len(tags):
-            # Extract entry
-            if tags[i] == 'B-ARGM-LOC':
-                curr_begin = i
-                curr_in = i
-                while i < len(tags) and tags[i] == 'I-ARGM-LOC' and curr_begin < len(tags) and curr_in < len(tags):
-                    curr_in = i
-                    i+=1
-                    # Leave loop => Found entity start/end indices (inclusive)
-                if curr_begin == curr_in: # Single-word span
-                    argmloc_spans.append(words[curr_begin])
-                else: # Multi-word span
-                    print('DBG:', words[curr_begin:(curr_in+1)])
-                    argmloc_spans.append(' '.join(words[curr_begin:(curr_in+1)]))
-                # Reset temp span idx vars
-            curr_begin = None
-            curr_in = None
-            i+=1
-            if is_verbose : print('===ARGMLOC_SPANS:===\n{}'.format(argmloc_spans))
+    for elt in srl_df:
+        argmloc_spans.append(re.findall('\[ARGM-LOC.*?\]', elt))
+    if is_verbose : print('===ARGMLOC_SPANS:===\n{}'.format(argmloc_spans))
 
     '''2. Map over ARGM-LOC spans, running a NER on each elt. Return a list of places.'''
     '''> spacy NER labels # TODO: encapsulate these programmatically in a class or something.
@@ -134,14 +109,16 @@ EXAMPLE SEMANTIC ROLE DATAFRAME (srl_df):
     #https://spacy.io/usage/linguistic-features#named-entities
     loc_ents = []
     for span in argmloc_spans: # TODO: use list comprehension
-        labeled_span = spacy_model(span)
+        labeled_span = spacy_model(' '.join(span))
         print('LABELED_SPAN:', labeled_span)
+        print('LABELED_SPAN_ENTS:', labeled_span.ents)
 
         #filter labeled_span.ents such that ent.label_ == 'LOC'.
         loc_ents += list(map(lambda ent : ent.text,
                              list(filter(lambda ent: ent.label_ == 'LOC',
                                          labeled_span.ents))))
 
+        print('LOC_ENTS:', loc_ents)
     '''4. Choose the highest ranked entity, or None if no candiates remaining candidates'''
     if loc_ents:
         acqloc = loc_ents[0] # Just choose the first location entity

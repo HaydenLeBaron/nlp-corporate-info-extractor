@@ -90,4 +90,7 @@ A subsequent model will pick the best value from the set based on multiple facto
 2. Aggregate semantic tags into a two dictionaries for the entire document--A "buy-verb" dictionary, and a "sell-verb" dictionary that takes semantic tags and maps them to a set of strings. Keep 
 3. Based on heuristics derived in experiments, assign each field to their most correlated semantic role dictionaies. The dictionaries contain candidates. Apply additional heuristic to select the best candidates. If we cannot get further evidence, simply fill out the field as blank.
  
- 
+## NOTES:
+
+- Originally I only looked for AQCLOC in AGM-LOC, but this turned out to be terrible. No fields were filled out. 
+- Now switching to not using the SRL
