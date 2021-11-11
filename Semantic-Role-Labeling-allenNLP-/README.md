@@ -2,6 +2,7 @@
 
 This script takes sample sentences which can be a single or list of sentences and uses AllenNLP's per-trained model on Semantic Role Labeling to make predictions.
 
+ 
 ## **Description**
 
 **Semantic Role Labeling**

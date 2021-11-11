@@ -1,0 +1,230 @@
+VERBOSE=TRUE
+BATCHDATA_BATCH = [[{'sentence': 'Meridian Energy Inc and Castone Development Corp, a privately-held company, jointly announced that they have decided to terminate the letter of intent under which Meridian would have acquired Castone.'}], [{'sentence': 'Security Pacific Corp and Users Inc, a credit union data processing concern, said they have mutually agreed to withdraw from further merger negotiations.'}, {'sentence': 'Users said that since it signed a letter of intent to merge with Security in November, it has received a strong show of support for continuing the credit union ownership of the company with credit unions committing themselves to purchase additional Users common.'}, {'sentence': 'Users also said it is in the strongest financial position in its 24-year history.'}], [{'sentence': 'Americanture Inc said it has purchased American Adventure Inc  for cash, the assumption of liabilities and the issuance of American Adventure Inc common and preferred stock to creditors, shareholders and members.'}, {'sentence': 'The acquisition was pursuant of a Chapter 11 reorganization plan of American Adventure.'}, {'sentence': 'The company said the transaction involved assets valued at more than 83 mln dlrs.'}], [{'sentence': 'Viacom International Inc said it set April 6 as the record date for shareholders entitled to vote at a special meeting to be held to vote on the proposed merger of Arsenal Acquiring Corp, a wholly-owned subsidiary of Arsenal Holdings Inc into Viacom.'}, {'sentence': ''}, {'sentence': 'It said the date of the special meeting has not yet been determined.'}], [{'sentence': "Scott's Hospitality Inc said it acquired all issued shares of Capital Food Services Ltd, of Ottawa."}, {'sentence': 'Terms were not disclosed.'}, {'sentence': "Scott's said Capital Food had 1986 sales of more than 20 mln dlrs and will continue to operate under its present name with existing management."}, {'sentence': 'Capital Food provides food services to several Ottawa institutions, the company said.'}, {'sentence': 'Reuter'}], [{'sentence': 'Video Display Corfp said it has reached a tentiative agreement to sell its existing cable television business for undisclosed terms and expects to report a gain on the transaction.'}, {'sentence': ''}, {'sentence': 'The buyer was not named.'}, {'sentence': 'The company said it will redeploy its service assets into manufacturing and distribution.'}, {'sentence': 'It said the operations being sold accounted for about five pct of revenues for the year ended February 28 and lost money.'}, {'sentence': 'Reuter'}], [{'sentence': 'Applied chemicals group Henkel KGaA  said it is selling its Hamburg vegetable oil and fats subsidiary Noblee und Thoerl GmbH to Oelmuehle Hamburg AG.'}, {'sentence': 'A company spokesman declined to give the purchase price.'}, {'sentence': ''}, {'sentence': 'Noblee, a supplier of specialised refined oils and fats to the food processing industry, had turnover of 161 mln marks last year.'}, {'sentence': "A Henkel statement said the divestment was part of the company's strategy of concentrating on its core businesses."}, {'sentence': 'For'}, {'sentence': 'Oelmuehle, the acquisition of Noblee means access to new markets, the statement added.'}], [{'sentence': 'Union Miniere SA said in a statement that it has acquired an eight pct interest in Pancontinental Mining Ltd  for a sum equivalent to 1.2 billion Belgian francs.'}, {'sentence': 'Pancontinental operates gold and coal mines in Australia and natural gas and oil fields in Canada.'}, {'sentence': 'Union Miniere said the location of its interest within the Pancontinental group will be decided later.'}, {'sentence': 'It did not elaborate.'}, {'sentence': 'Union Miniere is a wholly owned subsidiary of Societe Generale de Belgique .'}], [{'sentence': 'Honeywell Inc said it has completed the sale of 57.5 pct of its Honeywell Information Systems  computer business to Compagnie des Machines'}, {'sentence': 'Bull of France and NEC Corp of Japan for 527 mln dlrs in cash.'}, {'sentence': 'Honeywell said it will use much of the money to reduce short-term debt incurred last December when the company purchased the Sperry Aerospace Group.'}, {'sentence': 'Honeywell said the sale of HIS has created a new dedicated computer company jointly owned by Bull, NEC and Honeywell.'}, {'sentence': ''}, {'sentence': 'The new privately held company, named Honeywell Bull, is 42.5 pct owned by Honeywell Inc, 42.5 pct by Bull and 15 pct by'}, {'sentence': 'NEC, the new company said.'}, {'sentence': 'Honeywell added that terms of the agreement with NEC and Bull allow it to reduce its current 42.5 pct stake in the new company to 19.9 pct at the end of 1988 by selling just over half its shares to Bull.'}, {'sentence': "Book value at the time will determine the move's pricing, Honeywell said."}, {'sentence': "Honeywell chairman and chief executive officer, Edson Spencer, said the move is the last major step in Honeywell's restructuring."}, {'sentence': '"As the leading worldwide supplier of of automation and controls for buildings, industry, aerospace and defense,'}, {'sentence': 'Honeywell is now focusing its management, technical and financial resources on high market share business," Spencer said.'}, {'sentence': "Honeywell said it expects to be Honeywell Bull's largest customer, purchasing computers for its own internal data processing, for integration into Honeywell buidling and industrial automation systems and for resale to the U.S. governement."}, {'sentence': "Honeywell said HIS's Federal Systems Division is now a wholly owned unit of Honeywell Inc, and has been named"}, {'sentence': 'Honeywell Federal Systems Inc.     Honeywell said it accounted for HIS as a discontinued operation in 1986, and will account for its future interest on a cost basis, recording any dividends as received.'}, {'sentence': 'Honeywell Bull said it will continue to develop its product line and build its business in integrated systems for networking, database management and transaction processing.'}, {'sentence': 'The new company said its board will have nine members, including the chairman and chief executive officer.'}, {'sentence': 'Bull will have four members, Honeywell two and NEC one, the new company, which began worldwide operations today, said.'}, {'sentence': "It added that Jacques Stern, Bull's chairman and chief executive officer, will serve as Honeywell Bull's chairman of the board, while Jerome Meyer, formerly executive vice president of Honeywell Information Systems, was named president and chief executive officer."}], [{'sentence': 'LSB Industries Inc said it entered into an agreement to acquire Northwest Federal Savings and Loan Association of Woodward, Oklahoma.'}, {'sentence': 'Upon completion of the acquisition, LSB would pay about 1.5 mln dlrs to the shareholders of Northwest and transfer to Northwest Federal certain assets having a net current appraised value of not less than 30 mln dlrs.'}, {'sentence': ''}, {'sentence': "At completion of this transaction, Northwest Federal would be a subsidiary of LSB's non-consolidated wholly-owned financial subsidiary."}, {'sentence': 'The acquisition is subject to obtaining approvals, waivers and forbearances from the Federal Home Loan Bank Board and other government approvals.'}]]
+
+Loading models...
+Models loaded.
+(ent.text=Meridian Energy Inc and Castone Development Corp,ent.label_=ORG)
+(ent.text=Meridian,ent.label_=ORG)
+(ent.text=Castone,ent.label_=ORG)
+LOC_ENTS: []
+(ent.text=Security Pacific Corp,ent.label_=ORG)
+(ent.text=Users Inc,ent.label_=PERSON)
+(ent.text=November,ent.label_=DATE)
+(ent.text=Users,ent.label_=PERSON)
+(ent.text=24-year,ent.label_=DATE)
+LOC_ENTS: []
+(ent.text=American Adventure Inc,ent.label_=ORG)
+(ent.text=American Adventure Inc,ent.label_=ORG)
+(ent.text=Chapter 11,ent.label_=LAW)
+(ent.text=American Adventure,ent.label_=ORG)
+(ent.text=more than 83,ent.label_=CARDINAL)
+LOC_ENTS: []
+(ent.text=Viacom International Inc,ent.label_=ORG)
+(ent.text=April 6,ent.label_=DATE)
+(ent.text=Arsenal Acquiring Corp,ent.label_=ORG)
+(ent.text=Arsenal Holdings Inc,ent.label_=ORG)
+(ent.text=Viacom,ent.label_=ORG)
+LOC_ENTS: []
+(ent.text=Scott,ent.label_=ORG)
+(ent.text=Hospitality Inc,ent.label_=ORG)
+(ent.text=Capital Food Services Ltd,ent.label_=ORG)
+(ent.text=Ottawa,ent.label_=GPE)
+(ent.text=Scott,ent.label_=ORG)
+(ent.text=Capital Food,ent.label_=ORG)
+(ent.text=1986,ent.label_=DATE)
+(ent.text=more than 20,ent.label_=CARDINAL)
+(ent.text=Capital Food,ent.label_=ORG)
+(ent.text=Ottawa,ent.label_=GPE)
+LOC_ENTS: ['Ottawa', 'Ottawa']
+(ent.text=Display Corfp,ent.label_=PERSON)
+(ent.text=about five,ent.label_=CARDINAL)
+(ent.text=the year ended February 28,ent.label_=DATE)
+LOC_ENTS: []
+(ent.text=Henkel KGaA,ent.label_=PERSON)
+(ent.text=Hamburg,ent.label_=GPE)
+(ent.text=Noblee,ent.label_=PERSON)
+(ent.text=Oelmuehle Hamburg AG,ent.label_=ORG)
+(ent.text=Noblee,ent.label_=PERSON)
+(ent.text=161 mln marks,ent.label_=MONEY)
+(ent.text=last year,ent.label_=DATE)
+(ent.text=Noblee,ent.label_=ORG)
+LOC_ENTS: ['Hamburg']
+(ent.text=Union Miniere SA,ent.label_=ORG)
+(ent.text=eight,ent.label_=CARDINAL)
+(ent.text=Pancontinental Mining Ltd,ent.label_=ORG)
+(ent.text=1.2 billion Belgian francs,ent.label_=MONEY)
+(ent.text=Australia,ent.label_=GPE)
+(ent.text=Canada,ent.label_=GPE)
+(ent.text=Union Miniere,ent.label_=ORG)
+(ent.text=Pancontinental,ent.label_=ORG)
+(ent.text=Societe Generale de Belgique,ent.label_=ORG)
+LOC_ENTS: ['Australia', 'Canada']
+(ent.text=Honeywell Inc,ent.label_=ORG)
+(ent.text=57.5,ent.label_=CARDINAL)
+(ent.text=Honeywell Information Systems,ent.label_=ORG)
+(ent.text=Compagnie des Machines,ent.label_=ORG)
+(ent.text=Bull of France,ent.label_=ORG)
+(ent.text=NEC Corp,ent.label_=ORG)
+(ent.text=Japan,ent.label_=GPE)
+(ent.text=527 mln,ent.label_=QUANTITY)
+(ent.text=Honeywell,ent.label_=ORG)
+(ent.text=last December,ent.label_=DATE)
+(ent.text=the Sperry Aerospace Group,ent.label_=ORG)
+(ent.text=Honeywell,ent.label_=ORG)
+(ent.text=Bull,ent.label_=ORG)
+(ent.text=NEC,ent.label_=ORG)
+(ent.text=Honeywell,ent.label_=ORG)
+(ent.text=Honeywell Bull,ent.label_=ORG)
+(ent.text=42.5,ent.label_=CARDINAL)
+(ent.text=Honeywell Inc,ent.label_=ORG)
+(ent.text=42.5,ent.label_=CARDINAL)
+(ent.text=Bull,ent.label_=ORG)
+(ent.text=15,ent.label_=CARDINAL)
+(ent.text=NEC,ent.label_=ORG)
+(ent.text=Honeywell,ent.label_=ORG)
+(ent.text=NEC,ent.label_=ORG)
+(ent.text=Bull,ent.label_=ORG)
+(ent.text=42.5,ent.label_=CARDINAL)
+(ent.text=19.9,ent.label_=CARDINAL)
+(ent.text=the end of 1988,ent.label_=DATE)
+(ent.text=just over half,ent.label_=CARDINAL)
+(ent.text=Bull,ent.label_=ORG)
+(ent.text=Honeywell,ent.label_=ORG)
+(ent.text=Honeywell,ent.label_=ORG)
+(ent.text=Edson Spencer,ent.label_=PERSON)
+(ent.text=Honeywell,ent.label_=ORG)
+(ent.text=Honeywell,ent.label_=ORG)
+(ent.text=Spencer,ent.label_=PERSON)
+(ent.text=Honeywell,ent.label_=ORG)
+(ent.text=Honeywell Bull's,ent.label_=ORG)
+(ent.text=Honeywell,ent.label_=ORG)
+(ent.text=U.S.,ent.label_=GPE)
+(ent.text=Honeywell,ent.label_=ORG)
+(ent.text=Federal Systems Division,ent.label_=ORG)
+(ent.text=Honeywell Inc,ent.label_=ORG)
+(ent.text=Honeywell Federal Systems Inc.,ent.label_=ORG)
+(ent.text=Honeywell,ent.label_=ORG)
+(ent.text=1986,ent.label_=DATE)
+(ent.text=Honeywell Bull,ent.label_=ORG)
+(ent.text=nine,ent.label_=CARDINAL)
+(ent.text=four,ent.label_=CARDINAL)
+(ent.text=Honeywell,ent.label_=ORG)
+(ent.text=two,ent.label_=CARDINAL)
+(ent.text=NEC,ent.label_=ORG)
+(ent.text=today,ent.label_=DATE)
+(ent.text=Jacques Stern,ent.label_=PERSON)
+(ent.text=Bull,ent.label_=ORG)
+(ent.text=Honeywell Bull's,ent.label_=ORG)
+(ent.text=Jerome Meyer,ent.label_=PERSON)
+(ent.text=Honeywell Information Systems,ent.label_=ORG)
+LOC_ENTS: ['Japan', 'U.S.']
+(ent.text=LSB Industries Inc,ent.label_=ORG)
+(ent.text=Northwest Federal Savings and Loan Association of Woodward,ent.label_=ORG)
+(ent.text=Oklahoma,ent.label_=GPE)
+(ent.text=LSB,ent.label_=ORG)
+(ent.text=about 1.5 mln,ent.label_=QUANTITY)
+(ent.text=Northwest,ent.label_=ORG)
+(ent.text=Northwest Federal,ent.label_=ORG)
+(ent.text=less than,ent.label_=CARDINAL)
+(ent.text=Northwest Federal,ent.label_=ORG)
+(ent.text=LSB,ent.label_=ORG)
+(ent.text=the Federal Home Loan Bank Board,ent.label_=ORG)
+LOC_ENTS: ['Oklahoma']
+TEXT: 10042
+ACQUIRED: ---
+ACQBUS: ---
+DLRAMT: ---
+PURCHASER: ---
+SELLER: ---
+STATUS: ---
+
+
+TEXT: 10066
+ACQUIRED: ---
+ACQBUS: ---
+DLRAMT: ---
+PURCHASER: ---
+SELLER: ---
+STATUS: ---
+
+
+TEXT: 10158
+ACQUIRED: ---
+ACQBUS: ---
+DLRAMT: ---
+PURCHASER: ---
+SELLER: ---
+STATUS: ---
+
+
+TEXT: 10171
+ACQUIRED: ---
+ACQBUS: ---
+DLRAMT: ---
+PURCHASER: ---
+SELLER: ---
+STATUS: ---
+
+
+TEXT: 1029
+ACQUIRED: ---
+ACQBUS: ---
+ACQLOC: Ottawa
+ACQLOC: Ottawa
+DLRAMT: ---
+PURCHASER: ---
+SELLER: ---
+STATUS: ---
+
+
+TEXT: 1032
+ACQUIRED: ---
+ACQBUS: ---
+DLRAMT: ---
+PURCHASER: ---
+SELLER: ---
+STATUS: ---
+
+
+TEXT: 10348
+ACQUIRED: ---
+ACQBUS: ---
+ACQLOC: Hamburg
+DLRAMT: ---
+PURCHASER: ---
+SELLER: ---
+STATUS: ---
+
+
+TEXT: 10371
+ACQUIRED: ---
+ACQBUS: ---
+ACQLOC: Australia
+ACQLOC: Canada
+DLRAMT: ---
+PURCHASER: ---
+SELLER: ---
+STATUS: ---
+
+
+TEXT: 10473
+ACQUIRED: ---
+ACQBUS: ---
+ACQLOC: Japan
+ACQLOC: U.S.
+DLRAMT: ---
+PURCHASER: ---
+SELLER: ---
+STATUS: ---
+
+
+TEXT: 10527
+ACQUIRED: ---
+ACQBUS: ---
+ACQLOC: Oklahoma
+DLRAMT: ---
+PURCHASER: ---
+SELLER: ---
+STATUS: ---
+
+
