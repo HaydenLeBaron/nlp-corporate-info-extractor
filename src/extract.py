@@ -33,49 +33,12 @@ def extract(doc_path:str,
     """
 
     '''Run semantic role labler'''
+    '''TODO: uncommentme when we actually use this
     srl_json_str = json.dumps(srl_predictor.label_batch(text_data))
-
-    #TODO: uncommentme
-    #if is_verbose: print('=====SRL_JSON_STR for {}=====\n{}\n'.format(doc_path, srl_json_str))
-
-    # Read to dataframe, flattening "verbs" list of dicts
-    #srl_df = pd.json_normalize(json.loads(srl_json_str), record_path=['verbs'])
-    #srl_df = pd.json_normalize(json.loads(srl_json_str), record_path=['verbs'], meta=[['words']],errors='ignore') # Gives us everything we want, except also includes "description" which is redundant data.
-    #words_df = pd.json_normalize(json.loads(srl_json_str), record_path=['words']) # Gives us everything we want, except also includes "description" which is redundant data.
-
-    #FIXME: restructure data #BKMRK
-    #srl_df = pd.json_normalize(json.loads(srl_json_str),
-    #                           record_path=['verbs'],
-    #                           meta=['words'], errors='ignore').drop(columns=['description']) #'description' is
-    #srl_df = pd.json_normalize(json.loads(srl_json_str), max_level=2)
-    #srl_df = pd.json_normalize(json.loads(srl_json_str), record_path=['verbs'], meta=['verbs', 'description'], errors='ignore')
-
-    #GOOD
-    #srl_df = pd.json_normalize(json.loads(srl_json_str), record_path=['verbs'])['description']
-
-    #srl_df = pd.json_normalize(json.loads(srl_json_str))
-    #df2 = pd.read_json(json.dumps(srl_df['verbs']))
-    #df2 = pd.json_normalize(json.loads(json.dumps(srl_df['verbs'].jloc[0])))
-    #srl_tags_df = srl_verbs_df['tags']
-    #srl_tags_df = pd.json_normalize(json.loads(srl_json_str), record_path=['verbs'])['tags']
-    #words_df = pd.json_normalize(json.loads(srl_json_str))['words'] # Get words df
-
-
-
-    #df2 = pd.read_json(srl_json_str).transpose().iloc[1]
-    #words = df2
-                                                    # redundant and can be derived with "words" and 'tags'
-
-
     srl_df = pd.json_normalize(json.loads(srl_json_str), record_path=['verbs'])['description'].tolist()
+    '''
 
-    if is_verbose:
-        print('SEMANTIC ROLE DATAFRAME:\n{}'.format(srl_df))
-        #print('DF 2:\n{}'.format(df2))
-        #print('SEMANTIC ROLE VERBS_DATAFRAME:\n{}'.format(srl_verbs_df))
-        #print('SEMANTIC ROLE TAGS DATAFRAME:\n{}'.format(srl_tags_df))
-        #print('WORDS:\n{}'.format(words_df))
-
+    #if is_verbose : print('SEMANTIC ROLE DATAFRAME:\n{}'.format(srl_df))
 
 
     """
@@ -96,17 +59,21 @@ EXAMPLE SEMANTIC ROLE DATAFRAME (srl_df):
 
     '''1. Accumulate all "ARGM-LOC" entites into a list'''
 
-    argmloc_spans = []
-    for elt in srl_df:
-        argmloc_spans.append(re.findall('\[ARGM-LOC.*?\]', elt))
-    if is_verbose : print('===ARGMLOC_SPANS:===\n{}'.format(argmloc_spans))
-
     '''2. Map over ARGM-LOC spans, running a NER on each elt. Return a list of places.'''
     '''> spacy NER labels # TODO: encapsulate these programmatically in a class or something.
        > CARDINAL, DATE, EVENT, FAC, GPE, LANGUAGE, LAW, LOC, MONEY, NORP,
        > ORDINAL, ORG, PERCENT, PERSON, PRODUCT, QUANTITY, TIME, WORK_OF_ART
     '''
     #https://spacy.io/usage/linguistic-features#named-entities
+
+
+    # Do something like this for some other fields SRL+NER
+    '''
+    argmloc_spans = []
+    for elt in srl_df:
+        argmloc_spans.append(re.findall('\[ARGM-LOC.*?\]', elt))
+    if is_verbose : print('===ARGMLOC_SPANS:===\n{}'.format(argmloc_spans))
+
     loc_ents = []
     for span in argmloc_spans: # TODO: use list comprehension
         labeled_span = spacy_model(' '.join(span))
@@ -117,14 +84,39 @@ EXAMPLE SEMANTIC ROLE DATAFRAME (srl_df):
         loc_ents += list(map(lambda ent : ent.text,
                              list(filter(lambda ent: ent.label_ == 'LOC',
                                          labeled_span.ents))))
+    print('LOC_ENTS:', loc_ents)
 
-        print('LOC_ENTS:', loc_ents)
-    '''4. Choose the highest ranked entity, or None if no candiates remaining candidates'''
+
+    #4. Choose the highest ranked entity, or None if no candiates remaining candidates
     if loc_ents:
         acqloc = loc_ents[0] # Just choose the first location entity
     else:
         acqloc = None
+    '''
 
+    labeled_sentences = []
+    for s_dict in text_data:
+        labeled_sentences.append(spacy_model(s_dict['sentence']))
+
+    loc_ents = []
+    for labeled_span in labeled_sentences:
+        for ent in labeled_span.ents:
+            print('(ent.text={},ent.label_={})'.format(ent.text, ent.label_))
+            if ent.label_ == 'GPE': #Geo-Political Entity
+                loc_ents.append(ent.text)
+
+        '''
+        loc_ents += list(map(lambda ent : ent.text,
+                             list(filter(lambda ent: ent.label_ == 'LOC',
+                                         labeled_span.ents))))
+        '''
+    print('LOC_ENTS:', loc_ents)
+
+
+
+
+
+    acqloc=list(set(loc_ents)) # Remove duplicates
 
 
 

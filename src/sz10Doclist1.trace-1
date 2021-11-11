@@ -3,581 +3,136 @@ BATCHDATA_BATCH = [[{'sentence': 'Meridian Energy Inc and Castone Development Co
 
 Loading models...
 Models loaded.
-SEMANTIC ROLE DATAFRAME:
-['Meridian Energy Inc and Castone Development Corp , a [ARGM-MNR: privately] - [V: held] [ARG1: company] , jointly announced that they have decided to terminate the letter of intent under which Meridian would have acquired Castone .', '[ARG0: Meridian Energy Inc and Castone Development Corp , a privately - held company ,] [ARGM-MNR: jointly] [V: announced] [ARG1: that they have decided to terminate the letter of intent under which Meridian would have acquired Castone] .', 'Meridian Energy Inc and Castone Development Corp , a privately - held company , jointly announced that they [V: have] decided to terminate the letter of intent under which Meridian would have acquired Castone .', 'Meridian Energy Inc and Castone Development Corp , a privately - held company , jointly announced that [ARG0: they] have [V: decided] [ARG1: to terminate the letter of intent under which Meridian would have acquired Castone] .', 'Meridian Energy Inc and Castone Development Corp , a privately - held company , jointly announced that [ARG0: they] have decided to [V: terminate] [ARG1: the letter of intent under which Meridian would have acquired Castone] .', 'Meridian Energy Inc and Castone Development Corp , a privately - held company , jointly announced that they have decided to terminate the letter of intent under which Meridian [V: would] have acquired Castone .', 'Meridian Energy Inc and Castone Development Corp , a privately - held company , jointly announced that they have decided to terminate the letter of intent under which Meridian would [V: have] acquired Castone .', 'Meridian Energy Inc and Castone Development Corp , a privately - held company , jointly announced that they have decided to terminate [ARGM-MNR: the letter of intent] [R-ARGM-ADV: under which] [ARG0: Meridian] [ARGM-MOD: would] have [V: acquired] [ARG1: Castone] .']
-===ARGMLOC_SPANS:===
-[[], [], [], [], [], [], [], []]
-LABELED_SPAN: 
-LABELED_SPAN_ENTS: ()
-LOC_ENTS: []
-LABELED_SPAN: 
-LABELED_SPAN_ENTS: ()
-LOC_ENTS: []
-LABELED_SPAN: 
-LABELED_SPAN_ENTS: ()
-LOC_ENTS: []
-LABELED_SPAN: 
-LABELED_SPAN_ENTS: ()
-LOC_ENTS: []
-LABELED_SPAN: 
-LABELED_SPAN_ENTS: ()
-LOC_ENTS: []
-LABELED_SPAN: 
-LABELED_SPAN_ENTS: ()
-LOC_ENTS: []
-LABELED_SPAN: 
-LABELED_SPAN_ENTS: ()
-LOC_ENTS: []
-LABELED_SPAN: 
-LABELED_SPAN_ENTS: ()
-LOC_ENTS: []
-SEMANTIC ROLE DATAFRAME:
-['[ARG0: Security Pacific Corp and Users Inc , a credit union data processing concern ,] [V: said] [ARG1: they have mutually agreed to withdraw from further merger negotiations] .', 'Security Pacific Corp and Users Inc , a credit union data processing concern , said they [V: have] mutually agreed to withdraw from further merger negotiations .', 'Security Pacific Corp and Users Inc , a credit union data processing concern , said [ARG0: they] have [ARGM-MNR: mutually] [V: agreed] [ARG1: to withdraw from further merger negotiations] .', 'Security Pacific Corp and Users Inc , a credit union data processing concern , said [ARG0: they] have mutually agreed to [V: withdraw] [ARG2: from further merger negotiations] .', '[ARG0: Users] [V: said] [ARG1: that since it signed a letter of intent to merge with Security in November , it has received a strong show of support for continuing the credit union ownership of the company with credit unions committing themselves to purchase additional Users common] .', 'Users said that since [ARG0: it] [V: signed] [ARG1: a letter of intent to merge with Security] [ARGM-TMP: in November] , it has received a strong show of support for continuing the credit union ownership of the company with credit unions committing themselves to purchase additional Users common .', 'Users said that since [ARG1: it] signed a letter of intent to [V: merge] [ARG2: with Security] in November , it has received a strong show of support for continuing the credit union ownership of the company with credit unions committing themselves to purchase additional Users common .', 'Users said that since it signed a letter of intent to merge with Security in November , it [V: has] received a strong show of support for continuing the credit union ownership of the company with credit unions committing themselves to purchase additional Users common .', 'Users said that [ARGM-TMP: since it signed a letter of intent to merge with Security in November] , [ARG0: it] has [V: received] [ARG1: a strong show of support for continuing the credit union ownership of the company with credit unions committing themselves to purchase additional Users common] .', 'Users said that since it signed a letter of intent to merge with Security in November , it has received a strong show of support for [V: continuing] [ARG1: the credit union ownership of the company] [ARGM-MNR: with credit unions committing themselves to purchase additional Users common] .', 'Users said that since it signed a letter of intent to merge with Security in November , it has received a strong show of support for continuing the credit union ownership of the company with [ARG0: credit unions] [V: committing] [ARG1: themselves] [ARG2: to purchase additional Users common] .', 'Users said that since it signed a letter of intent to merge with Security in November , it has received a strong show of support for continuing the credit union ownership of the company with [ARG0: credit unions] committing themselves to [V: purchase] [ARG1: additional Users common] .', '[ARG0: Users] [ARGM-DIS: also] [V: said] [ARG1: it is in the strongest financial position in its 24 - year history] .', 'Users also said [ARG1: it] [V: is] [ARG2: in the strongest financial position in its 24 - year history] .']
-===ARGMLOC_SPANS:===
-[[], [], [], [], [], [], [], [], [], [], [], [], [], []]
-LABELED_SPAN: 
-LABELED_SPAN_ENTS: ()
-LOC_ENTS: []
-LABELED_SPAN: 
-LABELED_SPAN_ENTS: ()
-LOC_ENTS: []
-LABELED_SPAN: 
-LABELED_SPAN_ENTS: ()
-LOC_ENTS: []
-LABELED_SPAN: 
-LABELED_SPAN_ENTS: ()
-LOC_ENTS: []
-LABELED_SPAN: 
-LABELED_SPAN_ENTS: ()
-LOC_ENTS: []
-LABELED_SPAN: 
-LABELED_SPAN_ENTS: ()
-LOC_ENTS: []
-LABELED_SPAN: 
-LABELED_SPAN_ENTS: ()
-LOC_ENTS: []
-LABELED_SPAN: 
-LABELED_SPAN_ENTS: ()
-LOC_ENTS: []
-LABELED_SPAN: 
-LABELED_SPAN_ENTS: ()
-LOC_ENTS: []
-LABELED_SPAN: 
-LABELED_SPAN_ENTS: ()
-LOC_ENTS: []
-LABELED_SPAN: 
-LABELED_SPAN_ENTS: ()
-LOC_ENTS: []
-LABELED_SPAN: 
-LABELED_SPAN_ENTS: ()
-LOC_ENTS: []
-LABELED_SPAN: 
-LABELED_SPAN_ENTS: ()
-LOC_ENTS: []
-LABELED_SPAN: 
-LABELED_SPAN_ENTS: ()
-LOC_ENTS: []
-SEMANTIC ROLE DATAFRAME:
-['[ARG0: Americanture Inc] [V: said] [ARG1: it has purchased American Adventure Inc for cash , the assumption of liabilities and the issuance of American Adventure Inc common and preferred stock to creditors , shareholders and members] .', 'Americanture Inc said it [V: has] purchased American Adventure Inc for cash , the assumption of liabilities and the issuance of American Adventure Inc common and preferred stock to creditors , shareholders and members .', 'Americanture Inc said [ARG0: it] has [V: purchased] [ARG1: American Adventure Inc] [ARG3: for cash , the assumption of liabilities and the issuance of American Adventure Inc common and preferred stock to creditors , shareholders and members] .', '[ARG1: The acquisition] [V: was] [ARG2: pursuant of a Chapter 11 reorganization plan of American Adventure] .', '[ARG0: The company] [V: said] [ARG1: the transaction involved assets valued at more than 83 mln dlrs] .', 'The company said [ARG2: the transaction] [V: involved] [ARG1: assets valued at more than 83 mln dlrs] .', 'The company said the transaction involved [ARG1: assets] [V: valued] [ARG2: at more than 83 mln dlrs] .']
-===ARGMLOC_SPANS:===
-[[], [], [], [], [], [], []]
-LABELED_SPAN: 
-LABELED_SPAN_ENTS: ()
-LOC_ENTS: []
-LABELED_SPAN: 
-LABELED_SPAN_ENTS: ()
-LOC_ENTS: []
-LABELED_SPAN: 
-LABELED_SPAN_ENTS: ()
-LOC_ENTS: []
-LABELED_SPAN: 
-LABELED_SPAN_ENTS: ()
-LOC_ENTS: []
-LABELED_SPAN: 
-LABELED_SPAN_ENTS: ()
-LOC_ENTS: []
-LABELED_SPAN: 
-LABELED_SPAN_ENTS: ()
-LOC_ENTS: []
-LABELED_SPAN: 
-LABELED_SPAN_ENTS: ()
-LOC_ENTS: []
-SEMANTIC ROLE DATAFRAME:
-['[ARG0: Viacom International Inc] [V: said] [ARG1: it set April 6 as the record date for shareholders entitled to vote at a special meeting to be held to vote on the proposed merger of Arsenal Acquiring Corp , a wholly - owned subsidiary of Arsenal Holdings Inc into Viacom] .', 'Viacom International Inc said [ARG0: it] [V: set] [ARG1: April 6] [ARG2: as the record date for shareholders entitled to vote at a special meeting to be held to vote on the proposed merger of Arsenal Acquiring Corp , a wholly - owned subsidiary of Arsenal Holdings Inc into Viacom] .', 'Viacom International Inc said it set April 6 as the record date for shareholders [V: entitled] [ARG1: to vote at a special meeting to be held to vote on the proposed merger of Arsenal Acquiring Corp , a wholly - owned subsidiary of Arsenal Holdings Inc into Viacom] .', 'Viacom International Inc said it set April 6 as the record date for [ARG0: shareholders] entitled to [V: vote] [ARGM-LOC: at a special meeting to be held to vote on the proposed merger of Arsenal Acquiring Corp , a wholly - owned subsidiary of Arsenal Holdings Inc into Viacom] .', 'Viacom International Inc said it set April 6 as the record date for shareholders entitled to vote at a special meeting to [V: be] held to vote on the proposed merger of Arsenal Acquiring Corp , a wholly - owned subsidiary of Arsenal Holdings Inc into Viacom .', 'Viacom International Inc said it set April 6 as the record date for shareholders entitled to vote at [ARG1: a special meeting] to be [V: held] [ARGM-PRP: to vote on the proposed merger of Arsenal Acquiring Corp , a wholly - owned subsidiary of Arsenal Holdings Inc into Viacom] .', 'Viacom International Inc said it set April 6 as the record date for shareholders entitled to vote at a special meeting to be held to [V: vote] [ARG1: on the proposed merger of Arsenal Acquiring Corp , a wholly - owned subsidiary of Arsenal Holdings Inc into Viacom] .', 'Viacom International Inc said it set April 6 as the record date for shareholders entitled to vote at a special meeting to be held to vote on the [V: proposed] [ARG1: merger] of Arsenal Acquiring Corp , a wholly - owned subsidiary of Arsenal Holdings Inc into Viacom .', 'Viacom International Inc said it set April 6 as the record date for shareholders entitled to vote at a special meeting to be held to vote on the proposed merger of Arsenal Acquiring Corp , a [ARGM-EXT: wholly] - [V: owned] [ARG1: subsidiary] of Arsenal Holdings Inc into Viacom .', '[ARG0: It] [V: said] [ARG1: the date of the special meeting has not yet been determined] .', 'It said the date of the special meeting [V: has] not yet been determined .', 'It said the date of the special meeting has not yet [V: been] determined .', 'It said [ARG1: the date of the special meeting] has [ARGM-NEG: not] [ARGM-TMP: yet] been [V: determined] .']
-===ARGMLOC_SPANS:===
-[[], [], [], ['[ARGM-LOC: at a special meeting to be held to vote on the proposed merger of Arsenal Acquiring Corp , a wholly - owned subsidiary of Arsenal Holdings Inc into Viacom]'], [], [], [], [], [], [], [], [], []]
-LABELED_SPAN: 
-LABELED_SPAN_ENTS: ()
-LOC_ENTS: []
-LABELED_SPAN: 
-LABELED_SPAN_ENTS: ()
-LOC_ENTS: []
-LABELED_SPAN: 
-LABELED_SPAN_ENTS: ()
-LOC_ENTS: []
-LABELED_SPAN: [ARGM-LOC: at a special meeting to be held to vote on the proposed merger of Arsenal Acquiring Corp , a wholly - owned subsidiary of Arsenal Holdings Inc into Viacom]
-LABELED_SPAN_ENTS: (Arsenal Acquiring Corp, Arsenal Holdings Inc, Viacom)
-LOC_ENTS: []
-LABELED_SPAN: 
-LABELED_SPAN_ENTS: ()
-LOC_ENTS: []
-LABELED_SPAN: 
-LABELED_SPAN_ENTS: ()
-LOC_ENTS: []
-LABELED_SPAN: 
-LABELED_SPAN_ENTS: ()
-LOC_ENTS: []
-LABELED_SPAN: 
-LABELED_SPAN_ENTS: ()
-LOC_ENTS: []
-LABELED_SPAN: 
-LABELED_SPAN_ENTS: ()
-LOC_ENTS: []
-LABELED_SPAN: 
-LABELED_SPAN_ENTS: ()
-LOC_ENTS: []
-LABELED_SPAN: 
-LABELED_SPAN_ENTS: ()
-LOC_ENTS: []
-LABELED_SPAN: 
-LABELED_SPAN_ENTS: ()
-LOC_ENTS: []
-LABELED_SPAN: 
-LABELED_SPAN_ENTS: ()
-LOC_ENTS: []
-SEMANTIC ROLE DATAFRAME:
-["[ARG0: Scott 's Hospitality Inc] [V: said] [ARG1: it acquired all issued shares of Capital Food Services Ltd , of Ottawa] .", "Scott 's Hospitality Inc said [ARG0: it] [V: acquired] [ARG1: all issued shares of Capital Food Services Ltd , of Ottawa] .", "Scott 's Hospitality Inc said it acquired all [V: issued] [ARG1: shares] of Capital Food Services Ltd , of Ottawa .", 'Terms [V: were] not disclosed .', '[ARG1: Terms] were [ARGM-NEG: not] [V: disclosed] .', "[ARG0: Scott 's] [V: said] [ARG1: Capital Food had 1986 sales of more than 20 mln dlrs and will continue to operate under its present name with existing management] .", "Scott 's said [ARG0: Capital Food] [V: had] [ARG1: 1986 sales of more than 20 mln dlrs] and will continue to operate under its present name with existing management .", "Scott 's said Capital Food had 1986 sales of more than 20 mln dlrs and [V: will] continue to operate under its present name with existing management .", "Scott 's said Capital Food had 1986 sales of more than 20 mln dlrs and [ARGM-MOD: will] [V: continue] [ARG1: to operate under its present name with existing management] .", "Scott 's said [ARG1: Capital Food] had 1986 sales of more than 20 mln dlrs and will continue to [V: operate] [ARGM-MNR: under its present name] [ARGM-MNR: with existing management] .", "Scott 's said Capital Food had 1986 sales of more than 20 mln dlrs and will continue to operate under its present name with [V: existing] [ARG1: management] .", '[ARG0: Capital Food] [V: provides] [ARG1: food services] [ARG2: to several Ottawa institutions] , the company said .', '[ARG1: Capital Food provides food services to several Ottawa institutions] , [ARG0: the company] [V: said] .']
-===ARGMLOC_SPANS:===
-[[], [], [], [], [], [], [], [], [], [], [], [], []]
-LABELED_SPAN: 
-LABELED_SPAN_ENTS: ()
-LOC_ENTS: []
-LABELED_SPAN: 
-LABELED_SPAN_ENTS: ()
-LOC_ENTS: []
-LABELED_SPAN: 
-LABELED_SPAN_ENTS: ()
-LOC_ENTS: []
-LABELED_SPAN: 
-LABELED_SPAN_ENTS: ()
-LOC_ENTS: []
-LABELED_SPAN: 
-LABELED_SPAN_ENTS: ()
-LOC_ENTS: []
-LABELED_SPAN: 
-LABELED_SPAN_ENTS: ()
-LOC_ENTS: []
-LABELED_SPAN: 
-LABELED_SPAN_ENTS: ()
-LOC_ENTS: []
-LABELED_SPAN: 
-LABELED_SPAN_ENTS: ()
-LOC_ENTS: []
-LABELED_SPAN: 
-LABELED_SPAN_ENTS: ()
-LOC_ENTS: []
-LABELED_SPAN: 
-LABELED_SPAN_ENTS: ()
-LOC_ENTS: []
-LABELED_SPAN: 
-LABELED_SPAN_ENTS: ()
-LOC_ENTS: []
-LABELED_SPAN: 
-LABELED_SPAN_ENTS: ()
-LOC_ENTS: []
-LABELED_SPAN: 
-LABELED_SPAN_ENTS: ()
-LOC_ENTS: []
-SEMANTIC ROLE DATAFRAME:
-['[ARG0: Video Display Corfp] [V: said] [ARG1: it has reached a tentiative agreement to sell its existing cable television business for undisclosed terms and expects to report a gain on the transaction] .', 'Video Display Corfp said it [V: has] reached a tentiative agreement to sell its existing cable television business for undisclosed terms and expects to report a gain on the transaction .', 'Video Display Corfp said [ARG0: it] has [V: reached] [ARG1: a tentiative agreement to sell its existing cable television business for undisclosed terms] and expects to report a gain on the transaction .', 'Video Display Corfp said [ARG0: it] has reached a tentiative agreement to [V: sell] [ARG1: its existing cable television business] [ARG3: for undisclosed terms] and expects to report a gain on the transaction .', 'Video Display Corfp said it has reached a tentiative agreement to sell its [V: existing] [ARG1: cable television business] for undisclosed terms and expects to report a gain on the transaction .', 'Video Display Corfp said [ARG0: it] has reached a tentiative agreement to sell its existing cable television business for undisclosed terms and [V: expects] [ARG1: to report a gain on the transaction] .', 'Video Display Corfp said [ARG0: it] has reached a tentiative agreement to sell its existing cable television business for undisclosed terms and expects to [V: report] [ARG1: a gain on the transaction] .', 'The buyer [V: was] not named .', '[ARG1: The buyer] was [ARGM-NEG: not] [V: named] .', '[ARG0: The company] [V: said] [ARG1: it will redeploy its service assets into manufacturing and distribution] .', 'The company said it [V: will] redeploy its service assets into manufacturing and distribution .', 'The company said [ARG0: it] [ARGM-MOD: will] [V: redeploy] [ARG1: its service assets] [ARG2: into manufacturing and distribution] .', '[ARG0: It] [V: said] [ARG1: the operations being sold accounted for about five pct of revenues for the year ended February 28 and lost money] .', 'It said the operations [V: being] sold accounted for about five pct of revenues for the year ended February 28 and lost money .', 'It said [ARG1: the operations] being [V: sold] accounted for about five pct of revenues for the year ended February 28 and lost money .', 'It said [ARG0: the operations being sold] [V: accounted] [ARG1: for about five pct of revenues for the year ended February 28] and lost money .', 'It said the operations being sold accounted for about five pct of revenues for [ARG1: the year] [V: ended] [ARGM-TMP: February 28] and lost money .', 'It said [ARG0: the operations being sold] accounted for about five pct of revenues for the year ended February 28 and [V: lost] [ARG1: money] .']
-===ARGMLOC_SPANS:===
-[[], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], []]
-LABELED_SPAN: 
-LABELED_SPAN_ENTS: ()
-LOC_ENTS: []
-LABELED_SPAN: 
-LABELED_SPAN_ENTS: ()
-LOC_ENTS: []
-LABELED_SPAN: 
-LABELED_SPAN_ENTS: ()
-LOC_ENTS: []
-LABELED_SPAN: 
-LABELED_SPAN_ENTS: ()
-LOC_ENTS: []
-LABELED_SPAN: 
-LABELED_SPAN_ENTS: ()
-LOC_ENTS: []
-LABELED_SPAN: 
-LABELED_SPAN_ENTS: ()
-LOC_ENTS: []
-LABELED_SPAN: 
-LABELED_SPAN_ENTS: ()
-LOC_ENTS: []
-LABELED_SPAN: 
-LABELED_SPAN_ENTS: ()
-LOC_ENTS: []
-LABELED_SPAN: 
-LABELED_SPAN_ENTS: ()
-LOC_ENTS: []
-LABELED_SPAN: 
-LABELED_SPAN_ENTS: ()
-LOC_ENTS: []
-LABELED_SPAN: 
-LABELED_SPAN_ENTS: ()
-LOC_ENTS: []
-LABELED_SPAN: 
-LABELED_SPAN_ENTS: ()
-LOC_ENTS: []
-LABELED_SPAN: 
-LABELED_SPAN_ENTS: ()
-LOC_ENTS: []
-LABELED_SPAN: 
-LABELED_SPAN_ENTS: ()
-LOC_ENTS: []
-LABELED_SPAN: 
-LABELED_SPAN_ENTS: ()
-LOC_ENTS: []
-LABELED_SPAN: 
-LABELED_SPAN_ENTS: ()
-LOC_ENTS: []
-LABELED_SPAN: 
-LABELED_SPAN_ENTS: ()
-LOC_ENTS: []
-LABELED_SPAN: 
-LABELED_SPAN_ENTS: ()
-LOC_ENTS: []
-SEMANTIC ROLE DATAFRAME:
-['[V: Applied] [ARG1: chemicals] group Henkel KGaA said it is selling its Hamburg vegetable oil and fats subsidiary Noblee und Thoerl GmbH to Oelmuehle Hamburg AG .', '[ARG0: Applied chemicals group Henkel KGaA] [V: said] [ARG1: it is selling its Hamburg vegetable oil and fats subsidiary Noblee und Thoerl GmbH to Oelmuehle Hamburg AG] .', 'Applied chemicals group Henkel KGaA said it [V: is] selling its Hamburg vegetable oil and fats subsidiary Noblee und Thoerl GmbH to Oelmuehle Hamburg AG .', 'Applied chemicals group Henkel KGaA said [ARG0: it] is [V: selling] [ARG1: its Hamburg vegetable oil and fats subsidiary Noblee und Thoerl GmbH] [ARG2: to Oelmuehle Hamburg AG] .', 'Applied chemicals group Henkel KGaA said it is selling its Hamburg vegetable oil and fats subsidiary Noblee [V: und] [ARG1: Thoerl GmbH] to Oelmuehle Hamburg AG .', '[ARG0: A company spokesman] [V: declined] [ARG1: to give the purchase price] .', '[ARG0: A company spokesman] declined to [V: give] [ARG1: the purchase price] .', '[ARG0: Noblee , a supplier of specialised refined oils and fats to the food processing industry ,] [V: had] [ARG1: turnover of 161 mln marks] [ARGM-TMP: last year] .', "[ARG0: A Henkel statement] [V: said] [ARG1: the divestment was part of the company 's strategy of concentrating on its core businesses] .", "A Henkel statement said [ARG1: the divestment] [V: was] [ARG2: part of the company 's strategy of concentrating on its core businesses] .", "A Henkel statement said the divestment was part of [ARG0: the company 's] strategy of [V: concentrating] [ARG1: on its core businesses] .", '[ARGM-DIS: Oelmuehle] , [ARG0: the acquisition of Noblee] [V: means] [ARG1: access to new markets] , the statement added .', '[ARG1: Oelmuehle , the acquisition of Noblee means access to new markets] , [ARG0: the statement] [V: added] .']
-===ARGMLOC_SPANS:===
-[[], [], [], [], [], [], [], [], [], [], [], [], []]
-LABELED_SPAN: 
-LABELED_SPAN_ENTS: ()
-LOC_ENTS: []
-LABELED_SPAN: 
-LABELED_SPAN_ENTS: ()
-LOC_ENTS: []
-LABELED_SPAN: 
-LABELED_SPAN_ENTS: ()
-LOC_ENTS: []
-LABELED_SPAN: 
-LABELED_SPAN_ENTS: ()
-LOC_ENTS: []
-LABELED_SPAN: 
-LABELED_SPAN_ENTS: ()
-LOC_ENTS: []
-LABELED_SPAN: 
-LABELED_SPAN_ENTS: ()
-LOC_ENTS: []
-LABELED_SPAN: 
-LABELED_SPAN_ENTS: ()
-LOC_ENTS: []
-LABELED_SPAN: 
-LABELED_SPAN_ENTS: ()
-LOC_ENTS: []
-LABELED_SPAN: 
-LABELED_SPAN_ENTS: ()
-LOC_ENTS: []
-LABELED_SPAN: 
-LABELED_SPAN_ENTS: ()
-LOC_ENTS: []
-LABELED_SPAN: 
-LABELED_SPAN_ENTS: ()
-LOC_ENTS: []
-LABELED_SPAN: 
-LABELED_SPAN_ENTS: ()
-LOC_ENTS: []
-LABELED_SPAN: 
-LABELED_SPAN_ENTS: ()
-LOC_ENTS: []
-SEMANTIC ROLE DATAFRAME:
-['[ARG0: Union Miniere SA] [V: said] [ARGM-LOC: in a statement] [ARG1: that it has acquired an eight pct interest in Pancontinental Mining Ltd for a sum equivalent to 1.2 billion Belgian francs] .', 'Union Miniere SA said in a statement that it [V: has] acquired an eight pct interest in Pancontinental Mining Ltd for a sum equivalent to 1.2 billion Belgian francs .', 'Union Miniere SA said in a statement that [ARG0: it] has [V: acquired] [ARG1: an eight pct interest in Pancontinental Mining Ltd] [ARG3: for a sum equivalent to 1.2 billion Belgian francs] .', '[ARG0: Pancontinental] [V: operates] [ARG1: gold and coal mines in Australia and natural gas and oil fields in Canada] .', '[ARG0: Union Miniere] [V: said] [ARG1: the location of its interest within the Pancontinental group will be decided later] .', 'Union Miniere said the location of its interest within the Pancontinental group [V: will] be decided later .', 'Union Miniere said the location of its interest within the Pancontinental group will [V: be] decided later .', 'Union Miniere said [ARG1: the location of its interest within the Pancontinental group] [ARGM-MOD: will] be [V: decided] [ARGM-TMP: later] .', 'It [V: did] not elaborate .', '[ARG0: It] did [ARGM-NEG: not] [V: elaborate] .', '[ARG1: Union Miniere] [V: is] [ARG2: a wholly owned subsidiary of Societe Generale de Belgique] .', 'Union Miniere is a [ARGM-EXT: wholly] [V: owned] [ARG1: subsidiary] of Societe Generale de Belgique .']
-===ARGMLOC_SPANS:===
-[['[ARGM-LOC: in a statement]'], [], [], [], [], [], [], [], [], [], [], []]
-LABELED_SPAN: [ARGM-LOC: in a statement]
-LABELED_SPAN_ENTS: ()
-LOC_ENTS: []
-LABELED_SPAN: 
-LABELED_SPAN_ENTS: ()
-LOC_ENTS: []
-LABELED_SPAN: 
-LABELED_SPAN_ENTS: ()
-LOC_ENTS: []
-LABELED_SPAN: 
-LABELED_SPAN_ENTS: ()
-LOC_ENTS: []
-LABELED_SPAN: 
-LABELED_SPAN_ENTS: ()
-LOC_ENTS: []
-LABELED_SPAN: 
-LABELED_SPAN_ENTS: ()
-LOC_ENTS: []
-LABELED_SPAN: 
-LABELED_SPAN_ENTS: ()
-LOC_ENTS: []
-LABELED_SPAN: 
-LABELED_SPAN_ENTS: ()
-LOC_ENTS: []
-LABELED_SPAN: 
-LABELED_SPAN_ENTS: ()
-LOC_ENTS: []
-LABELED_SPAN: 
-LABELED_SPAN_ENTS: ()
-LOC_ENTS: []
-LABELED_SPAN: 
-LABELED_SPAN_ENTS: ()
-LOC_ENTS: []
-LABELED_SPAN: 
-LABELED_SPAN_ENTS: ()
-LOC_ENTS: []
-SEMANTIC ROLE DATAFRAME:
-['[ARG0: Honeywell Inc] [V: said] [ARG1: it has completed the sale of 57.5 pct of its Honeywell Information Systems computer business to Compagnie des Machines]', 'Honeywell Inc said it [V: has] completed the sale of 57.5 pct of its Honeywell Information Systems computer business to Compagnie des Machines', 'Honeywell Inc said [ARG0: it] has [V: completed] [ARG1: the sale of 57.5 pct of its Honeywell Information Systems computer business to Compagnie des Machines]', '[ARG0: Honeywell] [V: said] [ARG1: it will use much of the money to reduce short - term debt incurred last December when the company purchased the Sperry Aerospace Group] .', 'Honeywell said it [V: will] use much of the money to reduce short - term debt incurred last December when the company purchased the Sperry Aerospace Group .', 'Honeywell said [ARG0: it] [ARGM-MOD: will] [V: use] [ARG1: much of the money] [ARG2: to reduce short - term debt incurred last December when the company purchased the Sperry Aerospace Group] .', 'Honeywell said [ARG0: it] will use much of the money to [V: reduce] [ARG1: short - term debt incurred last December when the company purchased the Sperry Aerospace Group] .', 'Honeywell said it will use much of the money to reduce [ARG1: short - term debt] [V: incurred] [ARGM-TMP: last December] [ARGM-TMP: when the company purchased the Sperry Aerospace Group] .', 'Honeywell said it will use much of the money to reduce short - term debt incurred last December when [ARG0: the company] [V: purchased] [ARG1: the Sperry Aerospace Group] .', '[ARG0: Honeywell] [V: said] [ARG1: the sale of HIS has created a new dedicated computer company jointly owned by Bull , NEC and Honeywell] .', 'Honeywell said the sale of HIS [V: has] created a new dedicated computer company jointly owned by Bull , NEC and Honeywell .', 'Honeywell said [ARG0: the sale of HIS] has [V: created] [ARG1: a new dedicated computer company jointly owned by Bull , NEC and Honeywell] .', 'Honeywell said the sale of HIS has created [ARG1: a new dedicated computer company] [ARGM-MNR: jointly] [V: owned] [ARG0: by Bull , NEC and Honeywell] .', 'The new [ARGM-MNR: privately] [V: held] [ARG1: company] , named Honeywell Bull , is 42.5 pct owned by Honeywell Inc , 42.5 pct by Bull and 15 pct by', '[ARG1: The new privately held company] , [V: named] [ARG2: Honeywell Bull] , is 42.5 pct owned by Honeywell Inc , 42.5 pct by Bull and 15 pct by', '[ARG1: The new privately held company , named Honeywell Bull ,] [V: is] [ARG2: 42.5 pct owned by Honeywell Inc , 42.5 pct by Bull and 15 pct by]', '[ARG1: The new privately held company , named Honeywell Bull ,] is 42.5 pct [V: owned] [ARG0: by Honeywell Inc] , 42.5 pct by Bull and 15 pct by', '[ARG1: NEC] , [ARG0: the new company] [V: said] .', '[ARG0: Honeywell] [V: added] [ARG1: that terms of the agreement with NEC and Bull allow it to reduce its current 42.5 pct stake in the new company to 19.9 pct at the end of 1988 by selling just over half its shares to Bull] .', 'Honeywell added that [ARG0: terms of the agreement with NEC and Bull] [V: allow] [ARG1: it to reduce its current 42.5 pct stake in the new company to 19.9 pct at the end of 1988 by selling just over half its shares to Bull] .', 'Honeywell added that terms of the agreement with NEC and Bull allow [ARG0: it] to [V: reduce] [ARG1: its current 42.5 pct stake in the new company] [ARG4: to 19.9 pct] [ARGM-TMP: at the end of 1988] [ARGM-MNR: by selling just over half its shares to Bull] .', 'Honeywell added that terms of the agreement with NEC and Bull allow [ARG0: it] to reduce its current 42.5 pct stake in the new company to 19.9 pct at the end of 1988 by [V: selling] [ARG1: just over half its shares] [ARG2: to Bull] .', "Book value at the time [V: will] determine the move 's pricing , Honeywell said .", "[ARG0: Book value at the time] [ARGM-MOD: will] [V: determine] [ARG1: the move 's pricing] , Honeywell said .", "[ARG1: Book value at the time will determine the move 's pricing] , [ARG0: Honeywell] [V: said] .", "[ARG0: Honeywell chairman and chief executive officer , Edson Spencer ,] [V: said] [ARG1: the move is the last major step in Honeywell 's restructuring] .", "Honeywell chairman and chief executive officer , Edson Spencer , said [ARG1: the move] [V: is] [ARG2: the last major step in Honeywell 's restructuring] .", '" As the [V: leading] [ARG0: worldwide supplier] of of automation and controls for buildings , industry , aerospace and defense ,', 'Honeywell [V: is] now focusing its management , technical and financial resources on high market share business , " Spencer said .', '[ARG0: Honeywell] is [ARGM-TMP: now] [V: focusing] [ARG1: its management , technical and financial resources] [ARG2: on high market share business] , " Spencer said .', '[ARG1: Honeywell is now focusing its management , technical and financial resources on high market share business] , " [ARG0: Spencer] [V: said] .', "[ARG0: Honeywell] [V: said] [ARG1: it expects to be Honeywell Bull 's largest customer , purchasing computers for its own internal data processing , for integration into Honeywell buidling and industrial automation systems and for resale to the U.S. governement] .", "Honeywell said [ARG0: it] [V: expects] [ARG1: to be Honeywell Bull 's largest customer , purchasing computers for its own internal data processing , for integration into Honeywell buidling and industrial automation systems and for resale to the U.S. governement] .", "Honeywell said [ARG1: it] expects to [V: be] [ARG2: Honeywell Bull 's largest customer] , [ARGM-ADV: purchasing computers for its own internal data processing , for integration into Honeywell buidling and industrial automation systems and for resale to the U.S. governement] .", "Honeywell said [ARG0: it] expects to be Honeywell Bull 's largest customer , [V: purchasing] [ARG1: computers] [ARGM-PNC: for its own internal data] [ARGM-PRP: processing ,] [ARGM-PRP: for integration into Honeywell buidling and industrial automation systems and for resale to the U.S. governement] .", "[ARG0: Honeywell] [V: said] [ARG1: HIS 's Federal Systems Division is now a wholly owned unit of Honeywell Inc , and has been named]", "Honeywell said [ARG1: HIS 's Federal Systems Division] [V: is] [ARGM-TMP: now] [ARG2: a wholly owned unit of Honeywell Inc] , and has been named", "Honeywell said HIS 's Federal Systems Division is now a [ARGM-EXT: wholly] [V: owned] [ARG1: unit] of Honeywell Inc , and has been named", "Honeywell said HIS 's Federal Systems Division is now a wholly owned unit of Honeywell Inc , and [V: has] been named", "Honeywell said HIS 's Federal Systems Division is now a wholly owned unit of Honeywell Inc , and has [V: been] named", "Honeywell said [ARG1: HIS 's Federal Systems Division] is now a wholly owned unit of Honeywell Inc , and has been [V: named]", '[ARG0: Honeywell Federal Systems Inc. Honeywell] [V: said] [ARG1: it accounted for HIS as a discontinued operation in 1986 , and will account for its future interest on a cost basis , recording any dividends as received] .', 'Honeywell Federal Systems Inc. Honeywell said [ARG0: it] [V: accounted] [ARG1: for HIS] [ARGM-PRD: as a discontinued operation] [ARGM-TMP: in 1986] , and will account for its future interest on a cost basis , recording any dividends as received .', 'Honeywell Federal Systems Inc. Honeywell said it accounted for HIS as a discontinued operation in 1986 , and [V: will] account for its future interest on a cost basis , recording any dividends as received .', 'Honeywell Federal Systems Inc. Honeywell said [ARG0: it] accounted for HIS as a discontinued operation in 1986 , and [ARGM-MOD: will] [V: account] [ARG1: for its future interest] [ARGM-MNR: on a cost basis] , [ARGM-PRD: recording any dividends as received] .', 'Honeywell Federal Systems Inc. Honeywell said [ARG0: it] accounted for HIS as a discontinued operation in 1986 , and will account for its future interest on a cost basis , [V: recording] [ARG1: any dividends] [ARGM-MNR: as received] .', 'Honeywell Federal Systems Inc. Honeywell said it accounted for HIS as a discontinued operation in 1986 , and will account for its future interest on a cost basis , recording [ARG1: any dividends] as [V: received] .', '[ARG0: Honeywell Bull] [V: said] [ARG1: it will continue to develop its product line and build its business in integrated systems for networking , database management and transaction processing] .', 'Honeywell Bull said it [V: will] continue to develop its product line and build its business in integrated systems for networking , database management and transaction processing .', 'Honeywell Bull said [ARG0: it] [ARGM-MOD: will] [V: continue] [ARG1: to develop its product line and build its business in integrated systems for networking , database management and transaction processing] .', 'Honeywell Bull said [ARG0: it] will continue to [V: develop] [ARG1: its product line] and build its business in integrated systems for networking , database management and transaction processing .', 'Honeywell Bull said [ARG0: it] will continue to develop its product line and [V: build] [ARG1: its business in integrated systems for networking , database management and transaction processing] .', 'Honeywell Bull said it will continue to develop its product line and build its business in [V: integrated] [ARG1: systems] for networking , database management and transaction processing .', '[ARG0: The new company] [V: said] [ARG1: its board will have nine members , including the chairman and chief executive officer] .', 'The new company said its board [V: will] have nine members , including the chairman and chief executive officer .', 'The new company said [ARG0: its board] [ARGM-MOD: will] [V: have] [ARG1: nine members , including the chairman and chief executive officer] .', 'The new company said its board will have [ARG2: nine members] , [V: including] [ARG1: the chairman and chief executive officer] .', 'Bull [V: will] have four members , Honeywell two and NEC one , the new company , which began worldwide operations today , said .', '[ARG0: Bull] [ARGM-MOD: will] [V: have] [ARG1: four members , Honeywell two and NEC one] , the new company , which began worldwide operations today , said .', 'Bull will have four members , Honeywell two and NEC one , [ARG0: the new company] , [R-ARG0: which] [V: began] [ARG1: worldwide operations] [ARGM-TMP: today] , said .', '[ARG1: Bull will have four members , Honeywell two and NEC one ,] [ARG0: the new company , which began worldwide operations today] , [V: said] .', "[ARG0: It] [V: added] [ARG1: that Jacques Stern , Bull 's chairman and chief executive officer , will serve as Honeywell Bull 's chairman of the board , while Jerome Meyer , formerly executive vice president of Honeywell Information Systems , was named president and chief executive officer] .", "It added that Jacques Stern , Bull 's chairman and chief executive officer , [V: will] serve as Honeywell Bull 's chairman of the board , while Jerome Meyer , formerly executive vice president of Honeywell Information Systems , was named president and chief executive officer .", "It added that [ARG0: Jacques Stern , Bull 's chairman and chief executive officer ,] [ARGM-MOD: will] [V: serve] [ARG1: as Honeywell Bull 's chairman of the board] , [ARGM-ADV: while Jerome Meyer , formerly executive vice president of Honeywell Information Systems , was named president and chief executive officer] .", "It added that Jacques Stern , Bull 's chairman and chief executive officer , will serve as Honeywell Bull 's chairman of the board , while Jerome Meyer , formerly executive vice president of Honeywell Information Systems , [V: was] named president and chief executive officer .", "It added that Jacques Stern , Bull 's chairman and chief executive officer , will serve as Honeywell Bull 's chairman of the board , while [ARG1: Jerome Meyer , formerly executive vice president of Honeywell Information Systems ,] was [V: named] [ARG2: president and chief executive officer] ."]
-===ARGMLOC_SPANS:===
-[[], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], []]
-LABELED_SPAN: 
-LABELED_SPAN_ENTS: ()
-LOC_ENTS: []
-LABELED_SPAN: 
-LABELED_SPAN_ENTS: ()
-LOC_ENTS: []
-LABELED_SPAN: 
-LABELED_SPAN_ENTS: ()
-LOC_ENTS: []
-LABELED_SPAN: 
-LABELED_SPAN_ENTS: ()
-LOC_ENTS: []
-LABELED_SPAN: 
-LABELED_SPAN_ENTS: ()
-LOC_ENTS: []
-LABELED_SPAN: 
-LABELED_SPAN_ENTS: ()
-LOC_ENTS: []
-LABELED_SPAN: 
-LABELED_SPAN_ENTS: ()
-LOC_ENTS: []
-LABELED_SPAN: 
-LABELED_SPAN_ENTS: ()
-LOC_ENTS: []
-LABELED_SPAN: 
-LABELED_SPAN_ENTS: ()
-LOC_ENTS: []
-LABELED_SPAN: 
-LABELED_SPAN_ENTS: ()
-LOC_ENTS: []
-LABELED_SPAN: 
-LABELED_SPAN_ENTS: ()
-LOC_ENTS: []
-LABELED_SPAN: 
-LABELED_SPAN_ENTS: ()
-LOC_ENTS: []
-LABELED_SPAN: 
-LABELED_SPAN_ENTS: ()
-LOC_ENTS: []
-LABELED_SPAN: 
-LABELED_SPAN_ENTS: ()
-LOC_ENTS: []
-LABELED_SPAN: 
-LABELED_SPAN_ENTS: ()
-LOC_ENTS: []
-LABELED_SPAN: 
-LABELED_SPAN_ENTS: ()
-LOC_ENTS: []
-LABELED_SPAN: 
-LABELED_SPAN_ENTS: ()
-LOC_ENTS: []
-LABELED_SPAN: 
-LABELED_SPAN_ENTS: ()
-LOC_ENTS: []
-LABELED_SPAN: 
-LABELED_SPAN_ENTS: ()
-LOC_ENTS: []
-LABELED_SPAN: 
-LABELED_SPAN_ENTS: ()
-LOC_ENTS: []
-LABELED_SPAN: 
-LABELED_SPAN_ENTS: ()
-LOC_ENTS: []
-LABELED_SPAN: 
-LABELED_SPAN_ENTS: ()
-LOC_ENTS: []
-LABELED_SPAN: 
-LABELED_SPAN_ENTS: ()
-LOC_ENTS: []
-LABELED_SPAN: 
-LABELED_SPAN_ENTS: ()
-LOC_ENTS: []
-LABELED_SPAN: 
-LABELED_SPAN_ENTS: ()
-LOC_ENTS: []
-LABELED_SPAN: 
-LABELED_SPAN_ENTS: ()
-LOC_ENTS: []
-LABELED_SPAN: 
-LABELED_SPAN_ENTS: ()
-LOC_ENTS: []
-LABELED_SPAN: 
-LABELED_SPAN_ENTS: ()
-LOC_ENTS: []
-LABELED_SPAN: 
-LABELED_SPAN_ENTS: ()
-LOC_ENTS: []
-LABELED_SPAN: 
-LABELED_SPAN_ENTS: ()
-LOC_ENTS: []
-LABELED_SPAN: 
-LABELED_SPAN_ENTS: ()
-LOC_ENTS: []
-LABELED_SPAN: 
-LABELED_SPAN_ENTS: ()
-LOC_ENTS: []
-LABELED_SPAN: 
-LABELED_SPAN_ENTS: ()
-LOC_ENTS: []
-LABELED_SPAN: 
-LABELED_SPAN_ENTS: ()
-LOC_ENTS: []
-LABELED_SPAN: 
-LABELED_SPAN_ENTS: ()
-LOC_ENTS: []
-LABELED_SPAN: 
-LABELED_SPAN_ENTS: ()
-LOC_ENTS: []
-LABELED_SPAN: 
-LABELED_SPAN_ENTS: ()
-LOC_ENTS: []
-LABELED_SPAN: 
-LABELED_SPAN_ENTS: ()
-LOC_ENTS: []
-LABELED_SPAN: 
-LABELED_SPAN_ENTS: ()
-LOC_ENTS: []
-LABELED_SPAN: 
-LABELED_SPAN_ENTS: ()
-LOC_ENTS: []
-LABELED_SPAN: 
-LABELED_SPAN_ENTS: ()
-LOC_ENTS: []
-LABELED_SPAN: 
-LABELED_SPAN_ENTS: ()
-LOC_ENTS: []
-LABELED_SPAN: 
-LABELED_SPAN_ENTS: ()
-LOC_ENTS: []
-LABELED_SPAN: 
-LABELED_SPAN_ENTS: ()
-LOC_ENTS: []
-LABELED_SPAN: 
-LABELED_SPAN_ENTS: ()
-LOC_ENTS: []
-LABELED_SPAN: 
-LABELED_SPAN_ENTS: ()
-LOC_ENTS: []
-LABELED_SPAN: 
-LABELED_SPAN_ENTS: ()
-LOC_ENTS: []
-LABELED_SPAN: 
-LABELED_SPAN_ENTS: ()
-LOC_ENTS: []
-LABELED_SPAN: 
-LABELED_SPAN_ENTS: ()
-LOC_ENTS: []
-LABELED_SPAN: 
-LABELED_SPAN_ENTS: ()
-LOC_ENTS: []
-LABELED_SPAN: 
-LABELED_SPAN_ENTS: ()
-LOC_ENTS: []
-LABELED_SPAN: 
-LABELED_SPAN_ENTS: ()
-LOC_ENTS: []
-LABELED_SPAN: 
-LABELED_SPAN_ENTS: ()
-LOC_ENTS: []
-LABELED_SPAN: 
-LABELED_SPAN_ENTS: ()
-LOC_ENTS: []
-LABELED_SPAN: 
-LABELED_SPAN_ENTS: ()
-LOC_ENTS: []
-LABELED_SPAN: 
-LABELED_SPAN_ENTS: ()
-LOC_ENTS: []
-LABELED_SPAN: 
-LABELED_SPAN_ENTS: ()
-LOC_ENTS: []
-LABELED_SPAN: 
-LABELED_SPAN_ENTS: ()
-LOC_ENTS: []
-LABELED_SPAN: 
-LABELED_SPAN_ENTS: ()
-LOC_ENTS: []
-LABELED_SPAN: 
-LABELED_SPAN_ENTS: ()
-LOC_ENTS: []
-LABELED_SPAN: 
-LABELED_SPAN_ENTS: ()
-LOC_ENTS: []
-LABELED_SPAN: 
-LABELED_SPAN_ENTS: ()
-LOC_ENTS: []
-LABELED_SPAN: 
-LABELED_SPAN_ENTS: ()
-LOC_ENTS: []
-LABELED_SPAN: 
-LABELED_SPAN_ENTS: ()
-LOC_ENTS: []
-LABELED_SPAN: 
-LABELED_SPAN_ENTS: ()
-LOC_ENTS: []
-LABELED_SPAN: 
-LABELED_SPAN_ENTS: ()
-LOC_ENTS: []
-SEMANTIC ROLE DATAFRAME:
-['[ARG0: LSB Industries Inc] [V: said] [ARG1: it entered into an agreement to acquire Northwest Federal Savings and Loan Association of Woodward , Oklahoma] .', 'LSB Industries Inc said [ARG0: it] [V: entered] [ARG1: into an agreement to acquire Northwest Federal Savings and Loan Association of Woodward , Oklahoma] .', 'LSB Industries Inc said [ARG0: it] entered into an agreement to [V: acquire] [ARG1: Northwest Federal Savings and Loan Association of Woodward , Oklahoma] .', '[ARGM-TMP: Upon completion of the acquisition] , LSB [V: would] pay about 1.5 mln dlrs to the shareholders of Northwest and transfer to Northwest Federal certain assets having a net current appraised value of not less than 30 mln dlrs .', '[ARGM-TMP: Upon completion of the acquisition] , [ARG0: LSB] [ARGM-MOD: would] [V: pay] [ARG1: about 1.5 mln dlrs] [ARG2: to the shareholders of Northwest] and transfer to Northwest Federal certain assets having a net current appraised value of not less than 30 mln dlrs .', '[ARGM-TMP: Upon completion of the acquisition] , [ARG0: LSB] [ARGM-MOD: would] pay about 1.5 mln dlrs to the shareholders of Northwest and [V: transfer] [ARG2: to Northwest Federal certain assets] [ARG1: having a net current appraised value of not less than 30 mln dlrs] .', 'Upon completion of the acquisition , LSB would pay about 1.5 mln dlrs to the shareholders of Northwest and transfer to [ARG0: Northwest Federal certain assets] [V: having] [ARG1: a net current appraised value of not less than 30 mln dlrs] .', 'Upon completion of the acquisition , LSB would pay about 1.5 mln dlrs to the shareholders of Northwest and transfer to Northwest Federal certain assets having a net current [V: appraised] [ARG1: value] of not less than 30 mln dlrs .', "At completion of this transaction , Northwest Federal [V: would] be a subsidiary of LSB 's non - consolidated wholly - owned financial subsidiary .", "[ARGM-TMP: At completion of this transaction] , [ARG1: Northwest Federal] [ARGM-MOD: would] [V: be] [ARG2: a subsidiary of LSB 's non - consolidated wholly - owned financial subsidiary] .", "At completion of this transaction , Northwest Federal would be a subsidiary of LSB 's non - consolidated [ARGM-MNR: wholly] - [V: owned] [ARG1: financial subsidiary] .", '[ARG1: The acquisition] [V: is] [ARG2: subject to obtaining approvals , waivers and forbearances from the Federal Home Loan Bank Board and other government approvals] .', 'The acquisition is subject to [V: obtaining] [ARG1: approvals , waivers and forbearances] [ARG2: from the Federal Home Loan Bank Board and other government approvals] .']
-===ARGMLOC_SPANS:===
-[[], [], [], [], [], [], [], [], [], [], [], [], []]
-LABELED_SPAN: 
-LABELED_SPAN_ENTS: ()
-LOC_ENTS: []
-LABELED_SPAN: 
-LABELED_SPAN_ENTS: ()
-LOC_ENTS: []
-LABELED_SPAN: 
-LABELED_SPAN_ENTS: ()
-LOC_ENTS: []
-LABELED_SPAN: 
-LABELED_SPAN_ENTS: ()
-LOC_ENTS: []
-LABELED_SPAN: 
-LABELED_SPAN_ENTS: ()
-LOC_ENTS: []
-LABELED_SPAN: 
-LABELED_SPAN_ENTS: ()
-LOC_ENTS: []
-LABELED_SPAN: 
-LABELED_SPAN_ENTS: ()
-LOC_ENTS: []
-LABELED_SPAN: 
-LABELED_SPAN_ENTS: ()
-LOC_ENTS: []
-LABELED_SPAN: 
-LABELED_SPAN_ENTS: ()
-LOC_ENTS: []
-LABELED_SPAN: 
-LABELED_SPAN_ENTS: ()
-LOC_ENTS: []
-LABELED_SPAN: 
-LABELED_SPAN_ENTS: ()
-LOC_ENTS: []
-LABELED_SPAN: 
-LABELED_SPAN_ENTS: ()
-LOC_ENTS: []
-LABELED_SPAN: 
-LABELED_SPAN_ENTS: ()
-LOC_ENTS: []
+(ent.text=Meridian Energy Inc and Castone Development Corp,ent.label_=ORG)
+(ent.text=Meridian,ent.label_=ORG)
+(ent.text=Castone,ent.label_=ORG)
+LOC_ENTS: []
+(ent.text=Security Pacific Corp,ent.label_=ORG)
+(ent.text=Users Inc,ent.label_=PERSON)
+(ent.text=November,ent.label_=DATE)
+(ent.text=Users,ent.label_=PERSON)
+(ent.text=24-year,ent.label_=DATE)
+LOC_ENTS: []
+(ent.text=American Adventure Inc,ent.label_=ORG)
+(ent.text=American Adventure Inc,ent.label_=ORG)
+(ent.text=Chapter 11,ent.label_=LAW)
+(ent.text=American Adventure,ent.label_=ORG)
+(ent.text=more than 83,ent.label_=CARDINAL)
+LOC_ENTS: []
+(ent.text=Viacom International Inc,ent.label_=ORG)
+(ent.text=April 6,ent.label_=DATE)
+(ent.text=Arsenal Acquiring Corp,ent.label_=ORG)
+(ent.text=Arsenal Holdings Inc,ent.label_=ORG)
+(ent.text=Viacom,ent.label_=ORG)
+LOC_ENTS: []
+(ent.text=Scott,ent.label_=ORG)
+(ent.text=Hospitality Inc,ent.label_=ORG)
+(ent.text=Capital Food Services Ltd,ent.label_=ORG)
+(ent.text=Ottawa,ent.label_=GPE)
+(ent.text=Scott,ent.label_=ORG)
+(ent.text=Capital Food,ent.label_=ORG)
+(ent.text=1986,ent.label_=DATE)
+(ent.text=more than 20,ent.label_=CARDINAL)
+(ent.text=Capital Food,ent.label_=ORG)
+(ent.text=Ottawa,ent.label_=GPE)
+LOC_ENTS: ['Ottawa', 'Ottawa']
+(ent.text=Display Corfp,ent.label_=PERSON)
+(ent.text=about five,ent.label_=CARDINAL)
+(ent.text=the year ended February 28,ent.label_=DATE)
+LOC_ENTS: []
+(ent.text=Henkel KGaA,ent.label_=PERSON)
+(ent.text=Hamburg,ent.label_=GPE)
+(ent.text=Noblee,ent.label_=PERSON)
+(ent.text=Oelmuehle Hamburg AG,ent.label_=ORG)
+(ent.text=Noblee,ent.label_=PERSON)
+(ent.text=161 mln marks,ent.label_=MONEY)
+(ent.text=last year,ent.label_=DATE)
+(ent.text=Noblee,ent.label_=ORG)
+LOC_ENTS: ['Hamburg']
+(ent.text=Union Miniere SA,ent.label_=ORG)
+(ent.text=eight,ent.label_=CARDINAL)
+(ent.text=Pancontinental Mining Ltd,ent.label_=ORG)
+(ent.text=1.2 billion Belgian francs,ent.label_=MONEY)
+(ent.text=Australia,ent.label_=GPE)
+(ent.text=Canada,ent.label_=GPE)
+(ent.text=Union Miniere,ent.label_=ORG)
+(ent.text=Pancontinental,ent.label_=ORG)
+(ent.text=Societe Generale de Belgique,ent.label_=ORG)
+LOC_ENTS: ['Australia', 'Canada']
+(ent.text=Honeywell Inc,ent.label_=ORG)
+(ent.text=57.5,ent.label_=CARDINAL)
+(ent.text=Honeywell Information Systems,ent.label_=ORG)
+(ent.text=Compagnie des Machines,ent.label_=ORG)
+(ent.text=Bull of France,ent.label_=ORG)
+(ent.text=NEC Corp,ent.label_=ORG)
+(ent.text=Japan,ent.label_=GPE)
+(ent.text=527 mln,ent.label_=QUANTITY)
+(ent.text=Honeywell,ent.label_=ORG)
+(ent.text=last December,ent.label_=DATE)
+(ent.text=the Sperry Aerospace Group,ent.label_=ORG)
+(ent.text=Honeywell,ent.label_=ORG)
+(ent.text=Bull,ent.label_=ORG)
+(ent.text=NEC,ent.label_=ORG)
+(ent.text=Honeywell,ent.label_=ORG)
+(ent.text=Honeywell Bull,ent.label_=ORG)
+(ent.text=42.5,ent.label_=CARDINAL)
+(ent.text=Honeywell Inc,ent.label_=ORG)
+(ent.text=42.5,ent.label_=CARDINAL)
+(ent.text=Bull,ent.label_=ORG)
+(ent.text=15,ent.label_=CARDINAL)
+(ent.text=NEC,ent.label_=ORG)
+(ent.text=Honeywell,ent.label_=ORG)
+(ent.text=NEC,ent.label_=ORG)
+(ent.text=Bull,ent.label_=ORG)
+(ent.text=42.5,ent.label_=CARDINAL)
+(ent.text=19.9,ent.label_=CARDINAL)
+(ent.text=the end of 1988,ent.label_=DATE)
+(ent.text=just over half,ent.label_=CARDINAL)
+(ent.text=Bull,ent.label_=ORG)
+(ent.text=Honeywell,ent.label_=ORG)
+(ent.text=Honeywell,ent.label_=ORG)
+(ent.text=Edson Spencer,ent.label_=PERSON)
+(ent.text=Honeywell,ent.label_=ORG)
+(ent.text=Honeywell,ent.label_=ORG)
+(ent.text=Spencer,ent.label_=PERSON)
+(ent.text=Honeywell,ent.label_=ORG)
+(ent.text=Honeywell Bull's,ent.label_=ORG)
+(ent.text=Honeywell,ent.label_=ORG)
+(ent.text=U.S.,ent.label_=GPE)
+(ent.text=Honeywell,ent.label_=ORG)
+(ent.text=Federal Systems Division,ent.label_=ORG)
+(ent.text=Honeywell Inc,ent.label_=ORG)
+(ent.text=Honeywell Federal Systems Inc.,ent.label_=ORG)
+(ent.text=Honeywell,ent.label_=ORG)
+(ent.text=1986,ent.label_=DATE)
+(ent.text=Honeywell Bull,ent.label_=ORG)
+(ent.text=nine,ent.label_=CARDINAL)
+(ent.text=four,ent.label_=CARDINAL)
+(ent.text=Honeywell,ent.label_=ORG)
+(ent.text=two,ent.label_=CARDINAL)
+(ent.text=NEC,ent.label_=ORG)
+(ent.text=today,ent.label_=DATE)
+(ent.text=Jacques Stern,ent.label_=PERSON)
+(ent.text=Bull,ent.label_=ORG)
+(ent.text=Honeywell Bull's,ent.label_=ORG)
+(ent.text=Jerome Meyer,ent.label_=PERSON)
+(ent.text=Honeywell Information Systems,ent.label_=ORG)
+LOC_ENTS: ['Japan', 'U.S.']
+(ent.text=LSB Industries Inc,ent.label_=ORG)
+(ent.text=Northwest Federal Savings and Loan Association of Woodward,ent.label_=ORG)
+(ent.text=Oklahoma,ent.label_=GPE)
+(ent.text=LSB,ent.label_=ORG)
+(ent.text=about 1.5 mln,ent.label_=QUANTITY)
+(ent.text=Northwest,ent.label_=ORG)
+(ent.text=Northwest Federal,ent.label_=ORG)
+(ent.text=less than,ent.label_=CARDINAL)
+(ent.text=Northwest Federal,ent.label_=ORG)
+(ent.text=LSB,ent.label_=ORG)
+(ent.text=the Federal Home Loan Bank Board,ent.label_=ORG)
+LOC_ENTS: ['Oklahoma']
 TEXT: 10042
 ACQUIRED: ---
 ACQBUS: ---
-ACQLOC: ---
 DLRAMT: ---
 PURCHASER: ---
 SELLER: ---
@@ -587,7 +142,6 @@ STATUS: ---
 TEXT: 10066
 ACQUIRED: ---
 ACQBUS: ---
-ACQLOC: ---
 DLRAMT: ---
 PURCHASER: ---
 SELLER: ---
@@ -597,7 +151,6 @@ STATUS: ---
 TEXT: 10158
 ACQUIRED: ---
 ACQBUS: ---
-ACQLOC: ---
 DLRAMT: ---
 PURCHASER: ---
 SELLER: ---
@@ -607,7 +160,6 @@ STATUS: ---
 TEXT: 10171
 ACQUIRED: ---
 ACQBUS: ---
-ACQLOC: ---
 DLRAMT: ---
 PURCHASER: ---
 SELLER: ---
@@ -617,7 +169,8 @@ STATUS: ---
 TEXT: 1029
 ACQUIRED: ---
 ACQBUS: ---
-ACQLOC: ---
+ACQLOC: Ottawa
+ACQLOC: Ottawa
 DLRAMT: ---
 PURCHASER: ---
 SELLER: ---
@@ -627,7 +180,6 @@ STATUS: ---
 TEXT: 1032
 ACQUIRED: ---
 ACQBUS: ---
-ACQLOC: ---
 DLRAMT: ---
 PURCHASER: ---
 SELLER: ---
@@ -637,7 +189,7 @@ STATUS: ---
 TEXT: 10348
 ACQUIRED: ---
 ACQBUS: ---
-ACQLOC: ---
+ACQLOC: Hamburg
 DLRAMT: ---
 PURCHASER: ---
 SELLER: ---
@@ -647,7 +199,8 @@ STATUS: ---
 TEXT: 10371
 ACQUIRED: ---
 ACQBUS: ---
-ACQLOC: ---
+ACQLOC: Australia
+ACQLOC: Canada
 DLRAMT: ---
 PURCHASER: ---
 SELLER: ---
@@ -657,7 +210,8 @@ STATUS: ---
 TEXT: 10473
 ACQUIRED: ---
 ACQBUS: ---
-ACQLOC: ---
+ACQLOC: Japan
+ACQLOC: U.S.
 DLRAMT: ---
 PURCHASER: ---
 SELLER: ---
@@ -667,7 +221,7 @@ STATUS: ---
 TEXT: 10527
 ACQUIRED: ---
 ACQBUS: ---
-ACQLOC: ---
+ACQLOC: Oklahoma
 DLRAMT: ---
 PURCHASER: ---
 SELLER: ---

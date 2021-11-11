@@ -1,7 +1,6 @@
 TEXT: 10042
 ACQUIRED: ---
 ACQBUS: ---
-ACQLOC: ---
 DLRAMT: ---
 PURCHASER: ---
 SELLER: ---
@@ -10,7 +9,6 @@ STATUS: ---
 TEXT: 10066
 ACQUIRED: ---
 ACQBUS: ---
-ACQLOC: ---
 DLRAMT: ---
 PURCHASER: ---
 SELLER: ---
@@ -19,7 +17,6 @@ STATUS: ---
 TEXT: 10158
 ACQUIRED: ---
 ACQBUS: ---
-ACQLOC: ---
 DLRAMT: ---
 PURCHASER: ---
 SELLER: ---
@@ -28,7 +25,6 @@ STATUS: ---
 TEXT: 10171
 ACQUIRED: ---
 ACQBUS: ---
-ACQLOC: ---
 DLRAMT: ---
 PURCHASER: ---
 SELLER: ---
@@ -37,7 +33,8 @@ STATUS: ---
 TEXT: 1029
 ACQUIRED: ---
 ACQBUS: ---
-ACQLOC: ---
+ACQLOC: Ottawa
+ACQLOC: Ottawa
 DLRAMT: ---
 PURCHASER: ---
 SELLER: ---
@@ -46,7 +43,6 @@ STATUS: ---
 TEXT: 1032
 ACQUIRED: ---
 ACQBUS: ---
-ACQLOC: ---
 DLRAMT: ---
 PURCHASER: ---
 SELLER: ---
@@ -55,7 +51,7 @@ STATUS: ---
 TEXT: 10348
 ACQUIRED: ---
 ACQBUS: ---
-ACQLOC: ---
+ACQLOC: Hamburg
 DLRAMT: ---
 PURCHASER: ---
 SELLER: ---
@@ -64,7 +60,8 @@ STATUS: ---
 TEXT: 10371
 ACQUIRED: ---
 ACQBUS: ---
-ACQLOC: ---
+ACQLOC: Australia
+ACQLOC: Canada
 DLRAMT: ---
 PURCHASER: ---
 SELLER: ---
@@ -73,7 +70,8 @@ STATUS: ---
 TEXT: 10473
 ACQUIRED: ---
 ACQBUS: ---
-ACQLOC: ---
+ACQLOC: Japan
+ACQLOC: U.S.
 DLRAMT: ---
 PURCHASER: ---
 SELLER: ---
@@ -82,7 +80,7 @@ STATUS: ---
 TEXT: 10527
 ACQUIRED: ---
 ACQBUS: ---
-ACQLOC: ---
+ACQLOC: Oklahoma
 DLRAMT: ---
 PURCHASER: ---
 SELLER: ---
