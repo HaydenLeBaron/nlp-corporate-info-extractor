@@ -162,3 +162,33 @@ SELLER          0.00 (0/156)	   0.00 (0/0)         0.00
 STATUS          0.00 (0/295)	   0.00 (0/0)         0.00
 --------        --------------     --------------     ----
 TOTAL           0.32 (544/1693)	   0.13 (544/4237)    0.18
+
+Experiement: 
+- entity tag 'GPE' => ACQLOC
+- entity tag 'QUANTITY' OR 'MONEY' OR 'CARDINAL' => DLRAMT
+- entity tag 'ORG' => ACQUIRED, PURCHASER
+;                RECALL             PRECISION          F-SCORE
+ACQUIRED        0.59 (245/418)	   0.14 (245/1748)    0.23
+ACQBUS          0.00 (0/153)	   0.00 (0/0)         0.00
+ACQLOC          0.40 (53/134)	   0.11 (53/478)      0.17
+DLRAMT          0.08 (13/164)	   0.01 (13/1265)     0.02
+PURCHASER       0.63 (234/373)	   0.13 (234/1748)    0.22
+SELLER          0.00 (0/156)	   0.00 (0/0)         0.00
+STATUS          0.00 (0/295)	   0.00 (0/0)         0.00
+--------        --------------     --------------     ----
+TOTAL           0.32 (545/1693)	   0.10 (545/5239)    0.16
+
+
+Experiement: 
+- entity tag 'GPE' => ACQLOC
+- entity tag 'ORG' => ACQUIRED, PURCHASER
+                RECALL             PRECISION          F-SCORE
+ACQUIRED        0.59 (245/418)	   0.14 (245/1748)    0.23
+ACQBUS          0.00 (0/153)	   0.00 (0/0)         0.00
+ACQLOC          0.40 (53/134)	   0.11 (53/478)      0.17
+DLRAMT          0.00 (0/164)	   0.00 (0/0)         0.00
+PURCHASER       0.63 (234/373)	   0.13 (234/1748)    0.22
+SELLER          0.00 (0/156)	   0.00 (0/0)         0.00
+STATUS          0.00 (0/295)	   0.00 (0/0)         0.00
+--------        --------------     --------------     ----
+TOTAL           0.31 (532/1693)	   0.13 (532/3974)    0.19
