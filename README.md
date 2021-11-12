@@ -17,11 +17,6 @@ For highest f-score version, run:
 python3 src/extract.py <file-list>
 ```
 
-For slightly lower total f-score, but higher recall (the model tries to fill in more fields with work-in progress extraction heuristics, but with low precision):
-```
-python3 src/extract.py <file-list> -x #experimental flag
-```
-
 ## ENVIRONMENT and external resources
 
 - spacy version 3.0.7 (Works with CADE installation)
