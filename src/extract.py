@@ -149,8 +149,11 @@ def main():
     if sys.argv[1] == '-h' or sys.argv[1] == '--help':
         print("USAGE: `python3 extract.py <docList> [-v]`")
         return
-    is_verbose = sys.argv[2] == '-v'
-    if is_verbose : print('VERBOSE=TRUE')
+    
+    is_verbose = False
+    if len(sys.argv) > 2:
+        is_verbose = sys.argv[2] == '-v'
+        if is_verbose : print('VERBOSE=TRUE')
 
     '''Perform information extraction into Template objects'''
     if is_verbose : print('Loading models...')
