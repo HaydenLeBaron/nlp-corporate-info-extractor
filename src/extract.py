@@ -40,15 +40,6 @@ def extract(doc_path:str,
 
     #if is_verbose : print('SEMANTIC ROLE DATAFRAME:\n{}'.format(srl_df))
 
-
-    """
-EXAMPLE SEMANTIC ROLE DATAFRAME (srl_df):
-          verb                                               tags                                              words
-0         said  [B-ARG0, I-ARG0, I-ARG0, I-ARG0, I-ARG0, B-V, ...  [Santa, Fe, Southern, Pacific, Corp, said, it,...
-1        filed  [O, O, O, O, O, O, B-ARG0, B-V, B-ARG1, I-ARG1...  [Santa, Fe, Southern, Pacific, Corp, said, it,...
-2       asking  [O, O, O, O, O, O, O, O, B-ARG0, I-ARG0, B-V, ...  [Santa, Fe, Southern, Pacific, Corp, said, it,...
-    """
-
     '''
     Extract Acqloc:
            1. Accumulate all "ARGM-LOC" spans of text into a list
@@ -99,24 +90,36 @@ EXAMPLE SEMANTIC ROLE DATAFRAME (srl_df):
         labeled_sentences.append(spacy_model(s_dict['sentence']))
 
     loc_ents = []
+    dlramt_ents = []
+    org_ents = []
     for labeled_span in labeled_sentences:
         for ent in labeled_span.ents:
             print('(ent.text={},ent.label_={})'.format(ent.text, ent.label_))
             if ent.label_ == 'GPE': #Geo-Political Entity
                 loc_ents.append(ent.text)
+            elif ent.label_ == 'QUANTITY' or ent.label_ == 'MONEY':
+                dlramt_ents.append(ent.text)
+            elif ent.label_ == 'ORG':
+                org_ents.append(ent.text)
+
 
         '''
         loc_ents += list(map(lambda ent : ent.text,
                              list(filter(lambda ent: ent.label_ == 'LOC',
                                          labeled_span.ents))))
         '''
-    print('LOC_ENTS:', loc_ents)
+    # Remove duplicates. Then Extraction success!
+    acqloc=list(set(loc_ents))
+    #dlramt = list(set(dlramt_ents)) #RECALL=0.07 (12/164); PRECISION=0.05 (12/263); F-SCORE=0.06
+    dlramt = []
+    purchaser = list(set(org_ents))
+    #seller = list(set(org_ents)) #RECALL=0.69 (108/156); PRECISION=0.06 (108/1748); F-SCORE=0.11
+    #TODO: use this high recall heuristic as a good starting point. Then use more heuristics (maybe SRL) to filter down
+    seller = []
+    acquired = list(set(org_ents))
 
 
 
-
-
-    acqloc=list(set(loc_ents)) # Remove duplicates
 
 
 
@@ -130,7 +133,12 @@ EXAMPLE SEMANTIC ROLE DATAFRAME (srl_df):
     #TODO
 
     '''Construct and return template'''
-    return Template(text=doc_path.split('/')[-1], acqloc=acqloc)
+    return Template(text=doc_path.split('/')[-1],
+                    acquired=acquired,
+                    acqloc=acqloc,
+                    dlramt=dlramt,
+                    purchaser=purchaser,
+                    seller=seller)
 
 
 
@@ -144,33 +152,40 @@ def main():
     is_verbose = sys.argv[2] == '-v'
     if is_verbose : print('VERBOSE=TRUE')
 
-
+    '''Perform information extraction into Template objects'''
+    if is_verbose : print('Loading models...')
+    #srl_predictor = SRLPredictor()
+    srl_predictor = None
+    nlp = spacy.load("en_core_web_sm")
+    if is_verbose : print('Models loaded.')
 
     '''Extract docs into pandas series'''
+    if is_verbose : print('Extracting docs into pandas series...')
     doclist_file_path = sys.argv[1]
     doc_series = pd.read_table(doclist_file_path, header=None).transpose().iloc[0]
+    if is_verbose : print('Docs extracted into pandas series')
 
     '''Read docs into list'''
+    if is_verbose : print('Reading docs into a list...')
     texts = []
     for doc in doc_series:
         with open(doc, 'r') as file:
             texts.append(file.read())
+    if is_verbose : print('Docs read into a list.')
 
     '''Format list of texts'''
-    batchdata_batch = batchtexts_to_batchdata_batch(texts=texts)
-    if is_verbose : print('BATCHDATA_BATCH = %s\n' % batchdata_batch)
-
-    '''Perform information extraction into Template objects'''
-    if is_verbose : print('Loading models...')
-    srl_predictor = SRLPredictor()
-    spacy_model = spacy.load("en_core_web_sm")
-    if is_verbose : print('Models loaded.')
+    if is_verbose : print('Formatting list of texts...')
+    batchdata_batch = batchtexts_to_batchdata_batch(texts=texts,
+                                                    rule_based=True) # The rulebased model gaveme 0.01 higher F-score
+    #if is_verbose : print('BATCHDATA_BATCH = %s\n' % batchdata_batch)
+    if is_verbose : print('List of texts formatted.')
+ 
     template_list = []
     for doc_path, text_data in zip(doc_series, batchdata_batch):
         template_list.append(extract(doc_path,
                                      text_data,
                                      srl_predictor=srl_predictor,
-                                     spacy_model=spacy_model,
+                                     spacy_model=nlp,
                                      is_verbose=is_verbose))
 
     '''Write to output file'''
