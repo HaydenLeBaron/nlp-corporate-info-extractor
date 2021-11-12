@@ -1,5 +1,9 @@
 # NLP Corporate Acquisition Information Extraction System
 
+## TEAM
+- 1 person team: Hayden LeBaron u1081509
+
+
 My IE system uses manual linguistic heuristics and NE recognition to extract entities.
 Further heuristics using semantic role labeling are in progress, but do not yet enhance performance.
 
@@ -37,8 +41,22 @@ python3 src/extract.py <file-list> -x #experimental flag
 - For each doc, it takes about (30/400=) 0.075 seconds (amoratized, including overhead)
 - To run on 1 doc it takes ~8 seconds (including overhead--Lots of overhead loading pretrained model)
 
-## TEAM
-- 1 person team
+## CURRENT PERFORMANCE
+
+Scores for ALL Templates
+
+                RECALL             PRECISION          F-SCORE
+ACQUIRED        0.62 (259/418)	   0.15 (259/1749)    0.24
+ACQBUS          0.00 (0/153)	   0.00 (0/0)         0.00
+ACQLOC          0.40 (53/134)	   0.11 (53/476)      0.17
+DLRAMT          0.00 (0/164)	   0.00 (0/0)         0.00
+PURCHASER       0.65 (242/373)	   0.14 (242/1749)    0.23
+SELLER          0.00 (0/156)	   0.00 (0/0)         0.00
+STATUS          0.00 (0/295)	   0.00 (0/0)         0.00
+--------        --------------     --------------     ----
+TOTAL           0.33 (554/1693)	   0.14 (554/3974)    0.20
+
+ 
 
 ## KNOWN PROBLEMS OR LIMITATIONS AND CURRENT PERFORMANCE
 
@@ -57,15 +75,14 @@ PURCHASER       0.65 (242/373)     0.14 (242/1749)    0.23
 SELLER          0.00 (0/156)       0.00 (0/0)         0.00
 STATUS          0.00 (0/295)       0.00 (0/0)         0.00
 --------        --------------     --------------     ----
-TOTAL           0.33 (554/1693)    0.14 (554/3974**    0.20
+TOTAL           0.33 (554/1693)    0.14 (554/3974)    0.20
 
 
 My model can extract more information than a run `python3 extract.py <file-list>` appears to, because
 I have diabled the code that extracts SELLER and DLRAMT. Extracting for these fields slightly lowers my total
 F-Score due to low precision--though they are a step in the right direction as they narrow the list of candidates
-well (high recall, low precision). Running my program in experimental mode with `python3 extract.py <file-list> -x`
+well (high recall, low precision). If I uncomment that code, here are my results:
 
-will yield (slightly lower) results like so:
                 RECALL             PRECISION          F-SCORE
 ACQUIRED        0.59 (245/418)	   0.14 (245/1748)    0.23
 ACQBUS          0.00 (0/153)	   0.00 (0/0)         0.00
@@ -79,25 +96,6 @@ TOTAL           0.39 (652/1693)	   0.11 (652/5985)    0.17
 
 
 
-
-
-
-## CURRENT PERFORMANCE
-
-Scores for ALL Templates
-
-                RECALL             PRECISION          F-SCORE
-ACQUIRED        0.62 (259/418)	   0.15 (259/1749)    0.24
-ACQBUS          0.00 (0/153)	   0.00 (0/0)         0.00
-ACQLOC          0.40 (53/134)	   0.11 (53/476)      0.17
-DLRAMT          0.00 (0/164)	   0.00 (0/0)         0.00
-PURCHASER       0.65 (242/373)	   0.14 (242/1749)    0.23
-SELLER          0.00 (0/156)	   0.00 (0/0)         0.00
-STATUS          0.00 (0/295)	   0.00 (0/0)         0.00
---------        --------------     --------------     ----
-TOTAL           0.33 (554/1693)	   0.14 (554/3974)    0.20
-
- 
 ## EXPERIMENT RESULTS:
 
 - Originally I only looked for AQCLOC in AGM-LOC, but this turned out to be terrible. No fields were filled out.
