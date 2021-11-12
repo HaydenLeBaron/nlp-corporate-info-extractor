@@ -3,6 +3,9 @@
 ## TEAM
 - 1 person team: Hayden LeBaron u1081509
 
+## CADE MACHINE
+
+- Tested on CADE Lab1-1
 
 My IE system uses manual linguistic heuristics and NE recognition to extract entities.
 Further heuristics using semantic role labeling are in progress, but do not yet enhance performance.
