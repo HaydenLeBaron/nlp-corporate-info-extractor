@@ -111,6 +111,7 @@ def extract(doc_path:str,
     # Remove duplicates. Then Extraction success!
     acqloc=list(set(loc_ents))
     #dlramt = list(set(dlramt_ents)) #RECALL=0.07 (12/164); PRECISION=0.05 (12/263); F-SCORE=0.06
+    dlramt = []
     purchaser = list(set(org_ents))
     #seller = list(set(org_ents)) #RECALL=0.69 (108/156); PRECISION=0.06 (108/1748); F-SCORE=0.11
     #TODO: use this high recall heuristic as a good starting point. Then use more heuristics (maybe SRL) to filter down
@@ -151,33 +152,40 @@ def main():
     is_verbose = sys.argv[2] == '-v'
     if is_verbose : print('VERBOSE=TRUE')
 
-
+    '''Perform information extraction into Template objects'''
+    if is_verbose : print('Loading models...')
+    #srl_predictor = SRLPredictor()
+    srl_predictor = None
+    nlp = spacy.load("en_core_web_sm")
+    if is_verbose : print('Models loaded.')
 
     '''Extract docs into pandas series'''
+    if is_verbose : print('Extracting docs into pandas series...')
     doclist_file_path = sys.argv[1]
     doc_series = pd.read_table(doclist_file_path, header=None).transpose().iloc[0]
+    if is_verbose : print('Docs extracted into pandas series')
 
     '''Read docs into list'''
+    if is_verbose : print('Reading docs into a list...')
     texts = []
     for doc in doc_series:
         with open(doc, 'r') as file:
             texts.append(file.read())
+    if is_verbose : print('Docs read into a list.')
 
     '''Format list of texts'''
-    batchdata_batch = batchtexts_to_batchdata_batch(texts=texts)
-    if is_verbose : print('BATCHDATA_BATCH = %s\n' % batchdata_batch)
-
-    '''Perform information extraction into Template objects'''
-    if is_verbose : print('Loading models...')
-    srl_predictor = SRLPredictor()
-    spacy_model = spacy.load("en_core_web_sm")
-    if is_verbose : print('Models loaded.')
+    if is_verbose : print('Formatting list of texts...')
+    batchdata_batch = batchtexts_to_batchdata_batch(texts=texts,
+                                                    rule_based=True) # The rulebased model gaveme 0.01 higher F-score
+    #if is_verbose : print('BATCHDATA_BATCH = %s\n' % batchdata_batch)
+    if is_verbose : print('List of texts formatted.')
+ 
     template_list = []
     for doc_path, text_data in zip(doc_series, batchdata_batch):
         template_list.append(extract(doc_path,
                                      text_data,
                                      srl_predictor=srl_predictor,
-                                     spacy_model=spacy_model,
+                                     spacy_model=nlp,
                                      is_verbose=is_verbose))
 
     '''Write to output file'''

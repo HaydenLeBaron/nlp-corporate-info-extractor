@@ -22,7 +22,7 @@ def batchtexts_to_batchdata_batch(texts:list[str], rule_based:bool=False) -> lis
     ]
     rule_based -- slower, but more accurate sentence splitting
     """
-    sentence_splitter = SpacySentenceSplitter(rule_based=rule_based)
+    sentence_splitter = SpacySentenceSplitter(language='en_core_web_sm', rule_based=rule_based)
     texts = sentence_splitter.batch_split_sentences(texts=texts)
 
     # encase each sentence in a dictionary to get it ready to feed to the SRLPredictor
