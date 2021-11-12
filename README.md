@@ -94,3 +94,71 @@ A subsequent model will pick the best value from the set based on multiple facto
 
 - Originally I only looked for AQCLOC in AGM-LOC, but this turned out to be terrible. No fields were filled out. 
 - Now switching to not using the SRL
+
+
+Experiment: just set DLRAMT to be everything with entity tag 'MONEY'
+                RECALL             PRECISION          F-SCORE
+ACQUIRED        0.00 (0/418)	   0.00 (0/0)         0.00
+ACQBUS          0.00 (0/153)	   0.00 (0/0)         0.00
+ACQLOC          0.40 (53/134)	   0.11 (53/478)      0.17
+DLRAMT          0.04 (7/164)	   0.11 (7/62)        0.06
+PURCHASER       0.00 (0/373)	   0.00 (0/0)         0.00
+SELLER          0.00 (0/156)	   0.00 (0/0)         0.00
+STATUS          0.00 (0/295)	   0.00 (0/0)         0.00
+--------        --------------     --------------     ----
+TOTAL           0.04 (60/1693)	   0.11 (60/540)      0.05
+
+
+Experiment: just set DLRAMT to be everything with entity tag 'QUANTITY'
+                RECALL             PRECISION          F-SCORE
+ACQUIRED        0.00 (0/418)	   0.00 (0/0)         0.00
+ACQBUS          0.00 (0/153)	   0.00 (0/0)         0.00
+ACQLOC          0.40 (53/134)	   0.11 (53/478)      0.17
+DLRAMT          0.03 (5/164)	   0.02 (5/201)       0.03
+PURCHASER       0.00 (0/373)	   0.00 (0/0)         0.00
+SELLER          0.00 (0/156)	   0.00 (0/0)         0.00
+STATUS          0.00 (0/295)	   0.00 (0/0)         0.00
+--------        --------------     --------------     ----
+TOTAL           0.03 (58/1693)	   0.09 (58/679)      0.05
+
+Experiment: just set DLRAMT to be everything with entity tag 'QUANTITY' OR 'MONEY'
+                RECALL             PRECISION          F-SCORE
+ACQUIRED        0.00 (0/418)	   0.00 (0/0)         0.00
+ACQBUS          0.00 (0/153)	   0.00 (0/0)         0.00
+ACQLOC          0.40 (53/134)	   0.11 (53/478)      0.17
+DLRAMT          0.07 (12/164)	   0.05 (12/263)      0.06
+PURCHASER       0.00 (0/373)	   0.00 (0/0)         0.00
+SELLER          0.00 (0/156)	   0.00 (0/0)         0.00
+STATUS          0.00 (0/295)	   0.00 (0/0)         0.00
+--------        --------------     --------------     ----
+TOTAL           0.04 (65/1693)	   0.09 (65/741)      0.05
+
+Experiement: 
+- entity tag 'GPE' => ACQLOC
+- entity tag 'QUANTITY' OR 'MONEY' => DLRAMT
+- entity tag 'ORG' => ACQUIRED, PURCHASER, SELLER
+                RECALL             PRECISION          F-SCORE
+ACQUIRED        0.59 (245/418)	   0.14 (245/1748)    0.23
+ACQBUS          0.00 (0/153)	   0.00 (0/0)         0.00
+ACQLOC          0.40 (53/134)	   0.11 (53/478)      0.17
+DLRAMT          0.07 (12/164)	   0.05 (12/263)      0.06
+PURCHASER       0.63 (234/373)	   0.13 (234/1748)    0.22
+SELLER          0.69 (108/156)	   0.06 (108/1748)    0.11
+STATUS          0.00 (0/295)	   0.00 (0/0)         0.00
+--------        --------------     --------------     ----
+TOTAL           0.39 (652/1693)	   0.11 (652/5985)    0.17
+
+Experiement: 
+- entity tag 'GPE' => ACQLOC
+- entity tag 'QUANTITY' OR 'MONEY' => DLRAMT
+- entity tag 'ORG' => ACQUIRED, PURCHASER
+                RECALL             PRECISION          F-SCORE
+ACQUIRED        0.59 (245/418)	   0.14 (245/1748)    0.23
+ACQBUS          0.00 (0/153)	   0.00 (0/0)         0.00
+ACQLOC          0.40 (53/134)	   0.11 (53/478)      0.17
+DLRAMT          0.07 (12/164)	   0.05 (12/263)      0.06
+PURCHASER       0.63 (234/373)	   0.13 (234/1748)    0.22
+SELLER          0.00 (0/156)	   0.00 (0/0)         0.00
+STATUS          0.00 (0/295)	   0.00 (0/0)         0.00
+--------        --------------     --------------     ----
+TOTAL           0.32 (544/1693)	   0.13 (544/4237)    0.18
