@@ -110,12 +110,10 @@ def extract(doc_path:str,
         '''
     # Remove duplicates. Then Extraction success!
     acqloc=list(set(loc_ents))
-    #dlramt = list(set(dlramt_ents)) #RECALL=0.07 (12/164); PRECISION=0.05 (12/263); F-SCORE=0.06
-    dlramt = []
+    dlramt = list(set(dlramt_ents)) #RECALL=0.07 (12/164); PRECISION=0.05 (12/263); F-SCORE=0.06
     purchaser = list(set(org_ents))
-    #seller = list(set(org_ents)) #RECALL=0.69 (108/156); PRECISION=0.06 (108/1748); F-SCORE=0.11
+    seller = list(set(org_ents)) #RECALL=0.69 (108/156); PRECISION=0.06 (108/1748); F-SCORE=0.11
     #TODO: use this high recall heuristic as a good starting point. Then use more heuristics (maybe SRL) to filter down
-    seller = []
     acquired = list(set(org_ents))
 
 
