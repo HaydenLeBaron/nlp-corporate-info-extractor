@@ -13,6 +13,7 @@ from myutils import batchtexts_to_batchdata_batch
 from srl import SRLPredictor
 import json
 from allennlp.predictors.sentence_tagger import SentenceTaggerPredictor
+from collections import Counter
 import spacy
 import re
 
@@ -109,12 +110,121 @@ def extract(doc_path:str,
                                          labeled_span.ents))))
         '''
     # Remove duplicates. Then Extraction success!
-    acqloc=list(set(loc_ents))
-    dlramt = list(set(dlramt_ents)) #RECALL=0.07 (12/164); PRECISION=0.05 (12/263); F-SCORE=0.06
-    purchaser = list(set(org_ents))
-    seller = list(set(org_ents)) #RECALL=0.69 (108/156); PRECISION=0.06 (108/1748); F-SCORE=0.11
+    '''
+PERFORMANCE FOR USING: property = list(set(property_ents))
+                    RECALL             PRECISION          F-SCORE
+ACQUIRED        0.59 (245/418)	   0.14 (245/1748)    0.23
+ACQBUS          0.00 (0/153)	   0.00 (0/0)         0.00
+ACQLOC          0.40 (53/134)	   0.11 (53/478)      0.17
+DLRAMT          0.07 (12/164)	   0.05 (12/263)      0.06
+PURCHASER       0.63 (234/373)	   0.13 (234/1748)    0.22
+SELLER          0.69 (108/156)	   0.06 (108/1748)    0.11
+STATUS          0.00 (0/295)	   0.00 (0/0)         0.00
+--------        --------------     --------------     ----
+TOTAL           0.39 (652/1693)	   0.11 (652/5985)    0.17
+
+PERFORMANCE FOR USING: x = n_most_common(1, x_ents)
+                    RECALL             PRECISION          F-SCORE
+ACQUIRED        0.10 (41/418)	   0.10 (41/396)      0.10
+ACQBUS          0.00 (0/153)	   0.00 (0/0)         0.00
+ACQLOC          0.30 (40/134)	   0.17 (40/234)      0.22
+DLRAMT          0.06 (10/164)	   0.07 (10/151)      0.06
+PURCHASER       0.30 (111/373)	   0.28 (111/396)     0.29
+SELLER          0.25 (39/156)	   0.10 (39/396)      0.14
+STATUS          0.00 (0/295)	   0.00 (0/0)         0.00
+--------        --------------     --------------     ----
+TOTAL           0.14 (241/1693)	   0.15 (241/1573)    0.15
+
+PERFORMANCE FOR USING: x = n_most_common(2, x_ents)
+                    RECALL             PRECISION          F-SCORE
+ACQUIRED        0.33 (140/418)	   0.18 (140/773)     0.24
+ACQBUS          0.00 (0/153)	   0.00 (0/0)         0.00
+ACQLOC          0.37 (49/134)	   0.13 (49/367)      0.20
+DLRAMT          0.07 (11/164)	   0.05 (11/207)      0.06
+PURCHASER       0.47 (177/373)	   0.23 (177/773)     0.31
+SELLER          0.44 (68/156)	   0.09 (68/773)      0.15
+STATUS          0.00 (0/295)	   0.00 (0/0)         0.00
+--------        --------------     --------------     ----
+TOTAL           0.26 (445/1693)	   0.15 (445/2893)    0.19
+
+PERFORMANCE FOR USING: x = n_most_common(3, x_ents)
+                    RECALL             PRECISION          F-SCORE
+ACQUIRED        0.50 (208/418)	   0.19 (208/1086)    0.28
+ACQBUS          0.00 (0/153)	   0.00 (0/0)         0.00
+ACQLOC          0.37 (50/134)	   0.12 (50/429)      0.18
+DLRAMT          0.07 (12/164)	   0.05 (12/232)      0.06
+PURCHASER       0.58 (215/373)	   0.20 (215/1086)    0.29
+SELLER          0.60 (93/156)	   0.09 (93/1086)     0.15
+STATUS          0.00 (0/295)	   0.00 (0/0)         0.00
+--------        --------------     --------------     ----
+TOTAL           0.34 (578/1693)	   0.15 (578/3919)    0.21
+
+PERFORMANCE FOR USING: x = n_most_common(4, x_ents)
+                RECALL             PRECISION          F-SCORE
+ACQUIRED        0.58 (243/418)	   0.19 (243/1309)    0.28
+ACQBUS          0.00 (0/153)	   0.00 (0/0)         0.00
+ACQLOC          0.38 (51/134)	   0.11 (51/457)      0.17
+DLRAMT          0.07 (12/164)	   0.05 (12/246)      0.06
+PURCHASER       0.62 (232/373)	   0.18 (232/1309)    0.28
+SELLER          0.67 (105/156)	   0.08 (105/1309)    0.14
+STATUS          0.00 (0/295)	   0.00 (0/0)         0.00
+--------        --------------     --------------     ----
+TOTAL           0.38 (643/1693)	   0.14 (643/4630)    0.20
+
+BEST WEIGHTS (n in n_most_common):
+    - ACQUIRED=4
+    - ACQLOC=2
+    - DLRAMT=1
+    - PURCHASER=2
+    - SELLER=3
+
+PERFORMANCE FOR USING: x = n_most_common(BEST_WEIGHT, x_ents)
+                RECALL             PRECISION          F-SCORE
+ACQUIRED        0.58 (243/418)	   0.19 (243/1309)    0.28
+ACQBUS          0.00 (0/153)	   0.00 (0/0)         0.00
+ACQLOC          0.37 (49/134)	   0.13 (49/367)      0.20
+DLRAMT          0.06 (10/164)	   0.07 (10/151)      0.06
+PURCHASER       0.47 (177/373)	   0.23 (177/773)     0.31
+SELLER          0.60 (93/156)	   0.09 (93/1086)     0.15
+STATUS          0.00 (0/295)	   0.00 (0/0)         0.00
+--------        --------------     --------------     ----
+TOTAL           0.34 (572/1693)	   0.16 (572/3686)    0.21
+
+
+PERFORMANCE FOR USING: x = n_most_common(BEST_WEIGHT, x_ents) BUT:
+    - DLRAMT = []
+    - SELLER = []
+                RECALL             PRECISION          F-SCORE
+ACQUIRED        0.58 (243/418)	   0.19 (243/1309)    0.28
+ACQBUS          0.00 (0/153)	   0.00 (0/0)         0.00
+ACQLOC          0.37 (49/134)	   0.13 (49/367)      0.20
+DLRAMT          0.00 (0/164)	   0.00 (0/0)         0.00
+PURCHASER       0.47 (177/373)	   0.23 (177/773)     0.31
+SELLER          0.00 (0/156)	   0.00 (0/0)         0.00
+STATUS          0.00 (0/295)	   0.00 (0/0)         0.00
+--------        --------------     --------------     ----
+TOTAL           0.28 (469/1693)	   0.19 (469/2449)    0.23
+    '''
+    n_most_common = lambda n, l : list(map(lambda tuple : tuple[0], Counter(l).most_common(n)))
+
+    acqloc = n_most_common(2, loc_ents)
+    #acqloc=list(set(loc_ents))
+
+    #dlramt = n_most_common(1, dlramt_ents)
+    dlramt = [] # Best strategy so far is to leave empty
+    #dlramt = list(set(dlramt_ents)) #RECALL=0.07 (12/164); PRECISION=0.05 (12/263); F-SCORE=0.06
+
+    purchaser = n_most_common(2, org_ents)
+    #purchaser = list(set(org_ents))
+
+
+    #seller = n_most_common(3, org_ents)
+    seller = [] # Best strategy so far is to leave empty (for f-score, but not recal)
+    #seller = list(set(org_ents)) #RECALL=0.69 (108/156); PRECISION=0.06 (108/1748); F-SCORE=0.11
     #TODO: use this high recall heuristic as a good starting point. Then use more heuristics (maybe SRL) to filter down
-    acquired = list(set(org_ents))
+
+    acquired = n_most_common(4, org_ents)
+    #acquired = list(set(org_ents))
 
 
 
