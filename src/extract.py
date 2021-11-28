@@ -33,6 +33,7 @@ def extract(doc_path:str,
     [{'sentence': 'This is an example sentence'}, ...]
     """
 
+    """TODO: uncomment for SRL ARG0
     '''Run semantic role labler'''
     srl_json_str = json.dumps(srl_predictor.label_batch(text_data))
     srl_df = pd.json_normalize(json.loads(srl_json_str), record_path=['verbs'])['description'].tolist()
@@ -69,7 +70,6 @@ def extract(doc_path:str,
 
     if is_verbose : print('===ARG0_SPANS:===\n{}'.format(arg0_spans))
 
-    '''
     arg0_ents = []
     for span in argmloc_spans: # TODO: use list comprehension
         labeled_span = spacy_model(' '.join(span))
@@ -82,7 +82,7 @@ def extract(doc_path:str,
                                          labeled_span.ents))))
     print('LOC_ENTS:', loc_ents)
 
-
+    '''
     #4. Choose the highest ranked entity, or None if no candiates remaining candidates
     if loc_ents:
         acqloc = loc_ents[0] # Just choose the first location entity
@@ -90,29 +90,13 @@ def extract(doc_path:str,
         acqloc = None
     '''
 
-    labeled_sentences = []
-    for s_dict in text_data:
-        labeled_sentences.append(spacy_model(s_dict['sentence']))
 
     labeled_arg0spans = []
     for span in arg0_spans:
         labeled_arg0spans.append(spacy_model(span))
-
     loc_ents = []
     dlramt_ents = []
     org_ents = []
-    '''
-    TODO: uncommentme
-    for labeled_span in labeled_sentences:
-        for ent in labeled_span.ents:
-            print('(ent.text={},ent.label_={})'.format(ent.text, ent.label_))
-            if ent.label_ == 'GPE': #Geo-Political Entity
-                loc_ents.append(ent.text)
-            elif ent.label_ == 'QUANTITY' or ent.label_ == 'MONEY':
-                dlramt_ents.append(ent.text)
-            elif ent.label_ == 'ORG':
-                org_ents.append(ent.text)
-    '''
     for labeled_span in labeled_arg0spans:
         for ent in labeled_span.ents:
             print('(ent.text={},ent.label_={})'.format(ent.text, ent.label_))
@@ -123,13 +107,25 @@ def extract(doc_path:str,
             elif ent.label_ == 'ORG':
                 org_ents.append(ent.text)
 
+    """
 
 
-        '''
-        loc_ents += list(map(lambda ent : ent.text,
-                             list(filter(lambda ent: ent.label_ == 'LOC',
-                                         labeled_span.ents))))
-        '''
+    labeled_sentences = []
+    for s_dict in text_data:
+        labeled_sentences.append(spacy_model(s_dict['sentence']))
+    loc_ents = []
+    dlramt_ents = []
+    org_ents = []
+    for labeled_span in labeled_sentences:
+        for ent in labeled_span.ents:
+            print('(ent.text={},ent.label_={})'.format(ent.text, ent.label_))
+            if ent.label_ == 'GPE': #Geo-Political Entity
+                loc_ents.append(ent.text)
+            elif ent.label_ == 'QUANTITY' or ent.label_ == 'MONEY':
+                dlramt_ents.append(ent.text)
+            elif ent.label_ == 'ORG':
+                org_ents.append(ent.text)
+
     # Remove duplicates. Then Extraction success!
     '''
 PERFORMANCE FOR USING: property = list(set(property_ents))
@@ -286,10 +282,6 @@ SELLER          0.60 (93/156)	   0.09 (93/1086)     0.15
 STATUS          0.00 (0/295)	   0.00 (0/0)         0.00
 --------        --------------     --------------     ----
 TOTAL           0.34 (572/1693)	   0.16 (572/3686)    0.21
-
-
-
-
     '''
     n_most_common = lambda n, l : list(map(lambda tuple : tuple[0], Counter(l).most_common(n)))
 
