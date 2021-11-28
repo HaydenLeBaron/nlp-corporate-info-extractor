@@ -269,6 +269,25 @@ SELLER          0.43 (67/156)	   0.10 (67/686)      0.16 # BEST SO FAR (0.1 bett
 STATUS          0.00 (0/295)	   0.00 (0/0)         0.00
 --------        --------------     --------------     ----
 TOTAL           0.17 (291/1693)	   0.11 (291/2697)    0.13
+
+PERFORMANCE FOR USING:
+    - purchaser = n_most_common(2, org_ents)
+    - acquired = set(filter(lambda elt : elt not in purchaser, list(org_ents)))
+    - seller = set(filter(lambda elt : elt not in purchaser and elt not in acquired, list(org_ents)))
+                RECALL             PRECISION          F-SCORE
+ACQUIRED        0.28 (119/418)	   0.12 (119/976)     0.17
+ACQBUS          0.00 (0/153)	   0.00 (0/0)         0.00
+ACQLOC          0.37 (49/134)	   0.13 (49/367)      0.20
+DLRAMT          0.00 (0/164)	   0.00 (0/0)         0.00
+PURCHASER       0.47 (177/373)	   0.23 (177/773)     0.31
+SELLER          0.00 (0/156)	   0.00 (0/0)         0.00
+STATUS          0.00 (0/295)	   0.00 (0/0)         0.00
+--------        --------------     --------------     ----
+TOTAL           0.20 (345/1693)	   0.16 (345/2116)    0.18
+
+    other tests... => too early to try using mutual exclusion as a heuristic.
+
+ 
     '''
     n_most_common = lambda n, l : list(map(lambda tuple : tuple[0], Counter(l).most_common(n)))
 
@@ -279,24 +298,31 @@ TOTAL           0.17 (291/1693)	   0.11 (291/2697)    0.13
     dlramt = [] # Best strategy so far is to leave empty
     #dlramt = list(set(dlramt_ents)) #RECALL=0.07 (12/164); PRECISION=0.05 (12/263); F-SCORE=0.06
 
-    purchaser = n_most_common(2, org_ents)
-    #purchaser = list(set(org_ents))
-    #purchaser = list(set(arg0_spans))
-
 
     #acqbus = n_most_common(2, org_ents)
     acqbus = [] # Best strategy so far is to leave empty (for f-score)
 
+    # Make sure Purchaser, Aquired, and Seller are mutually exclusive; filterin in this order:
+    # 1) Purchaser, 2) Acquired, 3) Seller
+    # (i.e acquired contains nothing in purchaser; seller contains nothing in the other two)
 
-    seller = n_most_common(3, org_ents)
-    #seller = [] # Best strategy so far is to leave empty (for f-score, but not recall)
-    #seller = list(set(arg0_spans))
-    #seller = list(set(org_ents)) #RECALL=0.69 (108/156); PRECISION=0.06 (108/1748); F-SCORE=0.11
-    #TODO: use this high recall heuristic as a good starting point. Then use more heuristics (maybe SRL) to filter down
 
+    purchaser = n_most_common(2, org_ents)
+    #purchaser = list(set(org_ents))
+    #purchaser = list(set(arg0_spans))
+
+    #acquired = set(filter(lambda elt : elt not in purchaser, list(org_ents)))
     acquired = n_most_common(4, org_ents)
     #acquired = list(set(arg0_spans))
     #acquired = list(set(org_ents))
+
+
+    #seller = set(filter(lambda elt : elt not in purchaser and elt not in acquired, list(org_ents)))
+    #seller = n_most_common(3, org_ents)
+    seller = [] # Best strategy so far is to leave empty (for f-score, but not recall)
+    #seller = list(set(arg0_spans))
+    #seller = list(set(org_ents)) #RECALL=0.69 (108/156); PRECISION=0.06 (108/1748); F-SCORE=0.11
+    #TODO: use this high recall heuristic as a good starting point. Then use more heuristics (maybe SRL) to filter down
 
 
 
