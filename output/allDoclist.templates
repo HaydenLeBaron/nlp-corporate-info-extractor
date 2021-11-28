@@ -7,7 +7,9 @@ ACQLOC: ---
 DLRAMT: ---
 PURCHASER: "Meridian Energy Inc and Castone Development Corp"
 PURCHASER: "Meridian"
-SELLER: ---
+SELLER: "Meridian Energy Inc and Castone Development Corp"
+SELLER: "Meridian"
+SELLER: "Castone"
 STATUS: ---
 
 TEXT: 10066
@@ -16,7 +18,7 @@ ACQBUS: ---
 ACQLOC: ---
 DLRAMT: ---
 PURCHASER: "Security Pacific Corp"
-SELLER: ---
+SELLER: "Security Pacific Corp"
 STATUS: ---
 
 TEXT: 10158
@@ -27,7 +29,8 @@ ACQLOC: ---
 DLRAMT: ---
 PURCHASER: "American Adventure Inc"
 PURCHASER: "American Adventure"
-SELLER: ---
+SELLER: "American Adventure Inc"
+SELLER: "American Adventure"
 STATUS: ---
 
 TEXT: 10171
@@ -40,7 +43,9 @@ ACQLOC: ---
 DLRAMT: ---
 PURCHASER: "Viacom International Inc"
 PURCHASER: "Arsenal Acquiring Corp"
-SELLER: ---
+SELLER: "Viacom International Inc"
+SELLER: "Arsenal Acquiring Corp"
+SELLER: "Arsenal Holdings Inc"
 STATUS: ---
 
 TEXT: 1029
@@ -53,7 +58,9 @@ ACQLOC: "Ottawa"
 DLRAMT: ---
 PURCHASER: "Scott"
 PURCHASER: "Capital Food"
-SELLER: ---
+SELLER: "Scott"
+SELLER: "Capital Food"
+SELLER: "Hospitality Inc"
 STATUS: ---
 
 TEXT: 1032
@@ -74,7 +81,9 @@ ACQLOC: "Hamburg"
 DLRAMT: ---
 PURCHASER: "Oelmuehle Hamburg AG"
 PURCHASER: "Oelmuehle"
-SELLER: ---
+SELLER: "Oelmuehle Hamburg AG"
+SELLER: "Oelmuehle"
+SELLER: "Noblee"
 STATUS: ---
 
 TEXT: 10371
@@ -88,7 +97,9 @@ ACQLOC: "Canada"
 DLRAMT: ---
 PURCHASER: "Union Miniere SA"
 PURCHASER: "Pancontinental Mining Ltd"
-SELLER: ---
+SELLER: "Union Miniere SA"
+SELLER: "Pancontinental Mining Ltd"
+SELLER: "Union Miniere"
 STATUS: ---
 
 TEXT: 10473
@@ -102,7 +113,9 @@ ACQLOC: "Japan"
 DLRAMT: ---
 PURCHASER: "Honeywell"
 PURCHASER: "Bull"
-SELLER: ---
+SELLER: "Honeywell"
+SELLER: "Bull"
+SELLER: "NEC"
 STATUS: ---
 
 TEXT: 10527
@@ -115,7 +128,9 @@ ACQLOC: "Oklahoma"
 DLRAMT: ---
 PURCHASER: "LSB"
 PURCHASER: "Northwest Federal"
-SELLER: ---
+SELLER: "LSB"
+SELLER: "Northwest Federal"
+SELLER: "LSB Industries Inc"
 STATUS: ---
 
 TEXT: 10541
@@ -128,7 +143,9 @@ ACQLOC: ---
 DLRAMT: ---
 PURCHASER: "Plaza Group"
 PURCHASER: "Flyfaire International Inc"
-SELLER: ---
+SELLER: "Plaza Group"
+SELLER: "Flyfaire International Inc"
+SELLER: "Shefra Inc"
 STATUS: ---
 
 TEXT: 10674
@@ -141,7 +158,9 @@ ACQLOC: "Britain"
 DLRAMT: ---
 PURCHASER: "Borg-Warner Corp's"
 PURCHASER: "Borg-Warner"
-SELLER: ---
+SELLER: "Borg-Warner Corp's"
+SELLER: "Borg-Warner"
+SELLER: "Borg-Warner Corp"
 STATUS: ---
 
 TEXT: 10694
@@ -154,7 +173,9 @@ ACQLOC: "Superdrug"
 DLRAMT: ---
 PURCHASER: "Woolworth"
 PURCHASER: "Woolworth Holdings Plc"
-SELLER: ---
+SELLER: "Woolworth"
+SELLER: "Woolworth Holdings Plc"
+SELLER: "Superdrug Stores Plc"
 STATUS: ---
 
 TEXT: 10714
@@ -167,7 +188,9 @@ ACQLOC: ---
 DLRAMT: ---
 PURCHASER: "Tesco"
 PURCHASER: "Tesco Plc"
-SELLER: ---
+SELLER: "Tesco"
+SELLER: "Tesco Plc"
+SELLER: "County Bank Ltd"
 STATUS: ---
 
 TEXT: 10721
@@ -180,7 +203,9 @@ ACQLOC: "Sweden"
 DLRAMT: ---
 PURCHASER: "Telefon AB"
 PURCHASER: "Alice Wallenberg Foundation"
-SELLER: ---
+SELLER: "Telefon AB"
+SELLER: "Alice Wallenberg Foundation"
+SELLER: "AB Investor"
 STATUS: ---
 
 TEXT: 10787
@@ -193,7 +218,9 @@ ACQLOC: "Maine"
 DLRAMT: ---
 PURCHASER: "Suffield Financial Corp"
 PURCHASER: "the Maine Bureau of Banking"
-SELLER: ---
+SELLER: "Suffield Financial Corp"
+SELLER: "the Maine Bureau of Banking"
+SELLER: "Coastal Bancorp"
 STATUS: ---
 
 TEXT: 10816
@@ -206,7 +233,9 @@ ACQLOC: ---
 DLRAMT: ---
 PURCHASER: "Canadian Worldwide"
 PURCHASER: "Canadian Worldwide Energy Ltd"
-SELLER: ---
+SELLER: "Canadian Worldwide"
+SELLER: "Canadian Worldwide Energy Ltd"
+SELLER: "Triton Energy Corp's"
 STATUS: ---
 
 TEXT: 10867
@@ -220,7 +249,9 @@ ACQLOC: "the United States"
 DLRAMT: ---
 PURCHASER: "Bow Valley Industries Ltd"
 PURCHASER: "Bowcan Holdings Inc"
-SELLER: ---
+SELLER: "Bow Valley Industries Ltd"
+SELLER: "Bowcan Holdings Inc"
+SELLER: "Seaman"
 STATUS: ---
 
 TEXT: 10872
@@ -233,7 +264,9 @@ ACQLOC: "Henley"
 DLRAMT: ---
 PURCHASER: "Henley Group"
 PURCHASER: "the Securities and Exchange Commission"
-SELLER: ---
+SELLER: "Henley Group"
+SELLER: "the Securities and Exchange Commission"
+SELLER: "Santa Fe Southern Pacific Corp"
 STATUS: ---
 
 TEXT: 10883
@@ -246,7 +279,9 @@ ACQLOC: ---
 DLRAMT: ---
 PURCHASER: "Oppenheimer"
 PURCHASER: "Oppenheimer Group Inc"
-SELLER: ---
+SELLER: "Oppenheimer"
+SELLER: "Oppenheimer Group Inc"
+SELLER: "the Securities and Exchange Commission"
 STATUS: ---
 
 TEXT: 10899
@@ -257,7 +292,8 @@ ACQLOC: "Seattle"
 DLRAMT: ---
 PURCHASER: "Louisiana Pacific Corp"
 PURCHASER: "Norwest Gypsum"
-SELLER: ---
+SELLER: "Louisiana Pacific Corp"
+SELLER: "Norwest Gypsum"
 STATUS: ---
 
 TEXT: 10908
@@ -270,7 +306,9 @@ ACQLOC: ---
 DLRAMT: ---
 PURCHASER: "Kaufman and"
 PURCHASER: "Board Inc"
-SELLER: ---
+SELLER: "Kaufman and"
+SELLER: "Board Inc"
+SELLER: "Quaker State Oil Refining Corp"
 STATUS: ---
 
 TEXT: 10928
@@ -282,7 +320,9 @@ ACQLOC: "New York"
 DLRAMT: ---
 PURCHASER: "Allegheny International"
 PURCHASER: "the Securities and Exchange Commission"
-SELLER: ---
+SELLER: "Allegheny International"
+SELLER: "the Securities and Exchange Commission"
+SELLER: "Gabelli"
 STATUS: ---
 
 TEXT: 10961
@@ -304,7 +344,9 @@ ACQLOC: "the United States"
 DLRAMT: ---
 PURCHASER: "Norton"
 PURCHASER: "Global Mining"
-SELLER: ---
+SELLER: "Norton"
+SELLER: "Global Mining"
+SELLER: "Industrial Corp of South"
 STATUS: ---
 
 TEXT: 10994
@@ -316,7 +358,9 @@ ACQLOC: ---
 DLRAMT: ---
 PURCHASER: "City Resources Ltd"
 PURCHASER: "City Resources"
-SELLER: ---
+SELLER: "City Resources Ltd"
+SELLER: "City Resources"
+SELLER: "City Resources Ltd of Australia"
 STATUS: ---
 
 TEXT: 11048
@@ -328,7 +372,9 @@ ACQLOC: ---
 DLRAMT: ---
 PURCHASER: "Amoskeag Bank Shares Inc"
 PURCHASER: "the New Hampshire Supreme Court"
-SELLER: ---
+SELLER: "Amoskeag Bank Shares Inc"
+SELLER: "the New Hampshire Supreme Court"
+SELLER: "Portsmouth Savings Bank"
 STATUS: ---
 
 TEXT: 11051
@@ -339,7 +385,8 @@ ACQLOC: ---
 DLRAMT: ---
 PURCHASER: "Ball Corp"
 PURCHASER: "Monsanto Co."
-SELLER: ---
+SELLER: "Ball Corp"
+SELLER: "Monsanto Co."
 STATUS: ---
 
 TEXT: 11086
@@ -351,7 +398,9 @@ ACQLOC: ---
 DLRAMT: ---
 PURCHASER: "Service Resources Corp's"
 PURCHASER: "P. Young Co"
-SELLER: ---
+SELLER: "Service Resources Corp's"
+SELLER: "P. Young Co"
+SELLER: "Atwell Fleming Printing Ltd"
 STATUS: ---
 
 TEXT: 11113
@@ -362,7 +411,8 @@ ACQLOC: ---
 DLRAMT: ---
 PURCHASER: "Rexnord Inc's"
 PURCHASER: "Fairfield Manufacturing Co"
-SELLER: ---
+SELLER: "Rexnord Inc's"
+SELLER: "Fairfield Manufacturing Co"
 STATUS: ---
 
 TEXT: 11161
@@ -375,7 +425,9 @@ ACQLOC: ---
 DLRAMT: ---
 PURCHASER: "Gencorp"
 PURCHASER: "General Acquisition Co"
-SELLER: ---
+SELLER: "Gencorp"
+SELLER: "General Acquisition Co"
+SELLER: "Wagner"
 STATUS: ---
 
 TEXT: 11192
@@ -389,7 +441,9 @@ ACQLOC: "Shandwick"
 DLRAMT: ---
 PURCHASER: "Shandwick"
 PURCHASER: "Shandwick Plc"
-SELLER: ---
+SELLER: "Shandwick"
+SELLER: "Shandwick Plc"
+SELLER: "Rogers"
 STATUS: ---
 
 TEXT: 11213
@@ -403,7 +457,9 @@ ACQLOC: "Australia"
 DLRAMT: ---
 PURCHASER: "CSR"
 PURCHASER: "Esso"
-SELLER: ---
+SELLER: "CSR"
+SELLER: "Esso"
+SELLER: "Goldston-Morris"
 STATUS: ---
 
 TEXT: 11237
@@ -416,7 +472,9 @@ ACQLOC: "Delhi"
 DLRAMT: ---
 PURCHASER: "CSR"
 PURCHASER: "Pioneer"
-SELLER: ---
+SELLER: "CSR"
+SELLER: "Pioneer"
+SELLER: "Pioneer Sugar"
 STATUS: ---
 
 TEXT: 11268
@@ -427,7 +485,8 @@ ACQLOC: ---
 DLRAMT: ---
 PURCHASER: "Hudson Foods Inc"
 PURCHASER: "Thies Cos Inc"
-SELLER: ---
+SELLER: "Hudson Foods Inc"
+SELLER: "Thies Cos Inc"
 STATUS: ---
 
 TEXT: 11362
@@ -440,7 +499,9 @@ ACQLOC: "U.S."
 DLRAMT: ---
 PURCHASER: "Peat Marwick"
 PURCHASER: "KMG Main Hurdman"
-SELLER: ---
+SELLER: "Peat Marwick"
+SELLER: "KMG Main Hurdman"
+SELLER: "KPMG Peat Marwick"
 STATUS: ---
 
 TEXT: 11449
@@ -453,7 +514,9 @@ ACQLOC: "R.I."
 DLRAMT: ---
 PURCHASER: "NECO Enterprises Inc"
 PURCHASER: "the Securities and Exchange Commission"
-SELLER: ---
+SELLER: "NECO Enterprises Inc"
+SELLER: "the Securities and Exchange Commission"
+SELLER: "LaRoche"
 STATUS: ---
 
 TEXT: 11468
@@ -466,7 +529,9 @@ ACQLOC: ---
 DLRAMT: ---
 PURCHASER: "AMR Corp's"
 PURCHASER: "American Airlines"
-SELLER: ---
+SELLER: "AMR Corp's"
+SELLER: "American Airlines"
+SELLER: "American"
 STATUS: ---
 
 TEXT: 11484
@@ -478,7 +543,9 @@ ACQLOC: ---
 DLRAMT: ---
 PURCHASER: "Image Video"
 PURCHASER: "Tradestar Corp"
-SELLER: ---
+SELLER: "Image Video"
+SELLER: "Tradestar Corp"
+SELLER: "Image Video Inc"
 STATUS: ---
 
 TEXT: 11514
@@ -491,7 +558,9 @@ ACQLOC: ---
 DLRAMT: ---
 PURCHASER: "Quest Biotechnology Inc"
 PURCHASER: "Alza"
-SELLER: ---
+SELLER: "Quest Biotechnology Inc"
+SELLER: "Alza"
+SELLER: "Hunt Research Corp"
 STATUS: ---
 
 TEXT: 1153
@@ -504,7 +573,9 @@ ACQLOC: "Dallas"
 DLRAMT: ---
 PURCHASER: "Pantera"
 PURCHASER: "Pizza Inn"
-SELLER: ---
+SELLER: "Pantera"
+SELLER: "Pizza Inn"
+SELLER: "Pantera's Corp"
 STATUS: ---
 
 TEXT: 11579
@@ -518,7 +589,9 @@ ACQLOC: "Fort Myers"
 DLRAMT: ---
 PURCHASER: "Tribune Co"
 PURCHASER: "Sunbelt Publishing Co"
-SELLER: ---
+SELLER: "Tribune Co"
+SELLER: "Sunbelt Publishing Co"
+SELLER: "Gulf Coast Newspapers Inc."
 STATUS: ---
 
 TEXT: 1159
@@ -532,7 +605,9 @@ ACQLOC: "Nippon"
 DLRAMT: ---
 PURCHASER: "Lifetime"
 PURCHASER: "Lifetime Corp"
-SELLER: ---
+SELLER: "Lifetime"
+SELLER: "Lifetime Corp"
+SELLER: "Nippon Lace Co Ltd"
 STATUS: ---
 
 TEXT: 11722
@@ -541,7 +616,7 @@ ACQBUS: ---
 ACQLOC: "Lucht"
 DLRAMT: ---
 PURCHASER: "Lucht Engineering Inc"
-SELLER: ---
+SELLER: "Lucht Engineering Inc"
 STATUS: ---
 
 TEXT: 11744
@@ -554,7 +629,9 @@ ACQLOC: ---
 DLRAMT: ---
 PURCHASER: "Oppenheimer"
 PURCHASER: "Oppenheimer Group Inc"
-SELLER: ---
+SELLER: "Oppenheimer"
+SELLER: "Oppenheimer Group Inc"
+SELLER: "the Securities and Exchange Commission"
 STATUS: ---
 
 TEXT: 11854
@@ -567,7 +644,9 @@ ACQLOC: "Porto"
 DLRAMT: ---
 PURCHASER: "Swedish Match AB"
 PURCHASER: "Sociedade de Iniciativa"
-SELLER: ---
+SELLER: "Swedish Match AB"
+SELLER: "Sociedade de Iniciativa"
+SELLER: "Sonae Group"
 STATUS: ---
 
 TEXT: 11923
@@ -580,7 +659,9 @@ ACQLOC: ---
 DLRAMT: ---
 PURCHASER: "Southmark Corp"
 PURCHASER: "Georgia International Life Insurance Co"
-SELLER: ---
+SELLER: "Southmark Corp"
+SELLER: "Georgia International Life Insurance Co"
+SELLER: "Capital Holding Corp"
 STATUS: ---
 
 TEXT: 11968
@@ -593,7 +674,9 @@ ACQLOC: ---
 DLRAMT: ---
 PURCHASER: "Allied"
 PURCHASER: "Allied Supermarkets Inc"
-SELLER: ---
+SELLER: "Allied"
+SELLER: "Allied Supermarkets Inc"
+SELLER: "the Securities and Exchange Commission"
 STATUS: ---
 
 TEXT: 11982
@@ -606,7 +689,9 @@ ACQLOC: "Clinton Township"
 DLRAMT: ---
 PURCHASER: "First National Bank Corp"
 PURCHASER: "First National Bank"
-SELLER: ---
+SELLER: "First National Bank Corp"
+SELLER: "First National Bank"
+SELLER: "Bankers Fund Life Insurance Co"
 STATUS: ---
 
 TEXT: 11996
@@ -619,7 +704,9 @@ ACQLOC: "Medicontrol"
 DLRAMT: ---
 PURCHASER: "Searle"
 PURCHASER: "Biotechnology Development Corp"
-SELLER: ---
+SELLER: "Searle"
+SELLER: "Biotechnology Development Corp"
+SELLER: "Medicontrol Corp"
 STATUS: ---
 
 TEXT: 12053
@@ -633,7 +720,9 @@ ACQLOC: "London"
 DLRAMT: ---
 PURCHASER: "Deak International"
 PURCHASER: "Johnson Matthey Commodities"
-SELLER: ---
+SELLER: "Deak International"
+SELLER: "Johnson Matthey Commodities"
+SELLER: "Minories Finance Limited"
 STATUS: ---
 
 TEXT: 12068
@@ -647,7 +736,9 @@ ACQLOC: "London"
 DLRAMT: ---
 PURCHASER: "Deak International"
 PURCHASER: "Johnson Matthey Commodities"
-SELLER: ---
+SELLER: "Deak International"
+SELLER: "Johnson Matthey Commodities"
+SELLER: "Minories Finance Limited"
 STATUS: ---
 
 TEXT: 12087
@@ -660,7 +751,9 @@ ACQLOC: ---
 DLRAMT: ---
 PURCHASER: "Peripheral"
 PURCHASER: "Nucell"
-SELLER: ---
+SELLER: "Peripheral"
+SELLER: "Nucell"
+SELLER: "Peripheral Systems Inc"
 STATUS: ---
 
 TEXT: 12093
@@ -674,7 +767,9 @@ ACQLOC: "Melrose Park"
 DLRAMT: ---
 PURCHASER: "First Chicago Corp's"
 PURCHASER: "American National Bank"
-SELLER: ---
+SELLER: "First Chicago Corp's"
+SELLER: "American National Bank"
+SELLER: "National Bank of North Evanston"
 STATUS: ---
 
 TEXT: 12173
@@ -688,7 +783,9 @@ ACQLOC: "West Va."
 DLRAMT: ---
 PURCHASER: "Eastern"
 PURCHASER: "Eastern Gas"
-SELLER: ---
+SELLER: "Eastern"
+SELLER: "Eastern Gas"
+SELLER: "Peabody Holding's"
 STATUS: ---
 
 TEXT: 12191
@@ -702,7 +799,9 @@ ACQLOC: "Ariz."
 DLRAMT: ---
 PURCHASER: "Dynalectron Corp"
 PURCHASER: "Standard Aero Inc"
-SELLER: ---
+SELLER: "Dynalectron Corp"
+SELLER: "Standard Aero Inc"
+SELLER: "Dynalectron"
 STATUS: ---
 
 TEXT: 12236
@@ -716,7 +815,9 @@ ACQLOC: "Gammara"
 DLRAMT: ---
 PURCHASER: "Upland Minerals and Chemicals Corp"
 PURCHASER: "Consolidated Brazilian Mines International Inc"
-SELLER: ---
+SELLER: "Upland Minerals and Chemicals Corp"
+SELLER: "Consolidated Brazilian Mines International Inc"
+SELLER: "Consolidated"
 STATUS: ---
 
 TEXT: 12344
@@ -728,7 +829,9 @@ ACQLOC: "Oklahoma"
 DLRAMT: ---
 PURCHASER: "Crown Resources Corp"
 PURCHASER: "the Wyona Water Flood Oil and Gas"
-SELLER: ---
+SELLER: "Crown Resources Corp"
+SELLER: "the Wyona Water Flood Oil and Gas"
+SELLER: "Crown"
 STATUS: ---
 
 TEXT: 12378
@@ -742,7 +845,9 @@ ACQLOC: "U.S."
 DLRAMT: ---
 PURCHASER: "Newmont Mining Corp"
 PURCHASER: "Peabody Holding Co Inc"
-SELLER: ---
+SELLER: "Newmont Mining Corp"
+SELLER: "Peabody Holding Co Inc"
+SELLER: "Eastern Gas"
 STATUS: ---
 
 TEXT: 12386
@@ -753,7 +858,8 @@ ACQLOC: ---
 DLRAMT: ---
 PURCHASER: "LIfetime Corp"
 PURCHASER: "Retirement Housing Corp"
-SELLER: ---
+SELLER: "LIfetime Corp"
+SELLER: "Retirement Housing Corp"
 STATUS: ---
 
 TEXT: 12492
@@ -764,7 +870,8 @@ ACQLOC: ---
 DLRAMT: ---
 PURCHASER: "Aloha"
 PURCHASER: "Aloha Inc"
-SELLER: ---
+SELLER: "Aloha"
+SELLER: "Aloha Inc"
 STATUS: ---
 
 TEXT: 12504
@@ -775,7 +882,8 @@ ACQLOC: ---
 DLRAMT: ---
 PURCHASER: "CPC International Inc"
 PURCHASER: "Robertsons Pty Ltd"
-SELLER: ---
+SELLER: "CPC International Inc"
+SELLER: "Robertsons Pty Ltd"
 STATUS: ---
 
 TEXT: 12512
@@ -785,7 +893,7 @@ ACQLOC: "Ohio"
 ACQLOC: "Henderson"
 DLRAMT: ---
 PURCHASER: "American Barrick Resources Corp"
-SELLER: ---
+SELLER: "American Barrick Resources Corp"
 STATUS: ---
 
 TEXT: 12529
@@ -796,7 +904,8 @@ ACQLOC: "Fla."
 DLRAMT: ---
 PURCHASER: "First Federal Savings and Loan Association of Fort Myers"
 PURCHASER: "First Presidential Savings and Loan Association of Sarasota"
-SELLER: ---
+SELLER: "First Federal Savings and Loan Association of Fort Myers"
+SELLER: "First Presidential Savings and Loan Association of Sarasota"
 STATUS: ---
 
 TEXT: 12532
@@ -809,7 +918,9 @@ ACQLOC: ---
 DLRAMT: ---
 PURCHASER: "Lilly"
 PURCHASER: "Eli Lilly and Co"
-SELLER: ---
+SELLER: "Lilly"
+SELLER: "Eli Lilly and Co"
+SELLER: "Elizabeth Arden Inc"
 STATUS: ---
 
 TEXT: 12538
@@ -822,7 +933,9 @@ ACQLOC: ---
 DLRAMT: ---
 PURCHASER: "Union Bancorp"
 PURCHASER: "West Virginia Inc"
-SELLER: ---
+SELLER: "Union Bancorp"
+SELLER: "West Virginia Inc"
+SELLER: "Wayne Bancorp Inc."
 STATUS: ---
 
 TEXT: 12646
@@ -834,7 +947,9 @@ ACQLOC: ---
 DLRAMT: ---
 PURCHASER: "Vernitron Corp"
 PURCHASER: "SB Holding Corp"
-SELLER: ---
+SELLER: "Vernitron Corp"
+SELLER: "SB Holding Corp"
+SELLER: "Vernitron"
 STATUS: ---
 
 TEXT: 12688
@@ -848,7 +963,9 @@ ACQLOC: "Calif."
 DLRAMT: ---
 PURCHASER: "Minnesota Mining"
 PURCHASER: "Mfg Co"
-SELLER: ---
+SELLER: "Minnesota Mining"
+SELLER: "Mfg Co"
+SELLER: "Unitek Corp"
 STATUS: ---
 
 TEXT: 12751
@@ -861,7 +978,9 @@ ACQLOC: ---
 DLRAMT: ---
 PURCHASER: "MIM"
 PURCHASER: "MIM Holdings Ltd"
-SELLER: ---
+SELLER: "MIM"
+SELLER: "MIM Holdings Ltd"
+SELLER: "Preussag AG"
 STATUS: ---
 
 TEXT: 12759
@@ -874,7 +993,9 @@ ACQLOC: "London"
 DLRAMT: ---
 PURCHASER: "Skandia International Holding AB"
 PURCHASER: "Forsakrings AB Skandia"
-SELLER: ---
+SELLER: "Skandia International Holding AB"
+SELLER: "Forsakrings AB Skandia"
+SELLER: "Nevi Baltic Plc"
 STATUS: ---
 
 TEXT: 12822
@@ -887,7 +1008,9 @@ ACQLOC: "Denver"
 DLRAMT: ---
 PURCHASER: "Altex"
 PURCHASER: "Altex Industries Inc"
-SELLER: ---
+SELLER: "Altex"
+SELLER: "Altex Industries Inc"
+SELLER: "Integrated Management Data Systems Inc"
 STATUS: ---
 
 TEXT: 12852
@@ -899,7 +1022,9 @@ ACQLOC: ---
 DLRAMT: ---
 PURCHASER: "Canrad Inc"
 PURCHASER: "the Measurement Systems Division of Page-Wilson Corp"
-SELLER: ---
+SELLER: "Canrad Inc"
+SELLER: "the Measurement Systems Division of Page-Wilson Corp"
+SELLER: "Canrad"
 STATUS: ---
 
 TEXT: 12858
@@ -912,7 +1037,9 @@ ACQLOC: ---
 DLRAMT: ---
 PURCHASER: "General Partners"
 PURCHASER: "GenCorp"
-SELLER: ---
+SELLER: "General Partners"
+SELLER: "GenCorp"
+SELLER: "GenCorp Inc"
 STATUS: ---
 
 TEXT: 1291
@@ -925,7 +1052,9 @@ ACQLOC: "Chicago"
 DLRAMT: ---
 PURCHASER: "Bell"
 PURCHASER: "Harris Associates L.P."
-SELLER: ---
+SELLER: "Bell"
+SELLER: "Harris Associates L.P."
+SELLER: "Bell Industries Inc"
 STATUS: ---
 
 TEXT: 12937
@@ -939,7 +1068,9 @@ ACQLOC: "Wisconsin"
 DLRAMT: ---
 PURCHASER: "Soo Line Corp"
 PURCHASER: "Lake States Transportation Division"
-SELLER: ---
+SELLER: "Soo Line Corp"
+SELLER: "Lake States Transportation Division"
+SELLER: "Wisconsin Central Ltd."
 STATUS: ---
 
 TEXT: 12956
@@ -951,7 +1082,9 @@ ACQLOC: ---
 DLRAMT: ---
 PURCHASER: "CVS International Inc"
 PURCHASER: "Circle K Corp"
-SELLER: ---
+SELLER: "CVS International Inc"
+SELLER: "Circle K Corp"
+SELLER: "Circle K"
 STATUS: ---
 
 TEXT: 12974
@@ -962,7 +1095,8 @@ ACQLOC: ---
 DLRAMT: ---
 PURCHASER: "Boise Cascade Corp"
 PURCHASER: "Consumer Packaging Division to Sonoco Products"
-SELLER: ---
+SELLER: "Boise Cascade Corp"
+SELLER: "Consumer Packaging Division to Sonoco Products"
 STATUS: ---
 
 TEXT: 12996
@@ -973,7 +1107,8 @@ ACQLOC: "Chicago"
 DLRAMT: ---
 PURCHASER: "the Securities and Exchange Commission"
 PURCHASER: "Sage Drilling Co Inc"
-SELLER: ---
+SELLER: "the Securities and Exchange Commission"
+SELLER: "Sage Drilling Co Inc"
 STATUS: ---
 
 TEXT: 13036
@@ -985,7 +1120,9 @@ ACQLOC: ---
 DLRAMT: ---
 PURCHASER: "Mid-State Federal Savings and Loan Association"
 PURCHASER: "First Federal Savings and Loan Association"
-SELLER: ---
+SELLER: "Mid-State Federal Savings and Loan Association"
+SELLER: "First Federal Savings and Loan Association"
+SELLER: "Brooksville"
 STATUS: ---
 
 TEXT: 13043
@@ -994,7 +1131,7 @@ ACQBUS: ---
 ACQLOC: ---
 DLRAMT: ---
 PURCHASER: "FCS Laboratories"
-SELLER: ---
+SELLER: "FCS Laboratories"
 STATUS: ---
 
 TEXT: 13077
@@ -1008,7 +1145,9 @@ ACQLOC: "N.J."
 DLRAMT: ---
 PURCHASER: "GenCorp"
 PURCHASER: "WOR-TV"
-SELLER: ---
+SELLER: "GenCorp"
+SELLER: "WOR-TV"
+SELLER: "RKO General Inc"
 STATUS: ---
 
 TEXT: 13189
@@ -1020,7 +1159,9 @@ ACQLOC: "Chicago"
 DLRAMT: ---
 PURCHASER: "Myers"
 PURCHASER: "L.E. Myers Co Group"
-SELLER: ---
+SELLER: "Myers"
+SELLER: "L.E. Myers Co Group"
+SELLER: "the Securities and Exchange Commission"
 STATUS: ---
 
 TEXT: 13196
@@ -1032,7 +1173,9 @@ ACQLOC: "W. Virginia"
 DLRAMT: ---
 PURCHASER: "Central National Bank of Buckhannon"
 PURCHASER: "Centurion"
-SELLER: ---
+SELLER: "Central National Bank of Buckhannon"
+SELLER: "Centurion"
+SELLER: "Central National"
 STATUS: ---
 
 TEXT: 13393
@@ -1045,7 +1188,9 @@ ACQLOC: ---
 DLRAMT: ---
 PURCHASER: "Tesco Plc"
 PURCHASER: "Hillards Plc"
-SELLER: ---
+SELLER: "Tesco Plc"
+SELLER: "Hillards Plc"
+SELLER: "Tesco"
 STATUS: ---
 
 TEXT: 134
@@ -1054,7 +1199,7 @@ ACQBUS: ---
 ACQLOC: ---
 DLRAMT: ---
 PURCHASER: "Gulf Applied Technologies Inc"
-SELLER: ---
+SELLER: "Gulf Applied Technologies Inc"
 STATUS: ---
 
 TEXT: 13787
@@ -1066,7 +1211,9 @@ ACQLOC: "Canada"
 DLRAMT: ---
 PURCHASER: "Noranda Inc"
 PURCHASER: "Sanivan Group Inc"
-SELLER: ---
+SELLER: "Noranda Inc"
+SELLER: "Sanivan Group Inc"
+SELLER: "Noranda"
 STATUS: ---
 
 TEXT: 13874
@@ -1078,7 +1225,9 @@ ACQLOC: ---
 DLRAMT: ---
 PURCHASER: "Chesapeake Corp"
 PURCHASER: "Salomon Inc  "
-SELLER: ---
+SELLER: "Chesapeake Corp"
+SELLER: "Salomon Inc  "
+SELLER: "Plainwell Paper Co Inc"
 STATUS: ---
 
 TEXT: 14099
@@ -1092,7 +1241,9 @@ ACQLOC: "N.J."
 DLRAMT: ---
 PURCHASER: "Knight-Ridder Inc  "
 PURCHASER: "TKR Cable Co"
-SELLER: ---
+SELLER: "Knight-Ridder Inc  "
+SELLER: "TKR Cable Co"
+SELLER: "Tele-communications Inc"
 STATUS: ---
 
 TEXT: 14131
@@ -1106,7 +1257,9 @@ ACQLOC: "Spear"
 DLRAMT: ---
 PURCHASER: "Kellogg"
 PURCHASER: "the Securities and Exchange Commission"
-SELLER: ---
+SELLER: "Kellogg"
+SELLER: "the Securities and Exchange Commission"
+SELLER: "Allegheny International Inc"
 STATUS: ---
 
 TEXT: 14604
@@ -1118,7 +1271,9 @@ ACQLOC: "Delaware"
 DLRAMT: ---
 PURCHASER: "CarePlus"
 PURCHASER: "CarePlus Inc"
-SELLER: ---
+SELLER: "CarePlus"
+SELLER: "CarePlus Inc"
+SELLER: "Professional Care Inc"
 STATUS: ---
 
 TEXT: 14619
@@ -1131,7 +1286,9 @@ ACQLOC: ---
 DLRAMT: ---
 PURCHASER: "Bessemer Securities Corp"
 PURCHASER: "Cilluffo Associates"
-SELLER: ---
+SELLER: "Bessemer Securities Corp"
+SELLER: "Cilluffo Associates"
+SELLER: "the Securities and Exchange Commission"
 STATUS: ---
 
 TEXT: 14679
@@ -1145,7 +1302,9 @@ ACQLOC: "Santa Ana"
 DLRAMT: ---
 PURCHASER: "Meridian"
 PURCHASER: "American Dynamics"
-SELLER: ---
+SELLER: "Meridian"
+SELLER: "American Dynamics"
+SELLER: "American Dynamics Corp"
 STATUS: ---
 
 TEXT: 14888
@@ -1159,7 +1318,9 @@ ACQLOC: "San Miguel"
 DLRAMT: ---
 PURCHASER: "San Miguel Corp"
 PURCHASER: "Reuters"
-SELLER: ---
+SELLER: "San Miguel Corp"
+SELLER: "Reuters"
+SELLER: "Anheuser-Busch"
 STATUS: ---
 
 TEXT: 14907
@@ -1172,7 +1333,9 @@ ACQLOC: "London"
 DLRAMT: ---
 PURCHASER: "Bell"
 PURCHASER: "Reuters"
-SELLER: ---
+SELLER: "Bell"
+SELLER: "Reuters"
+SELLER: "The Bell Group Ltd"
 STATUS: ---
 
 TEXT: 14949
@@ -1184,7 +1347,9 @@ ACQLOC: ---
 DLRAMT: ---
 PURCHASER: "Conrac"
 PURCHASER: "Conrac Corp"
-SELLER: ---
+SELLER: "Conrac"
+SELLER: "Conrac Corp"
+SELLER: "Mark IV Industries Inc  "
 STATUS: ---
 
 TEXT: 15004
@@ -1193,7 +1358,7 @@ ACQBUS: ---
 ACQLOC: "Erskine"
 DLRAMT: ---
 PURCHASER: "Erskine Resources Ltd."
-SELLER: ---
+SELLER: "Erskine Resources Ltd."
 STATUS: ---
 
 TEXT: 15024
@@ -1205,7 +1370,8 @@ ACQLOC: "Ore."
 DLRAMT: ---
 PURCHASER: "Southmark Corp"
 PURCHASER: "Associates"
-SELLER: ---
+SELLER: "Southmark Corp"
+SELLER: "Associates"
 STATUS: ---
 
 TEXT: 15031
@@ -1219,7 +1385,9 @@ ACQLOC: "Hackensack"
 DLRAMT: ---
 PURCHASER: "National Guardian Corp"
 PURCHASER: "C.S.C. Security Gaurd Service of Paramus"
-SELLER: ---
+SELLER: "National Guardian Corp"
+SELLER: "C.S.C. Security Gaurd Service of Paramus"
+SELLER: "Cartel Security Consultants Inc"
 STATUS: ---
 
 TEXT: 1506
@@ -1231,7 +1399,8 @@ ACQLOC: "Washington"
 DLRAMT: ---
 PURCHASER: "Convenient Food Mart Inc"
 PURCHASER: "Plaid Pantries Inc"
-SELLER: ---
+SELLER: "Convenient Food Mart Inc"
+SELLER: "Plaid Pantries Inc"
 STATUS: ---
 
 TEXT: 15366
@@ -1245,7 +1414,9 @@ ACQLOC: "Seram"
 DLRAMT: ---
 PURCHASER: "CSR"
 PURCHASER: "Delhi Petroleum Pty Ltd"
-SELLER: ---
+SELLER: "CSR"
+SELLER: "Delhi Petroleum Pty Ltd"
+SELLER: "the Santos Ltd"
 STATUS: ---
 
 TEXT: 15404
@@ -1258,7 +1429,9 @@ ACQLOC: ---
 DLRAMT: ---
 PURCHASER: "Pergamon"
 PURCHASER: "Pergamon Holdings Ltd"
-SELLER: ---
+SELLER: "Pergamon"
+SELLER: "Pergamon Holdings Ltd"
+SELLER: "the British Printing and Communication Corp Plc"
 STATUS: ---
 
 TEXT: 15501
@@ -1271,7 +1444,9 @@ ACQLOC: ---
 DLRAMT: ---
 PURCHASER: "J.P. Industries"
 PURCHASER: "Clevite Industries Inc"
-SELLER: ---
+SELLER: "J.P. Industries"
+SELLER: "Clevite Industries Inc"
+SELLER: "J.P. Industries Inc  "
 STATUS: ---
 
 TEXT: 15561
@@ -1283,7 +1458,8 @@ ACQLOC: "S.C."
 DLRAMT: ---
 PURCHASER: "Anchor Financial Corp"
 PURCHASER: "Waccamaw State Bank of Surfside Beach"
-SELLER: ---
+SELLER: "Anchor Financial Corp"
+SELLER: "Waccamaw State Bank of Surfside Beach"
 STATUS: ---
 
 TEXT: 15591
@@ -1294,7 +1470,8 @@ ACQLOC: ---
 DLRAMT: ---
 PURCHASER: "LVI Group Inc"
 PURCHASER: "Spectrum Holding Corp"
-SELLER: ---
+SELLER: "LVI Group Inc"
+SELLER: "Spectrum Holding Corp"
 STATUS: ---
 
 TEXT: 1577
@@ -1307,7 +1484,9 @@ ACQLOC: "Chicago"
 DLRAMT: ---
 PURCHASER: "Builders Transport"
 PURCHASER: "Harris Associates L.P."
-SELLER: ---
+SELLER: "Builders Transport"
+SELLER: "Harris Associates L.P."
+SELLER: "Builders Transport Inc"
 STATUS: ---
 
 TEXT: 1584
@@ -1320,7 +1499,9 @@ ACQLOC: ---
 DLRAMT: ---
 PURCHASER: "Lotus Development Corp"
 PURCHASER: "Computer Access Corp"
-SELLER: ---
+SELLER: "Lotus Development Corp"
+SELLER: "Computer Access Corp"
+SELLER: "Computer Asscess"
 STATUS: ---
 
 TEXT: 15879
@@ -1332,7 +1513,9 @@ ACQLOC: ---
 DLRAMT: ---
 PURCHASER: "National Beverage Corp"
 PURCHASER: "Faygo Beverages Inc"
-SELLER: ---
+SELLER: "National Beverage Corp"
+SELLER: "Faygo Beverages Inc"
+SELLER: "National Beverage"
 STATUS: ---
 
 TEXT: 15918
@@ -1344,7 +1527,9 @@ ACQLOC: "California"
 DLRAMT: ---
 PURCHASER: "Knudsen Foods Inc"
 PURCHASER: "Foremost Foods Inc"
-SELLER: ---
+SELLER: "Knudsen Foods Inc"
+SELLER: "Foremost Foods Inc"
+SELLER: "the U.S. Bankruptcy Court"
 STATUS: ---
 
 TEXT: 16007
@@ -1357,7 +1542,9 @@ ACQLOC: "Louisiana"
 DLRAMT: ---
 PURCHASER: "Nerco Inc"
 PURCHASER: "Broussard"
-SELLER: ---
+SELLER: "Nerco Inc"
+SELLER: "Broussard"
+SELLER: "Davis Oil Co"
 STATUS: ---
 
 TEXT: 16021
@@ -1370,7 +1557,9 @@ ACQLOC: ---
 DLRAMT: ---
 PURCHASER: "Great American"
 PURCHASER: "Atcor"
-SELLER: ---
+SELLER: "Great American"
+SELLER: "Atcor"
+SELLER: "Great American Management and Investment Inc"
 STATUS: ---
 
 TEXT: 16029
@@ -1383,7 +1572,9 @@ ACQLOC: "Greenwood"
 DLRAMT: ---
 PURCHASER: "the Securities and Exchange Commission"
 PURCHASER: "Corp"
-SELLER: ---
+SELLER: "the Securities and Exchange Commission"
+SELLER: "Corp"
+SELLER: "Prime Medical Products Inc"
 STATUS: ---
 
 TEXT: 16037
@@ -1394,7 +1585,8 @@ ACQLOC: ---
 DLRAMT: ---
 PURCHASER: "Cadillac Fairview Corp Ltd"
 PURCHASER: "Cadillac"
-SELLER: ---
+SELLER: "Cadillac Fairview Corp Ltd"
+SELLER: "Cadillac"
 STATUS: ---
 
 TEXT: 16152
@@ -1407,7 +1599,9 @@ ACQLOC: "Hepworth"
 DLRAMT: ---
 PURCHASER: "Hepworth Ceramic Holdings Plc"
 PURCHASER: "Western Plastics Corp"
-SELLER: ---
+SELLER: "Hepworth Ceramic Holdings Plc"
+SELLER: "Western Plastics Corp"
+SELLER: "Globe Machine Manufacturing Co"
 STATUS: ---
 
 TEXT: 16176
@@ -1420,7 +1614,9 @@ ACQLOC: "Canada"
 DLRAMT: ---
 PURCHASER: "TransCanada"
 PURCHASER: "TransCanada PipeLines Ltd"
-SELLER: ---
+SELLER: "TransCanada"
+SELLER: "TransCanada PipeLines Ltd"
+SELLER: "Imperial Oil Ltd"
 STATUS: ---
 
 TEXT: 16233
@@ -1433,7 +1629,9 @@ ACQLOC: "SAFCO"
 DLRAMT: ---
 PURCHASER: "South Atlantic Financial Corp"
 PURCHASER: "Independence Holding Co"
-SELLER: ---
+SELLER: "South Atlantic Financial Corp"
+SELLER: "Independence Holding Co"
+SELLER: "SAFCO International Ltd."
 STATUS: ---
 
 TEXT: 1626
@@ -1447,7 +1645,9 @@ ACQLOC: "Idaho"
 DLRAMT: ---
 PURCHASER: "Safeway"
 PURCHASER: "Safeway Stores Inc"
-SELLER: ---
+SELLER: "Safeway"
+SELLER: "Safeway Stores Inc"
+SELLER: "Salt Lake City Division"
 STATUS: ---
 
 TEXT: 16379
@@ -1457,7 +1657,7 @@ ACQLOC: "Huron"
 ACQLOC: "South Dakota"
 DLRAMT: ---
 PURCHASER: "Huron Dressed Beef"
-SELLER: ---
+SELLER: "Huron Dressed Beef"
 STATUS: ---
 
 TEXT: 16398
@@ -1470,7 +1670,9 @@ ACQLOC: "Chicago"
 DLRAMT: ---
 PURCHASER: "GAF"
 PURCHASER: "Merrill Lynch Capital Partners"
-SELLER: ---
+SELLER: "GAF"
+SELLER: "Merrill Lynch Capital Partners"
+SELLER: "Borg-Warner's"
 STATUS: ---
 
 TEXT: 16419
@@ -1483,7 +1685,9 @@ ACQLOC: ---
 DLRAMT: ---
 PURCHASER: "San/Bar"
 PURCHASER: "Resdel Industries"
-SELLER: ---
+SELLER: "San/Bar"
+SELLER: "Resdel Industries"
+SELLER: "San/Bar Corp"
 STATUS: ---
 
 TEXT: 16443
@@ -1496,7 +1700,9 @@ ACQLOC: ---
 DLRAMT: ---
 PURCHASER: "Revlon"
 PURCHASER: "MacAndrews"
-SELLER: ---
+SELLER: "Revlon"
+SELLER: "MacAndrews"
+SELLER: "Forbes Group"
 STATUS: ---
 
 TEXT: 16483
@@ -1510,7 +1716,9 @@ ACQLOC: "Calif."
 DLRAMT: ---
 PURCHASER: "Celeron"
 PURCHASER: "Goodyear Tire"
-SELLER: ---
+SELLER: "Celeron"
+SELLER: "Goodyear Tire"
+SELLER: "Rubber Co"
 STATUS: ---
 
 TEXT: 16512
@@ -1522,7 +1730,9 @@ ACQLOC: "Los Angeles"
 DLRAMT: ---
 PURCHASER: "Atlantic Financial"
 PURCHASER: "Centurion Savings and Loan Association"
-SELLER: ---
+SELLER: "Atlantic Financial"
+SELLER: "Centurion Savings and Loan Association"
+SELLER: "Centurion"
 STATUS: ---
 
 TEXT: 16583
@@ -1533,7 +1743,8 @@ ACQLOC: ---
 DLRAMT: ---
 PURCHASER: "First Montauk Securities Corp"
 PURCHASER: "MCC-Presidential Inc."
-SELLER: ---
+SELLER: "First Montauk Securities Corp"
+SELLER: "MCC-Presidential Inc."
 STATUS: ---
 
 TEXT: 1659
@@ -1544,7 +1755,8 @@ ACQLOC: "Rotan"
 DLRAMT: ---
 PURCHASER: "Digicon Inc"
 PURCHASER: "Rotan Mosle Technology Partners Ltd"
-SELLER: ---
+SELLER: "Digicon Inc"
+SELLER: "Rotan Mosle Technology Partners Ltd"
 STATUS: ---
 
 TEXT: 16591
@@ -1553,7 +1765,7 @@ ACQBUS: ---
 ACQLOC: "Empire"
 DLRAMT: ---
 PURCHASER: "Sobeys Stores Ltd"
-SELLER: ---
+SELLER: "Sobeys Stores Ltd"
 STATUS: ---
 
 TEXT: 16652
@@ -1562,7 +1774,7 @@ ACQBUS: ---
 ACQLOC: "Cincinnati"
 DLRAMT: ---
 PURCHASER: "Cellular Communications Inc"
-SELLER: ---
+SELLER: "Cellular Communications Inc"
 STATUS: ---
 
 TEXT: 16656
@@ -1575,7 +1787,9 @@ ACQLOC: ---
 DLRAMT: ---
 PURCHASER: "GAF"
 PURCHASER: "Borg-Warner"
-SELLER: ---
+SELLER: "GAF"
+SELLER: "Borg-Warner"
+SELLER: "Merrill Lynch"
 STATUS: ---
 
 TEXT: 1666
@@ -1588,7 +1802,9 @@ ACQLOC: "Ore."
 DLRAMT: ---
 PURCHASER: "Policy Management Systems Corp"
 PURCHASER: "Allied Research Inc"
-SELLER: ---
+SELLER: "Policy Management Systems Corp"
+SELLER: "Allied Research Inc"
+SELLER: "Consolidated Insurance Services Inc"
 STATUS: ---
 
 TEXT: 16663
@@ -1600,7 +1816,8 @@ ACQLOC: "Ill."
 DLRAMT: ---
 PURCHASER: "Kraft Inc"
 PURCHASER: "Holleb"
-SELLER: ---
+SELLER: "Kraft Inc"
+SELLER: "Holleb"
 STATUS: ---
 
 TEXT: 16833
@@ -1614,7 +1831,9 @@ ACQLOC: "Chicago"
 DLRAMT: ---
 PURCHASER: "Amoco"
 PURCHASER: "TransCanada"
-SELLER: ---
+SELLER: "Amoco"
+SELLER: "TransCanada"
+SELLER: "Amoco Corp"
 STATUS: ---
 
 TEXT: 16872
@@ -1628,7 +1847,9 @@ ACQLOC: "New Zealand"
 DLRAMT: ---
 PURCHASER: "Industrial Equity (Pacific) Ltd"
 PURCHASER: "CalMat Co"
-SELLER: ---
+SELLER: "Industrial Equity (Pacific) Ltd"
+SELLER: "CalMat Co"
+SELLER: "the Securities and Exchange Commission"
 STATUS: ---
 
 TEXT: 1694
@@ -1642,7 +1863,9 @@ ACQLOC: "H.R.S."
 DLRAMT: ---
 PURCHASER: "Roach"
 PURCHASER: "Qintex"
-SELLER: ---
+SELLER: "Roach"
+SELLER: "Qintex"
+SELLER: "H.R.S."
 STATUS: ---
 
 TEXT: 16941
@@ -1656,7 +1879,9 @@ ACQLOC: "U.S."
 DLRAMT: ---
 PURCHASER: "Northern Foods Plc"
 PURCHASER: "Northserv Inc"
-SELLER: ---
+SELLER: "Northern Foods Plc"
+SELLER: "Northserv Inc"
+SELLER: "KeyServ"
 STATUS: ---
 
 TEXT: 17053
@@ -1667,7 +1892,8 @@ ACQLOC: "Carling"
 DLRAMT: ---
 PURCHASER: "Carling O'Keefe Ltd."
 PURCHASER: "IXL Holdings"
-SELLER: ---
+SELLER: "Carling O'Keefe Ltd."
+SELLER: "IXL Holdings"
 STATUS: ---
 
 TEXT: 17151
@@ -1679,7 +1905,9 @@ ACQLOC: ---
 DLRAMT: ---
 PURCHASER: "Sun"
 PURCHASER: "Glenmede Trust Co"
-SELLER: ---
+SELLER: "Sun"
+SELLER: "Glenmede Trust Co"
+SELLER: "Glenmede"
 STATUS: ---
 
 TEXT: 17168
@@ -1688,7 +1916,7 @@ ACQBUS: ---
 ACQLOC: ---
 DLRAMT: ---
 PURCHASER: "Molecular Genetics Inc"
-SELLER: ---
+SELLER: "Molecular Genetics Inc"
 STATUS: ---
 
 TEXT: 17178
@@ -1699,7 +1927,8 @@ ACQLOC: "New York"
 DLRAMT: ---
 PURCHASER: "the Securities and Exchange Commission"
 PURCHASER: "Allegheny"
-SELLER: ---
+SELLER: "the Securities and Exchange Commission"
+SELLER: "Allegheny"
 STATUS: ---
 
 TEXT: 1729
@@ -1711,7 +1940,9 @@ ACQLOC: ---
 DLRAMT: ---
 PURCHASER: "CTS"
 PURCHASER: "Dynamics Corp of America"
-SELLER: ---
+SELLER: "CTS"
+SELLER: "Dynamics Corp of America"
+SELLER: "CTS Corp"
 STATUS: ---
 
 TEXT: 17317
@@ -1723,7 +1954,9 @@ ACQLOC: "United States"
 DLRAMT: ---
 PURCHASER: "Huntingdon International Holdings"
 PURCHASER: "Northern Engineering and Testing Inc"
-SELLER: ---
+SELLER: "Huntingdon International Holdings"
+SELLER: "Northern Engineering and Testing Inc"
+SELLER: "Northern Engineering"
 STATUS: ---
 
 TEXT: 17323
@@ -1735,7 +1968,8 @@ ACQLOC: "Co KG"
 DLRAMT: ---
 PURCHASER: "ConAgra"
 PURCHASER: "ConAgra International"
-SELLER: ---
+SELLER: "ConAgra"
+SELLER: "ConAgra International"
 STATUS: ---
 
 TEXT: 17333
@@ -1748,7 +1982,9 @@ ACQLOC: "Midland"
 DLRAMT: ---
 PURCHASER: "Chevron"
 PURCHASER: "Chevron Corp's"
-SELLER: ---
+SELLER: "Chevron"
+SELLER: "Chevron Corp's"
+SELLER: "Scottish Resources Ltd."
 STATUS: ---
 
 TEXT: 17488
@@ -1761,7 +1997,9 @@ ACQLOC: ---
 DLRAMT: ---
 PURCHASER: "Valor"
 PURCHASER: "Yale"
-SELLER: ---
+SELLER: "Valor"
+SELLER: "Yale"
+SELLER: "First City Industries Inc"
 STATUS: ---
 
 TEXT: 17518
@@ -1772,7 +2010,8 @@ ACQLOC: "Delaware"
 DLRAMT: ---
 PURCHASER: "Society for Savings"
 PURCHASER: "Conneticut"
-SELLER: ---
+SELLER: "Society for Savings"
+SELLER: "Conneticut"
 STATUS: ---
 
 TEXT: 17576
@@ -1785,7 +2024,9 @@ ACQLOC: "New York"
 DLRAMT: ---
 PURCHASER: "the Securities and Exchange Commission"
 PURCHASER: "Pizza Inn Inc"
-SELLER: ---
+SELLER: "the Securities and Exchange Commission"
+SELLER: "Pizza Inn Inc"
+SELLER: "Reliance Financial Serivces Corp"
 STATUS: ---
 
 TEXT: 17651
@@ -1798,7 +2039,9 @@ ACQLOC: "Pa."
 DLRAMT: ---
 PURCHASER: "Corporate Life Insurance Co"
 PURCHASER: "the Securities and Exchange Commission"
-SELLER: ---
+SELLER: "Corporate Life Insurance Co"
+SELLER: "the Securities and Exchange Commission"
+SELLER: "Piezo Electric Products Inc"
 STATUS: ---
 
 TEXT: 17659
@@ -1810,7 +2053,9 @@ ACQLOC: "Wisconsin"
 DLRAMT: ---
 PURCHASER: "Dotronix Inc"
 PURCHASER: "Video Monitors Inc"
-SELLER: ---
+SELLER: "Dotronix Inc"
+SELLER: "Video Monitors Inc"
+SELLER: "Video Monitors"
 STATUS: ---
 
 TEXT: 17688
@@ -1822,7 +2067,9 @@ ACQLOC: "Toronto"
 DLRAMT: ---
 PURCHASER: "Safety-Kleen Corp"
 PURCHASER: "BresLube Enterprises"
-SELLER: ---
+SELLER: "Safety-Kleen Corp"
+SELLER: "BresLube Enterprises"
+SELLER: "BresLube"
 STATUS: ---
 
 TEXT: 1771
@@ -1835,7 +2082,9 @@ ACQLOC: "Piedmont"
 DLRAMT: ---
 PURCHASER: "USAir"
 PURCHASER: "TWA"
-SELLER: ---
+SELLER: "USAir"
+SELLER: "TWA"
+SELLER: "Norfolk Southern Corp"
 STATUS: ---
 
 TEXT: 17728
@@ -1848,7 +2097,9 @@ ACQLOC: "Calif."
 DLRAMT: ---
 PURCHASER: "Piosec Technology Ltd"
 PURCHASER: "Alliance Semiconductor Corp"
-SELLER: ---
+SELLER: "Piosec Technology Ltd"
+SELLER: "Alliance Semiconductor Corp"
+SELLER: "Piosec"
 STATUS: ---
 
 TEXT: 17798
@@ -1857,7 +2108,7 @@ ACQBUS: ---
 ACQLOC: ---
 DLRAMT: ---
 PURCHASER: "Link Technologies Inc"
-SELLER: ---
+SELLER: "Link Technologies Inc"
 STATUS: ---
 
 TEXT: 17837
@@ -1870,7 +2121,9 @@ ACQLOC: "New York"
 DLRAMT: ---
 PURCHASER: "Burlington"
 PURCHASER: "Morgan Stanley"
-SELLER: ---
+SELLER: "Burlington"
+SELLER: "Morgan Stanley"
+SELLER: "Dominion Textile Inc"
 STATUS: ---
 
 TEXT: 17847
@@ -1883,7 +2136,9 @@ ACQLOC: "Sarasota"
 DLRAMT: ---
 PURCHASER: "First Union Corp"
 PURCHASER: "North Port Bank"
-SELLER: ---
+SELLER: "First Union Corp"
+SELLER: "North Port Bank"
+SELLER: "City Commerical Bank"
 STATUS: ---
 
 TEXT: 17876
@@ -1897,7 +2152,9 @@ ACQLOC: "Redland"
 DLRAMT: ---
 PURCHASER: "ETL"
 PURCHASER: "CSR"
-SELLER: ---
+SELLER: "ETL"
+SELLER: "CSR"
+SELLER: "Monier Ltd"
 STATUS: ---
 
 TEXT: 17907
@@ -1910,7 +2167,9 @@ ACQLOC: ---
 DLRAMT: ---
 PURCHASER: "Europeesche"
 PURCHASER: "Stad Rotterdam Anno 1720 N.V.  "
-SELLER: ---
+SELLER: "Europeesche"
+SELLER: "Stad Rotterdam Anno 1720 N.V.  "
+SELLER: "Europeesche Verzekering Maatschappij N.V."
 STATUS: ---
 
 TEXT: 17913
@@ -1924,7 +2183,9 @@ ACQLOC: "Queensland"
 DLRAMT: ---
 PURCHASER: "Santos Ltd"
 PURCHASER: "Total Exploration Australia Pty Ltd"
-SELLER: ---
+SELLER: "Santos Ltd"
+SELLER: "Total Exploration Australia Pty Ltd"
+SELLER: "Total Holdings"
 STATUS: ---
 
 TEXT: 17973
@@ -1937,7 +2198,9 @@ ACQLOC: ---
 DLRAMT: ---
 PURCHASER: "BASIX Corp"
 PURCHASER: "Automatic Toll Systems Inc"
-SELLER: ---
+SELLER: "BASIX Corp"
+SELLER: "Automatic Toll Systems Inc"
+SELLER: "Cubic Corp"
 STATUS: ---
 
 TEXT: 17981
@@ -1949,7 +2212,8 @@ ACQLOC: "Mo."
 DLRAMT: ---
 PURCHASER: "Centel Corp"
 PURCHASER: "Central Kansas Utility Co of Columbia"
-SELLER: ---
+SELLER: "Centel Corp"
+SELLER: "Central Kansas Utility Co of Columbia"
 STATUS: ---
 
 TEXT: 17993
@@ -1962,7 +2226,9 @@ ACQLOC: "Virginia"
 DLRAMT: ---
 PURCHASER: "Virginia Federal"
 PURCHASER: "Virginia Federal Savings and Loan Association"
-SELLER: ---
+SELLER: "Virginia Federal"
+SELLER: "Virginia Federal Savings and Loan Association"
+SELLER: "Montrose Holding Co"
 STATUS: ---
 
 TEXT: 1801
@@ -1973,7 +2239,8 @@ ACQLOC: ---
 DLRAMT: ---
 PURCHASER: "Clayton"
 PURCHASER: "Phoenix Steel Corp"
-SELLER: ---
+SELLER: "Clayton"
+SELLER: "Phoenix Steel Corp"
 STATUS: ---
 
 TEXT: 18038
@@ -1984,7 +2251,8 @@ ACQLOC: ---
 DLRAMT: ---
 PURCHASER: "Banc One Corp"
 PURCHASER: "First National Bank of Bloomington, Ind"
-SELLER: ---
+SELLER: "Banc One Corp"
+SELLER: "First National Bank of Bloomington, Ind"
 STATUS: ---
 
 TEXT: 18111
@@ -1996,7 +2264,9 @@ ACQLOC: ---
 DLRAMT: ---
 PURCHASER: "Stewart Sandwiches Inc"
 PURCHASER: "Superior Coffee and Foods"
-SELLER: ---
+SELLER: "Stewart Sandwiches Inc"
+SELLER: "Superior Coffee and Foods"
+SELLER: "Squire"
 STATUS: ---
 
 TEXT: 18188
@@ -2010,7 +2280,9 @@ ACQLOC: "Va."
 DLRAMT: ---
 PURCHASER: "PacifiCorp"
 PURCHASER: "Thomas Nationwide Computer Corp"
-SELLER: ---
+SELLER: "PacifiCorp"
+SELLER: "Thomas Nationwide Computer Corp"
+SELLER: "International Business Machines Corp"
 STATUS: ---
 
 TEXT: 18229
@@ -2022,7 +2294,8 @@ ACQLOC: "N Pak"
 DLRAMT: ---
 PURCHASER: "PNP"
 PURCHASER: "N Pak Stores Inc"
-SELLER: ---
+SELLER: "PNP"
+SELLER: "N Pak Stores Inc"
 STATUS: ---
 
 TEXT: 1847
@@ -2035,7 +2308,9 @@ ACQLOC: ---
 DLRAMT: ---
 PURCHASER: "Rexnord"
 PURCHASER: "Banner Industries Inc"
-SELLER: ---
+SELLER: "Rexnord"
+SELLER: "Banner Industries Inc"
+SELLER: "Rexnord Inc"
 STATUS: ---
 
 TEXT: 18504
@@ -2049,7 +2324,9 @@ ACQLOC: "New Zealand Ltd."
 DLRAMT: ---
 PURCHASER: "Air New Zealand"
 PURCHASER: "The New Zealand Government"
-SELLER: ---
+SELLER: "Air New Zealand"
+SELLER: "The New Zealand Government"
+SELLER: "Air New Zealand Ltd"
 STATUS: ---
 
 TEXT: 18667
@@ -2058,7 +2335,7 @@ ACQBUS: ---
 ACQLOC: ---
 DLRAMT: ---
 PURCHASER: "Berisford"
-SELLER: ---
+SELLER: "Berisford"
 STATUS: ---
 
 TEXT: 18682
@@ -2071,7 +2348,9 @@ ACQLOC: ---
 DLRAMT: ---
 PURCHASER: "USAir Group Inc"
 PURCHASER: "the U.S. Department of Transportation's Office of Public Counsel"
-SELLER: ---
+SELLER: "USAir Group Inc"
+SELLER: "the U.S. Department of Transportation's Office of Public Counsel"
+SELLER: "Piedmont Aviation Inc"
 STATUS: ---
 
 TEXT: 18783
@@ -2085,7 +2364,9 @@ ACQLOC: "N.Y."
 DLRAMT: ---
 PURCHASER: "Allied"
 PURCHASER: "May Department Stores Co"
-SELLER: ---
+SELLER: "Allied"
+SELLER: "May Department Stores Co"
+SELLER: "Allied Stores Corp"
 STATUS: ---
 
 TEXT: 18861
@@ -2097,7 +2378,9 @@ ACQLOC: "Dallas"
 DLRAMT: ---
 PURCHASER: "Magellan"
 PURCHASER: "Magellan Corp"
-SELLER: ---
+SELLER: "Magellan"
+SELLER: "Magellan Corp"
+SELLER: "Balzec Investments Inc"
 STATUS: ---
 
 TEXT: 18921
@@ -2110,7 +2393,9 @@ ACQLOC: "Memphis"
 DLRAMT: ---
 PURCHASER: "CBC"
 PURCHASER: "CBC Bancorp Inc"
-SELLER: ---
+SELLER: "CBC"
+SELLER: "CBC Bancorp Inc"
+SELLER: "Union Planters Corp"
 STATUS: ---
 
 TEXT: 18963
@@ -2123,7 +2408,9 @@ ACQLOC: "U.S."
 DLRAMT: ---
 PURCHASER: "Allegheny International Inc"
 PURCHASER: "Chemetron Railway Products Inc"
-SELLER: ---
+SELLER: "Allegheny International Inc"
+SELLER: "Chemetron Railway Products Inc"
+SELLER: "Chemetron Railway Products"
 STATUS: ---
 
 TEXT: 19006
@@ -2137,7 +2424,9 @@ ACQLOC: "Japan"
 DLRAMT: ---
 PURCHASER: "Cetus"
 PURCHASER: "Squibb"
-SELLER: ---
+SELLER: "Cetus"
+SELLER: "Squibb"
+SELLER: "Reuters"
 STATUS: ---
 
 TEXT: 19042
@@ -2150,7 +2439,9 @@ ACQLOC: "Japan"
 DLRAMT: ---
 PURCHASER: "LSI"
 PURCHASER: "Mitsui"
-SELLER: ---
+SELLER: "LSI"
+SELLER: "Mitsui"
+SELLER: "Reuters"
 STATUS: ---
 
 TEXT: 19137
@@ -2161,7 +2452,8 @@ ACQLOC: ---
 DLRAMT: ---
 PURCHASER: "MTech Corp"
 PURCHASER: "Commercial Resources Corp"
-SELLER: ---
+SELLER: "MTech Corp"
+SELLER: "Commercial Resources Corp"
 STATUS: ---
 
 TEXT: 19297
@@ -2173,7 +2465,9 @@ ACQLOC: "Dallas"
 DLRAMT: ---
 PURCHASER: "Metro Airlines Inc"
 PURCHASER: "Chaparral Airlines"
-SELLER: ---
+SELLER: "Metro Airlines Inc"
+SELLER: "Chaparral Airlines"
+SELLER: "AMR Corp"
 STATUS: ---
 
 TEXT: 19343
@@ -2186,7 +2480,9 @@ ACQLOC: "Calif."
 DLRAMT: ---
 PURCHASER: "the Securities and Exchange Commission"
 PURCHASER: "RB Industries Inc"
-SELLER: ---
+SELLER: "the Securities and Exchange Commission"
+SELLER: "RB Industries Inc"
+SELLER: "the Tudor Trust"
 STATUS: ---
 
 TEXT: 19359
@@ -2197,7 +2493,8 @@ ACQLOC: ---
 DLRAMT: ---
 PURCHASER: "Energy Factors Inc"
 PURCHASER: "Energy Factors"
-SELLER: ---
+SELLER: "Energy Factors Inc"
+SELLER: "Energy Factors"
 STATUS: ---
 
 TEXT: 19368
@@ -2210,7 +2507,9 @@ ACQLOC: "London"
 DLRAMT: ---
 PURCHASER: "VR Business"
 PURCHASER: "VR Business Brokers Inc"
-SELLER: ---
+SELLER: "VR Business"
+SELLER: "VR Business Brokers Inc"
+SELLER: "VR Acquisition Corp"
 STATUS: ---
 
 TEXT: 19448
@@ -2223,7 +2522,9 @@ ACQLOC: "Boston"
 DLRAMT: ---
 PURCHASER: "the Securities and Exchange Commission"
 PURCHASER: "Silicon Systems Inc"
-SELLER: ---
+SELLER: "the Securities and Exchange Commission"
+SELLER: "Silicon Systems Inc"
+SELLER: "HLM Associates"
 STATUS: ---
 
 TEXT: 19572
@@ -2235,7 +2536,9 @@ ACQLOC: ---
 DLRAMT: ---
 PURCHASER: "Kraft Inc"
 PURCHASER: "Anderson Clayton Foods Division"
-SELLER: ---
+SELLER: "Kraft Inc"
+SELLER: "Anderson Clayton Foods Division"
+SELLER: "Quaker Oats Co"
 STATUS: ---
 
 TEXT: 19663
@@ -2248,7 +2551,9 @@ ACQLOC: "Schuykill County"
 DLRAMT: ---
 PURCHASER: "Utilicorp United Inc"
 PURCHASER: "UtilCo Group"
-SELLER: ---
+SELLER: "Utilicorp United Inc"
+SELLER: "UtilCo Group"
+SELLER: "Westwood Energy Properties Limited Partnership"
 STATUS: ---
 
 TEXT: 19681
@@ -2261,7 +2566,9 @@ ACQLOC: ---
 DLRAMT: ---
 PURCHASER: "Federal Resources"
 PURCHASER: "Federal Resources Corp"
-SELLER: ---
+SELLER: "Federal Resources"
+SELLER: "Federal Resources Corp"
+SELLER: "New Generation Inc"
 STATUS: ---
 
 TEXT: 19683
@@ -2275,7 +2582,9 @@ ACQLOC: "N.J."
 DLRAMT: ---
 PURCHASER: "Entertainment Marketing"
 PURCHASER: "Crazy Eddie"
-SELLER: ---
+SELLER: "Entertainment Marketing"
+SELLER: "Crazy Eddie"
+SELLER: "SEC"
 STATUS: ---
 
 TEXT: 19699
@@ -2287,7 +2596,9 @@ ACQLOC: "Kentucky"
 DLRAMT: ---
 PURCHASER: "Energas Co"
 PURCHASER: "Western Kentucky Gas Co"
-SELLER: ---
+SELLER: "Energas Co"
+SELLER: "Western Kentucky Gas Co"
+SELLER: "Texas American Energy Corp"
 STATUS: ---
 
 TEXT: 19719
@@ -2300,7 +2611,9 @@ ACQLOC: ---
 DLRAMT: ---
 PURCHASER: "Unicoa"
 PURCHASER: "Unicoa Corp"
-SELLER: ---
+SELLER: "Unicoa"
+SELLER: "Unicoa Corp"
+SELLER: "United Insurance Co of America"
 STATUS: ---
 
 TEXT: 19751
@@ -2314,7 +2627,9 @@ ACQLOC: "Los Angeles"
 DLRAMT: ---
 PURCHASER: "Brookehill"
 PURCHASER: "SEC"
-SELLER: ---
+SELLER: "Brookehill"
+SELLER: "SEC"
+SELLER: "Brookehill Partners"
 STATUS: ---
 
 TEXT: 19767
@@ -2325,7 +2640,8 @@ ACQLOC: "U.S."
 DLRAMT: ---
 PURCHASER: "Universal Communication Systems Inc"
 PURCHASER: "Prime Motor Inns Inc"
-SELLER: ---
+SELLER: "Universal Communication Systems Inc"
+SELLER: "Prime Motor Inns Inc"
 STATUS: ---
 
 TEXT: 19912
@@ -2336,7 +2652,8 @@ ACQLOC: ---
 DLRAMT: ---
 PURCHASER: "TecSyn"
 PURCHASER: "TecSyn International Inc"
-SELLER: ---
+SELLER: "TecSyn"
+SELLER: "TecSyn International Inc"
 STATUS: ---
 
 TEXT: 19983
@@ -2349,7 +2666,9 @@ ACQLOC: "U.S."
 DLRAMT: ---
 PURCHASER: "General Electric Co's"
 PURCHASER: "GE Credit Corp"
-SELLER: ---
+SELLER: "General Electric Co's"
+SELLER: "GE Credit Corp"
+SELLER: "Kraft Inc's"
 STATUS: ---
 
 TEXT: 2013
@@ -2362,7 +2681,9 @@ ACQLOC: ---
 DLRAMT: ---
 PURCHASER: "Japan Fund"
 PURCHASER: "The Sterling Grace Capital Management L.P."
-SELLER: ---
+SELLER: "Japan Fund"
+SELLER: "The Sterling Grace Capital Management L.P."
+SELLER: "The Japan Fund's"
 STATUS: ---
 
 TEXT: 20321
@@ -2373,7 +2694,8 @@ ACQLOC: ---
 DLRAMT: ---
 PURCHASER: "TWA"
 PURCHASER: "Trans World Airlines Inc"
-SELLER: ---
+SELLER: "TWA"
+SELLER: "Trans World Airlines Inc"
 STATUS: ---
 
 TEXT: 20744
@@ -2386,7 +2708,9 @@ ACQLOC: ---
 DLRAMT: ---
 PURCHASER: "Irving"
 PURCHASER: "Bank of New York"
-SELLER: ---
+SELLER: "Irving"
+SELLER: "Bank of New York"
+SELLER: "The Bank of New York Corp"
 STATUS: ---
 
 TEXT: 20824
@@ -2399,7 +2723,9 @@ ACQLOC: ---
 DLRAMT: ---
 PURCHASER: "Shearson Lehman"
 PURCHASER: "TLX Partners"
-SELLER: ---
+SELLER: "Shearson Lehman"
+SELLER: "TLX Partners"
+SELLER: "Telex Corp"
 STATUS: ---
 
 TEXT: 20834
@@ -2412,7 +2738,9 @@ ACQLOC: ---
 DLRAMT: ---
 PURCHASER: "Citizens"
 PURCHASER: "First Commercial Bancorp"
-SELLER: ---
+SELLER: "Citizens"
+SELLER: "First Commercial Bancorp"
+SELLER: "Citizens Bank of Roseville"
 STATUS: ---
 
 TEXT: 2102
@@ -2424,7 +2752,9 @@ ACQLOC: ---
 DLRAMT: ---
 PURCHASER: "Ryder System Inc"
 PURCHASER: "Caledonian Airmotive Ltd"
-SELLER: ---
+SELLER: "Ryder System Inc"
+SELLER: "Caledonian Airmotive Ltd"
+SELLER: "British Caledonian Group PLC"
 STATUS: ---
 
 TEXT: 21041
@@ -2433,7 +2763,7 @@ ACQBUS: ---
 ACQLOC: ---
 DLRAMT: ---
 PURCHASER: "Allwaste Inc"
-SELLER: ---
+SELLER: "Allwaste Inc"
 STATUS: ---
 
 TEXT: 21046
@@ -2447,7 +2777,9 @@ ACQLOC: "Sante Fe"
 DLRAMT: ---
 PURCHASER: "Sante Fe"
 PURCHASER: "Henley Group Inc"
-SELLER: ---
+SELLER: "Sante Fe"
+SELLER: "Henley Group Inc"
+SELLER: "Sante Fe Southern Pacific Corp"
 STATUS: ---
 
 TEXT: 21129
@@ -2460,7 +2792,9 @@ ACQLOC: "N.J."
 DLRAMT: ---
 PURCHASER: "PMS Consolidated"
 PURCHASER: "Hanna"
-SELLER: ---
+SELLER: "PMS Consolidated"
+SELLER: "Hanna"
+SELLER: "PMS"
 STATUS: ---
 
 TEXT: 21134
@@ -2469,7 +2803,7 @@ ACQBUS: ---
 ACQLOC: "Ecuador"
 DLRAMT: ---
 PURCHASER: "Baltek Corp"
-SELLER: ---
+SELLER: "Baltek Corp"
 STATUS: ---
 
 TEXT: 21251
@@ -2481,7 +2815,9 @@ ACQLOC: "U.S."
 DLRAMT: ---
 PURCHASER: "Qintex"
 PURCHASER: "HRI"
-SELLER: ---
+SELLER: "Qintex"
+SELLER: "HRI"
+SELLER: "Qintex Ltd"
 STATUS: ---
 
 TEXT: 2126
@@ -2495,7 +2831,9 @@ ACQLOC: "West Germany"
 DLRAMT: ---
 PURCHASER: "Perkin-Elmer Corp"
 PURCHASER: "Atomika Technische Physik"
-SELLER: ---
+SELLER: "Perkin-Elmer Corp"
+SELLER: "Atomika Technische Physik"
+SELLER: "Physical Electronics Division"
 STATUS: ---
 
 TEXT: 21278
@@ -2507,7 +2845,9 @@ ACQLOC: "Los Angeles"
 DLRAMT: ---
 PURCHASER: "Northview Corp"
 PURCHASER: "Calmark Financial Corp."
-SELLER: ---
+SELLER: "Northview Corp"
+SELLER: "Calmark Financial Corp."
+SELLER: "Northview"
 STATUS: ---
 
 TEXT: 21319
@@ -2521,7 +2861,9 @@ ACQLOC: "U.S."
 DLRAMT: ---
 PURCHASER: "Triton"
 PURCHASER: "Industrial Equity (Pacific"
-SELLER: ---
+SELLER: "Triton"
+SELLER: "Industrial Equity (Pacific"
+SELLER: "Industrial Equity (Pacific) Ltd"
 STATUS: ---
 
 TEXT: 21358
@@ -2535,7 +2877,9 @@ ACQLOC: "Denver"
 DLRAMT: ---
 PURCHASER: "Kaiser Steel Corp's"
 PURCHASER: "Napa, Calif"
-SELLER: ---
+SELLER: "Kaiser Steel Corp's"
+SELLER: "Napa, Calif"
+SELLER: "Oregon Steel Mills"
 STATUS: ---
 
 TEXT: 21376
@@ -2548,7 +2892,9 @@ ACQLOC: ---
 DLRAMT: ---
 PURCHASER: "IDC Acquisition Corp"
 PURCHASER: "Apollo Partners Ltd"
-SELLER: ---
+SELLER: "IDC Acquisition Corp"
+SELLER: "Apollo Partners Ltd"
+SELLER: "Equitable Capital Management Inc."
 STATUS: ---
 
 TEXT: 21382
@@ -2561,7 +2907,9 @@ ACQLOC: ---
 DLRAMT: ---
 PURCHASER: "IC Industries Inc"
 PURCHASER: "IC"
-SELLER: ---
+SELLER: "IC Industries Inc"
+SELLER: "IC"
+SELLER: "Illinois Central Gulf Railroad"
 STATUS: ---
 
 TEXT: 21454
@@ -2575,7 +2923,9 @@ ACQLOC: "Italy"
 DLRAMT: ---
 PURCHASER: "Ferruzzi"
 PURCHASER: "Shamrock Capital LP"
-SELLER: ---
+SELLER: "Ferruzzi"
+SELLER: "Shamrock Capital LP"
+SELLER: "Cental Soya Co Inc"
 STATUS: ---
 
 TEXT: 21462
@@ -2589,7 +2939,9 @@ ACQLOC: "Italy"
 DLRAMT: ---
 PURCHASER: "Ferruzzi"
 PURCHASER: "Shamrock Capital LP"
-SELLER: ---
+SELLER: "Ferruzzi"
+SELLER: "Shamrock Capital LP"
+SELLER: "Cental Soya Co Inc"
 STATUS: ---
 
 TEXT: 21469
@@ -2601,7 +2953,9 @@ ACQLOC: ---
 DLRAMT: ---
 PURCHASER: "GAF"
 PURCHASER: "GAF Corp"
-SELLER: ---
+SELLER: "GAF"
+SELLER: "GAF Corp"
+SELLER: "Heyman"
 STATUS: ---
 
 TEXT: 2159
@@ -2613,7 +2967,9 @@ ACQLOC: ---
 DLRAMT: ---
 PURCHASER: "Bell"
 PURCHASER: "Bell Petroleum Services Inc"
-SELLER: ---
+SELLER: "Bell"
+SELLER: "Bell Petroleum Services Inc"
+SELLER: "International Inc"
 STATUS: ---
 
 TEXT: 2193
@@ -2625,7 +2981,8 @@ ACQLOC: "S.A."
 DLRAMT: ---
 PURCHASER: "Corning International Corp"
 PURCHASER: "Corning"
-SELLER: ---
+SELLER: "Corning International Corp"
+SELLER: "Corning"
 STATUS: ---
 
 TEXT: 2202
@@ -2639,7 +2996,9 @@ ACQLOC: "Frankfurt"
 DLRAMT: ---
 PURCHASER: "CC-Bank"
 PURCHASER: "Bank of America"
-SELLER: ---
+SELLER: "CC-Bank"
+SELLER: "Bank of America"
+SELLER: "Bankhaus Centrale Credit AG"
 STATUS: ---
 
 TEXT: 2237
@@ -2650,7 +3009,8 @@ ACQLOC: "Philadelphia"
 DLRAMT: ---
 PURCHASER: "Amoskeag Bank"
 PURCHASER: "Entrepo Financial Resources Inc"
-SELLER: ---
+SELLER: "Amoskeag Bank"
+SELLER: "Entrepo Financial Resources Inc"
 STATUS: ---
 
 TEXT: 2251
@@ -2663,7 +3023,9 @@ ACQLOC: "Texas"
 DLRAMT: ---
 PURCHASER: "Hughes"
 PURCHASER: "Hughes Tool Co"
-SELLER: ---
+SELLER: "Hughes"
+SELLER: "Hughes Tool Co"
+SELLER: "Baker International Corp"
 STATUS: ---
 
 TEXT: 2271
@@ -2677,7 +3039,9 @@ ACQLOC: "Enzon Inc"
 DLRAMT: ---
 PURCHASER: "PEG"
 PURCHASER: "Kodak"
-SELLER: ---
+SELLER: "PEG"
+SELLER: "Kodak"
+SELLER: "Eastman Kodak Co"
 STATUS: ---
 
 TEXT: 2301
@@ -2688,7 +3052,8 @@ ACQLOC: ---
 DLRAMT: ---
 PURCHASER: "Texon Energy Corp"
 PURCHASER: "Texon"
-SELLER: ---
+SELLER: "Texon Energy Corp"
+SELLER: "Texon"
 STATUS: ---
 
 TEXT: 2322
@@ -2699,7 +3064,8 @@ ACQLOC: ---
 DLRAMT: ---
 PURCHASER: "Unicorp American Corp"
 PURCHASER: "Lincoln Savings Bank"
-SELLER: ---
+SELLER: "Unicorp American Corp"
+SELLER: "Lincoln Savings Bank"
 STATUS: ---
 
 TEXT: 2344
@@ -2710,7 +3076,8 @@ ACQLOC: ---
 DLRAMT: ---
 PURCHASER: "Acme Holding"
 PURCHASER: "Acme"
-SELLER: ---
+SELLER: "Acme Holding"
+SELLER: "Acme"
 STATUS: ---
 
 TEXT: 2434
@@ -2721,7 +3088,8 @@ ACQLOC: "Ore."
 DLRAMT: ---
 PURCHASER: "Lone Star Industries Inc"
 PURCHASER: "Riedel International Inc of Portland"
-SELLER: ---
+SELLER: "Lone Star Industries Inc"
+SELLER: "Riedel International Inc of Portland"
 STATUS: ---
 
 TEXT: 2532
@@ -2734,7 +3102,9 @@ ACQLOC: ---
 DLRAMT: ---
 PURCHASER: "Pesch"
 PURCHASER: "REPH Acquisition Co"
-SELLER: ---
+SELLER: "Pesch"
+SELLER: "REPH Acquisition Co"
+SELLER: "Republic Health Corp"
 STATUS: ---
 
 TEXT: 2546
@@ -2747,7 +3117,9 @@ ACQLOC: "Piedmont"
 DLRAMT: ---
 PURCHASER: "USAir"
 PURCHASER: "TWA"
-SELLER: ---
+SELLER: "USAir"
+SELLER: "TWA"
+SELLER: "Trans World Airlines Inc"
 STATUS: ---
 
 TEXT: 2577
@@ -2758,7 +3130,8 @@ ACQLOC: ---
 DLRAMT: ---
 PURCHASER: "IMRE Corp"
 PURCHASER: "IMRE"
-SELLER: ---
+SELLER: "IMRE Corp"
+SELLER: "IMRE"
 STATUS: ---
 
 TEXT: 2583
@@ -2772,7 +3145,9 @@ ACQLOC: "N.Y."
 DLRAMT: ---
 PURCHASER: "Commonwealth Mortgage Co"
 PURCHASER: "Westfiar Funding Corp"
-SELLER: ---
+SELLER: "Commonwealth Mortgage Co"
+SELLER: "Westfiar Funding Corp"
+SELLER: "Commonwealth"
 STATUS: ---
 
 TEXT: 2604
@@ -2784,7 +3159,9 @@ ACQLOC: ---
 DLRAMT: ---
 PURCHASER: "Stone Container Corp"
 PURCHASER: "Southwest Forest Industries Inc  "
-SELLER: ---
+SELLER: "Stone Container Corp"
+SELLER: "Southwest Forest Industries Inc  "
+SELLER: "Stone"
 STATUS: ---
 
 TEXT: 2609
@@ -2797,7 +3174,9 @@ ACQLOC: ---
 DLRAMT: ---
 PURCHASER: "Southwest Forest Industries"
 PURCHASER: "Stone Container Corp"
-SELLER: ---
+SELLER: "Southwest Forest Industries"
+SELLER: "Stone Container Corp"
+SELLER: "Stone"
 STATUS: ---
 
 TEXT: 2638
@@ -2810,7 +3189,9 @@ ACQLOC: ---
 DLRAMT: ---
 PURCHASER: "Taft Broadcasting"
 PURCHASER: "Narragansett/Taft"
-SELLER: ---
+SELLER: "Taft Broadcasting"
+SELLER: "Narragansett/Taft"
+SELLER: "Narragansett Capital Inc  "
 STATUS: ---
 
 TEXT: 2647
@@ -2823,7 +3204,9 @@ ACQLOC: ---
 DLRAMT: ---
 PURCHASER: "Santa Fe Southern Pacific Corp"
 PURCHASER: "the U.S. Interstate Commerce Commission"
-SELLER: ---
+SELLER: "Santa Fe Southern Pacific Corp"
+SELLER: "the U.S. Interstate Commerce Commission"
+SELLER: "ICC"
 STATUS: ---
 
 TEXT: 2652
@@ -2837,7 +3220,9 @@ ACQLOC: "Sweden"
 DLRAMT: ---
 PURCHASER: "Fermenta"
 PURCHASER: "Nordbanken"
-SELLER: ---
+SELLER: "Fermenta"
+SELLER: "Nordbanken"
+SELLER: "Fermenta AB's"
 STATUS: ---
 
 TEXT: 2699
@@ -2846,7 +3231,7 @@ ACQBUS: ---
 ACQLOC: ---
 DLRAMT: ---
 PURCHASER: "The First Women's Bank"
-SELLER: ---
+SELLER: "The First Women's Bank"
 STATUS: ---
 
 TEXT: 2714
@@ -2859,7 +3244,9 @@ ACQLOC: ---
 DLRAMT: ---
 PURCHASER: "Universal Furniture Ltd"
 PURCHASER: "the Securities and Exchange Commission"
-SELLER: ---
+SELLER: "Universal Furniture Ltd"
+SELLER: "the Securities and Exchange Commission"
+SELLER: "Bench Craft Inc"
 STATUS: ---
 
 TEXT: 2813
@@ -2872,7 +3259,9 @@ ACQLOC: ---
 DLRAMT: ---
 PURCHASER: "Hughes"
 PURCHASER: "Hughes Tool Co"
-SELLER: ---
+SELLER: "Hughes"
+SELLER: "Hughes Tool Co"
+SELLER: "Baker International Corp"
 STATUS: ---
 
 TEXT: 2818
@@ -2885,7 +3274,9 @@ ACQLOC: "Australia"
 DLRAMT: ---
 PURCHASER: "Carling"
 PURCHASER: "Star Oil and Gas Ltd"
-SELLER: ---
+SELLER: "Carling"
+SELLER: "Star Oil and Gas Ltd"
+SELLER: "Elders IXL Ltd"
 STATUS: ---
 
 TEXT: 2884
@@ -2898,7 +3289,9 @@ ACQLOC: ---
 DLRAMT: ---
 PURCHASER: "EaglesLair"
 PURCHASER: "DTD Enterprises Inc"
-SELLER: ---
+SELLER: "EaglesLair"
+SELLER: "DTD Enterprises Inc"
+SELLER: "EaglesLair Development Corp"
 STATUS: ---
 
 TEXT: 2897
@@ -2907,7 +3300,7 @@ ACQBUS: ---
 ACQLOC: "Saskatchewan"
 DLRAMT: ---
 PURCHASER: "Canadian Natural Resources Ltd"
-SELLER: ---
+SELLER: "Canadian Natural Resources Ltd"
 STATUS: ---
 
 TEXT: 2898
@@ -2920,7 +3313,9 @@ ACQLOC: "Philadelphia"
 DLRAMT: ---
 PURCHASER: "WTRK Inc"
 PURCHASER: "Cox Enterprises Inc"
-SELLER: ---
+SELLER: "WTRK Inc"
+SELLER: "Cox Enterprises Inc"
+SELLER: "WTRK-FM"
 STATUS: ---
 
 TEXT: 2946
@@ -2933,7 +3328,9 @@ ACQLOC: "Broker"
 DLRAMT: ---
 PURCHASER: "Rubbertech Inc."
 PURCHASER: "Choice Capital Inc"
-SELLER: ---
+SELLER: "Rubbertech Inc."
+SELLER: "Choice Capital Inc"
+SELLER: "Choice"
 STATUS: ---
 
 TEXT: 2956
@@ -2946,7 +3343,9 @@ ACQLOC: "Malaysia"
 DLRAMT: ---
 PURCHASER: "UAB"
 PURCHASER: "Bank Negara"
-SELLER: ---
+SELLER: "UAB"
+SELLER: "Bank Negara"
+SELLER: "United Asian Bank"
 STATUS: ---
 
 TEXT: 3009
@@ -2960,7 +3359,9 @@ ACQLOC: "L"
 DLRAMT: ---
 PURCHASER: "Standard Pacific"
 PURCHASER: "Standard Pacific LP"
-SELLER: ---
+SELLER: "Standard Pacific"
+SELLER: "Standard Pacific LP"
+SELLER: "South Bay Savings"
 STATUS: ---
 
 TEXT: 3023
@@ -2974,7 +3375,9 @@ ACQLOC: "New Jersey"
 DLRAMT: ---
 PURCHASER: "Caesars"
 PURCHASER: "MTS"
-SELLER: ---
+SELLER: "Caesars"
+SELLER: "MTS"
+SELLER: "Caesars World"
 STATUS: ---
 
 TEXT: 304
@@ -2987,7 +3390,9 @@ ACQLOC: "United Kingdom"
 DLRAMT: ---
 PURCHASER: "SHV"
 PURCHASER: "IC Gas"
-SELLER: ---
+SELLER: "SHV"
+SELLER: "IC Gas"
+SELLER: "Imperial Continental Gas Association"
 STATUS: ---
 
 TEXT: 3168
@@ -2999,7 +3404,9 @@ ACQLOC: ---
 DLRAMT: ---
 PURCHASER: "Allegheny International Inc"
 PURCHASER: "First Boston Corp  "
-SELLER: ---
+SELLER: "Allegheny International Inc"
+SELLER: "First Boston Corp  "
+SELLER: "AI"
 STATUS: ---
 
 TEXT: 3198
@@ -3013,7 +3420,9 @@ ACQLOC: "Ontario"
 DLRAMT: ---
 PURCHASER: "AMC"
 PURCHASER: "Chrysler"
-SELLER: ---
+SELLER: "AMC"
+SELLER: "Chrysler"
+SELLER: "Renault"
 STATUS: ---
 
 TEXT: 3229
@@ -3024,7 +3433,8 @@ ACQLOC: "Chicago"
 DLRAMT: ---
 PURCHASER: "the Securities and Exchange Commission"
 PURCHASER: "Technology Development Corp"
-SELLER: ---
+SELLER: "the Securities and Exchange Commission"
+SELLER: "Technology Development Corp"
 STATUS: ---
 
 TEXT: 3241
@@ -3037,7 +3447,9 @@ ACQLOC: ---
 DLRAMT: ---
 PURCHASER: "AMC"
 PURCHASER: "Renault"
-SELLER: ---
+SELLER: "AMC"
+SELLER: "Renault"
+SELLER: "Chrysler Corp"
 STATUS: ---
 
 TEXT: 3251
@@ -3051,7 +3463,9 @@ ACQLOC: "Britain"
 DLRAMT: ---
 PURCHASER: "United Airlines"
 PURCHASER: "Consolidated Grandview Inc"
-SELLER: ---
+SELLER: "United Airlines"
+SELLER: "Consolidated Grandview Inc"
+SELLER: "All Ticket Group PLC"
 STATUS: ---
 
 TEXT: 3264
@@ -3064,7 +3478,9 @@ ACQLOC: ---
 DLRAMT: ---
 PURCHASER: "Imperial Continental Gas Association"
 PURCHASER: "Tractebel SA"
-SELLER: ---
+SELLER: "Imperial Continental Gas Association"
+SELLER: "Tractebel SA"
+SELLER: "Groupe Bruxelles Lambert SA"
 STATUS: ---
 
 TEXT: 3266
@@ -3075,7 +3491,8 @@ ACQLOC: ---
 DLRAMT: ---
 PURCHASER: "National Heathcare Inc"
 PURCHASER: "National Healthcare"
-SELLER: ---
+SELLER: "National Heathcare Inc"
+SELLER: "National Healthcare"
 STATUS: ---
 
 TEXT: 3309
@@ -3089,7 +3506,9 @@ ACQLOC: "Calif."
 DLRAMT: ---
 PURCHASER: "Holdings Corp  "
 PURCHASER: "Beatrice U.S. Food Corp"
-SELLER: ---
+SELLER: "Holdings Corp  "
+SELLER: "Beatrice U.S. Food Corp"
+SELLER: "Shearson Lehman Brothers Inc"
 STATUS: ---
 
 TEXT: 3356
@@ -3102,7 +3521,9 @@ ACQLOC: ---
 DLRAMT: ---
 PURCHASER: "Viacom"
 PURCHASER: "Viacom International Inc"
-SELLER: ---
+SELLER: "Viacom"
+SELLER: "Viacom International Inc"
+SELLER: "National Amusements Inc"
 STATUS: ---
 
 TEXT: 3413
@@ -3116,7 +3537,9 @@ ACQLOC: "Cincinnati"
 DLRAMT: ---
 PURCHASER: "Taft Broadcasting Co"
 PURCHASER: "the Securities and Exchange Commission"
-SELLER: ---
+SELLER: "Taft Broadcasting Co"
+SELLER: "the Securities and Exchange Commission"
+SELLER: "American Financial Corp"
 STATUS: ---
 
 TEXT: 3417
@@ -3128,7 +3551,8 @@ ACQLOC: "U.K."
 DLRAMT: ---
 PURCHASER: "the Securities and Exchange Commission"
 PURCHASER: "Templeton"
-SELLER: ---
+SELLER: "the Securities and Exchange Commission"
+SELLER: "Templeton"
 STATUS: ---
 
 TEXT: 3596
@@ -3141,7 +3565,9 @@ ACQLOC: ---
 DLRAMT: ---
 PURCHASER: "Loral"
 PURCHASER: "Goodyear Tire"
-SELLER: ---
+SELLER: "Loral"
+SELLER: "Goodyear Tire"
+SELLER: "Rubber Co"
 STATUS: ---
 
 TEXT: 3607
@@ -3155,7 +3581,9 @@ ACQLOC: "Montana City"
 DLRAMT: ---
 PURCHASER: "Hanson Industries"
 PURCHASER: "Kaiser Cement"
-SELLER: ---
+SELLER: "Hanson Industries"
+SELLER: "Kaiser Cement"
+SELLER: "Hanson"
 STATUS: ---
 
 TEXT: 3622
@@ -3168,7 +3596,9 @@ ACQLOC: "New Jersery"
 DLRAMT: ---
 PURCHASER: "Continental"
 PURCHASER: "Continental Health Affiliates Inc"
-SELLER: ---
+SELLER: "Continental"
+SELLER: "Continental Health Affiliates Inc"
+SELLER: "Marketech Inc"
 STATUS: ---
 
 TEXT: 3673
@@ -3182,7 +3612,9 @@ ACQLOC: "Connecticut"
 DLRAMT: ---
 PURCHASER: "Sahlen and Associates Inc"
 PURCHASER: "Gleason Securities Service Inc of"
-SELLER: ---
+SELLER: "Sahlen and Associates Inc"
+SELLER: "Gleason Securities Service Inc of"
+SELLER: "Gleason Plant Security Inc"
 STATUS: ---
 
 TEXT: 369
@@ -3195,7 +3627,9 @@ ACQLOC: "Ohio"
 DLRAMT: ---
 PURCHASER: "Penril Corp"
 PURCHASER: "Triplett Electrical Instrument Corp"
-SELLER: ---
+SELLER: "Penril Corp"
+SELLER: "Triplett Electrical Instrument Corp"
+SELLER: "Triplett's Alltest"
 STATUS: ---
 
 TEXT: 379
@@ -3209,7 +3643,9 @@ ACQLOC: "Santa Barbara"
 DLRAMT: ---
 PURCHASER: "Four Seasons Hotels"
 PURCHASER: "VMS Realty Partners"
-SELLER: ---
+SELLER: "Four Seasons Hotels"
+SELLER: "VMS Realty Partners"
+SELLER: "the Santa Barbara Biltmore Hotel"
 STATUS: ---
 
 TEXT: 3873
@@ -3222,7 +3658,9 @@ ACQLOC: ---
 DLRAMT: ---
 PURCHASER: "American Video"
 PURCHASER: "Paralax Video Enterprises Inc"
-SELLER: ---
+SELLER: "American Video"
+SELLER: "Paralax Video Enterprises Inc"
+SELLER: "American Video Group Inc"
 STATUS: ---
 
 TEXT: 389
@@ -3234,7 +3672,9 @@ ACQLOC: "U.S."
 DLRAMT: ---
 PURCHASER: "Cronus Industries Inc"
 PURCHASER: "South Western Engineering Co"
-SELLER: ---
+SELLER: "Cronus Industries Inc"
+SELLER: "South Western Engineering Co"
+SELLER: "U.S. Hart-Scott-Rodino"
 STATUS: ---
 
 TEXT: 3961
@@ -3246,7 +3686,9 @@ ACQLOC: ---
 DLRAMT: ---
 PURCHASER: "Trico Industries Inc"
 PURCHASER: "Paccar Inc"
-SELLER: ---
+SELLER: "Trico Industries Inc"
+SELLER: "Paccar Inc"
+SELLER: "Paccar of Trico's"
 STATUS: ---
 
 TEXT: 3984
@@ -3259,7 +3701,9 @@ ACQLOC: "Singapore"
 DLRAMT: ---
 PURCHASER: "Hughes"
 PURCHASER: "Hughes Tool Co"
-SELLER: ---
+SELLER: "Hughes"
+SELLER: "Hughes Tool Co"
+SELLER: "Baker International Corp"
 STATUS: ---
 
 TEXT: 4033
@@ -3270,7 +3714,8 @@ ACQLOC: ---
 DLRAMT: ---
 PURCHASER: "Taft Braodacasting Co"
 PURCHASER: "Theta Corp"
-SELLER: ---
+SELLER: "Taft Braodacasting Co"
+SELLER: "Theta Corp"
 STATUS: ---
 
 TEXT: 4153
@@ -3283,7 +3728,9 @@ ACQLOC: ---
 DLRAMT: ---
 PURCHASER: "Taft Broadcasting"
 PURCHASER: "Taft Broadcasting Co"
-SELLER: ---
+SELLER: "Taft Broadcasting"
+SELLER: "Taft Broadcasting Co"
+SELLER: "Narragansett Capital Inc  "
 STATUS: ---
 
 TEXT: 4161
@@ -3293,7 +3740,7 @@ ACQLOC: "Englewood"
 ACQLOC: "Colo."
 DLRAMT: ---
 PURCHASER: "Concorde Ventures Inc"
-SELLER: ---
+SELLER: "Concorde Ventures Inc"
 STATUS: ---
 
 TEXT: 4167
@@ -3305,7 +3752,8 @@ ACQLOC: "non-U.S."
 DLRAMT: ---
 PURCHASER: "Qintex"
 PURCHASER: "Qintex America Ltd"
-SELLER: ---
+SELLER: "Qintex"
+SELLER: "Qintex America Ltd"
 STATUS: ---
 
 TEXT: 4201
@@ -3319,7 +3767,9 @@ ACQLOC: "Long Beach"
 DLRAMT: ---
 PURCHASER: "Borg-Warner's"
 PURCHASER: "Borg-Warner Corp"
-SELLER: ---
+SELLER: "Borg-Warner's"
+SELLER: "Borg-Warner Corp"
+SELLER: "Clayton"
 STATUS: ---
 
 TEXT: 4233
@@ -3332,7 +3782,9 @@ ACQLOC: ---
 DLRAMT: ---
 PURCHASER: "Merrill Lynch Canada"
 PURCHASER: "Merrill Lynch Canada Inc"
-SELLER: ---
+SELLER: "Merrill Lynch Canada"
+SELLER: "Merrill Lynch Canada Inc"
+SELLER: "Merrill Lynch"
 STATUS: ---
 
 TEXT: 4237
@@ -3344,7 +3796,9 @@ ACQLOC: ---
 DLRAMT: ---
 PURCHASER: "Biotech Capital Corp"
 PURCHASER: "High Technology"
-SELLER: ---
+SELLER: "Biotech Capital Corp"
+SELLER: "High Technology"
+SELLER: "the Goldhirsh Group of Boston"
 STATUS: ---
 
 TEXT: 4277
@@ -3357,7 +3811,9 @@ ACQLOC: ---
 DLRAMT: ---
 PURCHASER: "Reuters"
 PURCHASER: "Instinet"
-SELLER: ---
+SELLER: "Reuters"
+SELLER: "Instinet"
+SELLER: "Instinet Corp"
 STATUS: ---
 
 TEXT: 4323
@@ -3370,7 +3826,9 @@ ACQLOC: ---
 DLRAMT: ---
 PURCHASER: "Zico"
 PURCHASER: "Zico INvestment Holdings"
-SELLER: ---
+SELLER: "Zico"
+SELLER: "Zico INvestment Holdings"
+SELLER: "Bancroft Convertible Fund Inc"
 STATUS: ---
 
 TEXT: 4339
@@ -3381,7 +3839,8 @@ ACQLOC: "Protein"
 DLRAMT: ---
 PURCHASER: "Millicorp"
 PURCHASER: "Millipore"
-SELLER: ---
+SELLER: "Millicorp"
+SELLER: "Millipore"
 STATUS: ---
 
 TEXT: 4408
@@ -3395,7 +3854,9 @@ ACQLOC: "Sweden"
 DLRAMT: ---
 PURCHASER: "Biopool AB"
 PURCHASER: "CytRx Corp"
-SELLER: ---
+SELLER: "Biopool AB"
+SELLER: "CytRx Corp"
+SELLER: "CytRx Biopool Ltd"
 STATUS: ---
 
 TEXT: 447
@@ -3409,7 +3870,9 @@ ACQLOC: "New Jersey"
 DLRAMT: ---
 PURCHASER: "Bally Manufacturing Corp"
 PURCHASER: "the Golden Nugget Casino Hotel"
-SELLER: ---
+SELLER: "Bally Manufacturing Corp"
+SELLER: "the Golden Nugget Casino Hotel"
+SELLER: "Golden Nugget Inc."
 STATUS: ---
 
 TEXT: 4493
@@ -3421,7 +3884,8 @@ ACQLOC: "Pa."
 DLRAMT: ---
 PURCHASER: "Safeguard Scientifics Inc"
 PURCHASER: "Sanchez Computer Associates Inc"
-SELLER: ---
+SELLER: "Safeguard Scientifics Inc"
+SELLER: "Sanchez Computer Associates Inc"
 STATUS: ---
 
 TEXT: 4536
@@ -3434,7 +3898,9 @@ ACQLOC: "Aloha"
 DLRAMT: ---
 PURCHASER: "Aloha Inc"
 PURCHASER: "Princeville Development Corp"
-SELLER: ---
+SELLER: "Aloha Inc"
+SELLER: "Princeville Development Corp"
+SELLER: "Aloha Airlines Inc"
 STATUS: ---
 
 TEXT: 4537
@@ -3447,7 +3913,9 @@ ACQLOC: ---
 DLRAMT: ---
 PURCHASER: "New Hampshire Savings Bank Corp"
 PURCHASER: "Seashore Bankshares Inc"
-SELLER: ---
+SELLER: "New Hampshire Savings Bank Corp"
+SELLER: "Seashore Bankshares Inc"
+SELLER: "Seashore"
 STATUS: ---
 
 TEXT: 4622
@@ -3461,7 +3929,9 @@ ACQLOC: "California"
 DLRAMT: ---
 PURCHASER: "Hearst"
 PURCHASER: "Chronicle"
-SELLER: ---
+SELLER: "Hearst"
+SELLER: "Chronicle"
+SELLER: "The Hearst Corp"
 STATUS: ---
 
 TEXT: 4623
@@ -3474,7 +3944,9 @@ ACQLOC: ---
 DLRAMT: ---
 PURCHASER: "Acmex"
 PURCHASER: "Cheetham"
-SELLER: ---
+SELLER: "Acmex"
+SELLER: "Cheetham"
+SELLER: "Industrial Equity Ltd"
 STATUS: ---
 
 TEXT: 4659
@@ -3486,7 +3958,9 @@ ACQLOC: ---
 DLRAMT: ---
 PURCHASER: "Tesco Plc"
 PURCHASER: "Tesco"
-SELLER: ---
+SELLER: "Tesco Plc"
+SELLER: "Tesco"
+SELLER: "Hillards"
 STATUS: ---
 
 TEXT: 467
@@ -3498,7 +3972,9 @@ ACQLOC: "Miami"
 DLRAMT: ---
 PURCHASER: "American Nursery Products Inc"
 PURCHASER: "Heinl's Nursery Inc"
-SELLER: ---
+SELLER: "American Nursery Products Inc"
+SELLER: "Heinl's Nursery Inc"
+SELLER: "Heinl's Nursery"
 STATUS: ---
 
 TEXT: 4772
@@ -3511,7 +3987,9 @@ ACQLOC: "New York"
 DLRAMT: ---
 PURCHASER: "Caesars"
 PURCHASER: "Caesars World Inc"
-SELLER: ---
+SELLER: "Caesars"
+SELLER: "Caesars World Inc"
+SELLER: "MTS Acquisition Corp"
 STATUS: ---
 
 TEXT: 4812
@@ -3521,7 +3999,7 @@ ACQLOC: "Paterson"
 ACQLOC: "N.J."
 DLRAMT: ---
 PURCHASER: "Packaging Systems Corp"
-SELLER: ---
+SELLER: "Packaging Systems Corp"
 STATUS: ---
 
 TEXT: 4908
@@ -3535,7 +4013,9 @@ ACQLOC: "Northern Ireland"
 DLRAMT: ---
 PURCHASER: "Cenergy"
 PURCHASER: "Bryson Oil and Gas"
-SELLER: ---
+SELLER: "Cenergy"
+SELLER: "Bryson Oil and Gas"
+SELLER: "Cenergy Corp"
 STATUS: ---
 
 TEXT: 497
@@ -3548,7 +4028,9 @@ ACQLOC: ---
 DLRAMT: ---
 PURCHASER: "Antibioticos"
 PURCHASER: "Antibioticos SA"
-SELLER: ---
+SELLER: "Antibioticos"
+SELLER: "Antibioticos SA"
+SELLER: "Reuters"
 STATUS: ---
 
 TEXT: 5094
@@ -3562,7 +4044,9 @@ ACQLOC: "Toronto"
 DLRAMT: ---
 PURCHASER: "Cablevision Industries Corp"
 PURCHASER: "Cablevision Industries of California Inc"
-SELLER: ---
+SELLER: "Cablevision Industries Corp"
+SELLER: "Cablevision Industries of California Inc"
+SELLER: "Valley Cable TV"
 STATUS: ---
 
 TEXT: 5097
@@ -3574,7 +4058,8 @@ ACQLOC: "Long Beach"
 DLRAMT: ---
 PURCHASER: "Borg-Warner Corp"
 PURCHASER: "Clayton"
-SELLER: ---
+SELLER: "Borg-Warner Corp"
+SELLER: "Clayton"
 STATUS: ---
 
 TEXT: 5112
@@ -3586,7 +4071,8 @@ ACQLOC: "Ill."
 DLRAMT: ---
 PURCHASER: "Forest City Enterprises Inc"
 PURCHASER: "Handy Andy Home Improvement Centers Inc"
-SELLER: ---
+SELLER: "Forest City Enterprises Inc"
+SELLER: "Handy Andy Home Improvement Centers Inc"
 STATUS: ---
 
 TEXT: 5121
@@ -3597,7 +4083,8 @@ ACQLOC: "New yOrk"
 DLRAMT: ---
 PURCHASER: "Pratt Hotel Corp"
 PURCHASER: "Resorts INternational Inc"
-SELLER: ---
+SELLER: "Pratt Hotel Corp"
+SELLER: "Resorts INternational Inc"
 STATUS: ---
 
 TEXT: 5286
@@ -3610,7 +4097,9 @@ ACQLOC: ---
 DLRAMT: ---
 PURCHASER: "Kidder Peabody and Co Inc"
 PURCHASER: "Harcourt Brace Jovanovich Inc"
-SELLER: ---
+SELLER: "Kidder Peabody and Co Inc"
+SELLER: "Harcourt Brace Jovanovich Inc"
+SELLER: "the Harpers and Row"
 STATUS: ---
 
 TEXT: 5287
@@ -3624,7 +4113,9 @@ ACQLOC: "Seattle"
 DLRAMT: ---
 PURCHASER: "FHLBB"
 PURCHASER: "Home Savings"
-SELLER: ---
+SELLER: "FHLBB"
+SELLER: "Home Savings"
+SELLER: "The Federal Home Loan Bank Board"
 STATUS: ---
 
 TEXT: 5293
@@ -3637,7 +4128,9 @@ ACQLOC: "Warburg"
 DLRAMT: ---
 PURCHASER: "Symbion"
 PURCHASER: "Pincus Capital Corp"
-SELLER: ---
+SELLER: "Symbion"
+SELLER: "Pincus Capital Corp"
+SELLER: "Symbion Inc"
 STATUS: ---
 
 TEXT: 5299
@@ -3650,7 +4143,9 @@ ACQLOC: ---
 DLRAMT: ---
 PURCHASER: "Woolworth"
 PURCHASER: "Dixons"
-SELLER: ---
+SELLER: "Woolworth"
+SELLER: "Dixons"
+SELLER: "Dixons Group Plc"
 STATUS: ---
 
 TEXT: 532
@@ -3662,7 +4157,8 @@ ACQLOC: "Md."
 DLRAMT: ---
 PURCHASER: "Kapok Corp"
 PURCHASER: "Southeast Banking Corp"
-SELLER: ---
+SELLER: "Kapok Corp"
+SELLER: "Southeast Banking Corp"
 STATUS: ---
 
 TEXT: 5411
@@ -3675,7 +4171,9 @@ ACQLOC: ---
 DLRAMT: ---
 PURCHASER: "AVAQ"
 PURCHASER: "Gates Learjet"
-SELLER: ---
+SELLER: "AVAQ"
+SELLER: "Gates Learjet"
+SELLER: "Gates"
 STATUS: ---
 
 TEXT: 547
@@ -3687,7 +4185,9 @@ ACQLOC: ---
 DLRAMT: ---
 PURCHASER: "Rexnard"
 PURCHASER: "Banner Industries Inc"
-SELLER: ---
+SELLER: "Rexnard"
+SELLER: "Banner Industries Inc"
+SELLER: "Rexnord Inc"
 STATUS: ---
 
 TEXT: 5477
@@ -3698,7 +4198,8 @@ ACQLOC: ---
 DLRAMT: ---
 PURCHASER: "Forum Group Inc"
 PURCHASER: "Beverly Enterprises"
-SELLER: ---
+SELLER: "Forum Group Inc"
+SELLER: "Beverly Enterprises"
 STATUS: ---
 
 TEXT: 553
@@ -3710,7 +4211,9 @@ ACQLOC: ---
 DLRAMT: ---
 PURCHASER: "Cronus Industries Inc"
 PURCHASER: "Southwestern Engineering Co"
-SELLER: ---
+SELLER: "Cronus Industries Inc"
+SELLER: "Southwestern Engineering Co"
+SELLER: "Senior Engineering Group PLC"
 STATUS: ---
 
 TEXT: 5667
@@ -3722,7 +4225,9 @@ ACQLOC: ---
 DLRAMT: ---
 PURCHASER: "Mize, Heritage Lite Meat Corp"
 PURCHASER: "National Lean Beef Corp"
-SELLER: ---
+SELLER: "Mize, Heritage Lite Meat Corp"
+SELLER: "National Lean Beef Corp"
+SELLER: "Heritage Cattle Corp."
 STATUS: ---
 
 TEXT: 5789
@@ -3736,7 +4241,9 @@ ACQLOC: "Texas"
 DLRAMT: ---
 PURCHASER: "INL"
 PURCHASER: "Houston Community Newspapers Inc"
-SELLER: ---
+SELLER: "INL"
+SELLER: "Houston Community Newspapers Inc"
+SELLER: "the South Bend Advocate"
 STATUS: ---
 
 TEXT: 5854
@@ -3748,7 +4255,9 @@ ACQLOC: ---
 DLRAMT: ---
 PURCHASER: "Hanson Trust Plc"
 PURCHASER: "Hanson"
-SELLER: ---
+SELLER: "Hanson Trust Plc"
+SELLER: "Hanson"
+SELLER: "Imperial Group Plc"
 STATUS: ---
 
 TEXT: 5934
@@ -3762,7 +4271,9 @@ ACQLOC: "Canada"
 DLRAMT: ---
 PURCHASER: "Clabir"
 PURCHASER: "Clabir Corp"
-SELLER: ---
+SELLER: "Clabir"
+SELLER: "Clabir Corp"
+SELLER: "Ambrit Inc"
 STATUS: ---
 
 TEXT: 5937
@@ -3774,7 +4285,9 @@ ACQLOC: ---
 DLRAMT: ---
 PURCHASER: "Adams-Russell Electronics Co Inc"
 PURCHASER: "Hermetronics PLC"
-SELLER: ---
+SELLER: "Adams-Russell Electronics Co Inc"
+SELLER: "Hermetronics PLC"
+SELLER: "HErmetronics"
 STATUS: ---
 
 TEXT: 5947
@@ -3786,7 +4299,9 @@ ACQLOC: ---
 DLRAMT: ---
 PURCHASER: "Foremost"
 PURCHASER: "Canadian Foremost Ltd"
-SELLER: ---
+SELLER: "Foremost"
+SELLER: "Canadian Foremost Ltd"
+SELLER: "Macedon Resources Ltd."
 STATUS: ---
 
 TEXT: 6027
@@ -3798,7 +4313,9 @@ ACQLOC: ---
 DLRAMT: ---
 PURCHASER: "Development Corp of America"
 PURCHASER: "Lennar Corp"
-SELLER: ---
+SELLER: "Development Corp of America"
+SELLER: "Lennar Corp"
+SELLER: "The American Stock Exchange"
 STATUS: ---
 
 TEXT: 6034
@@ -3811,7 +4328,9 @@ ACQLOC: "Kresge"
 DLRAMT: ---
 PURCHASER: "K Mart"
 PURCHASER: "K Mart Corp"
-SELLER: ---
+SELLER: "K Mart"
+SELLER: "K Mart Corp"
+SELLER: "Reuters"
 STATUS: ---
 
 TEXT: 6096
@@ -3824,7 +4343,9 @@ ACQLOC: "California"
 DLRAMT: ---
 PURCHASER: "SEC"
 PURCHASER: "Siebel Capital Management Inc"
-SELLER: ---
+SELLER: "SEC"
+SELLER: "Siebel Capital Management Inc"
+SELLER: "the Securities and Exchange Commission"
 STATUS: ---
 
 TEXT: 6103
@@ -3837,7 +4358,9 @@ ACQLOC: "New York"
 DLRAMT: ---
 PURCHASER: "Mutual Shares Corp"
 PURCHASER: "Mutual Qualified Income Fund Inc"
-SELLER: ---
+SELLER: "Mutual Shares Corp"
+SELLER: "Mutual Qualified Income Fund Inc"
+SELLER: "the Securities and Exchange Commission"
 STATUS: ---
 
 TEXT: 6188
@@ -3848,7 +4371,8 @@ ACQLOC: ---
 DLRAMT: ---
 PURCHASER: "Temco Service Industries Inc"
 PURCHASER: "Temco"
-SELLER: ---
+SELLER: "Temco Service Industries Inc"
+SELLER: "Temco"
 STATUS: ---
 
 TEXT: 6217
@@ -3862,7 +4386,9 @@ ACQLOC: "Allegheny Beverage's"
 DLRAMT: ---
 PURCHASER: "Service America"
 PURCHASER: "Allegheny"
-SELLER: ---
+SELLER: "Service America"
+SELLER: "Allegheny"
+SELLER: "Allegheny Beverage Corp"
 STATUS: ---
 
 TEXT: 6223
@@ -3875,7 +4401,9 @@ ACQLOC: "Frost"
 DLRAMT: ---
 PURCHASER: "Theodore Cross"
 PURCHASER: "a Securities and Exchange Commission"
-SELLER: ---
+SELLER: "Theodore Cross"
+SELLER: "a Securities and Exchange Commission"
+SELLER: "Cross"
 STATUS: ---
 
 TEXT: 6276
@@ -3888,7 +4416,9 @@ ACQLOC: "Memphis"
 DLRAMT: ---
 PURCHASER: "Healthvest"
 PURCHASER: "Eastwood Hospital"
-SELLER: ---
+SELLER: "Healthvest"
+SELLER: "Eastwood Hospital"
+SELLER: "Healthcare International Inc"
 STATUS: ---
 
 TEXT: 6361
@@ -3902,7 +4432,9 @@ ACQLOC: "Brunei"
 DLRAMT: ---
 PURCHASER: "Goodwood"
 PURCHASER: "NBB"
-SELLER: ---
+SELLER: "Goodwood"
+SELLER: "NBB"
+SELLER: "Goodwood Park Hotel Ltd"
 STATUS: ---
 
 TEXT: 6373
@@ -3915,7 +4447,9 @@ ACQLOC: "VW"
 DLRAMT: ---
 PURCHASER: "VEBA"
 PURCHASER: "VW"
-SELLER: ---
+SELLER: "VEBA"
+SELLER: "VW"
+SELLER: "VEBA AG"
 STATUS: ---
 
 TEXT: 6402
@@ -3929,7 +4463,9 @@ ACQLOC: "U.K."
 DLRAMT: ---
 PURCHASER: "Cyclops"
 PURCHASER: "Dixons Group Plc"
-SELLER: ---
+SELLER: "Cyclops"
+SELLER: "Dixons Group Plc"
+SELLER: "Cyclops Corp"
 STATUS: ---
 
 TEXT: 6422
@@ -3942,7 +4478,9 @@ ACQLOC: ---
 DLRAMT: ---
 PURCHASER: "Loan Association"
 PURCHASER: "Progressive Savings"
-SELLER: ---
+SELLER: "Loan Association"
+SELLER: "Progressive Savings"
+SELLER: "Far West Financial Corp"
 STATUS: ---
 
 TEXT: 6441
@@ -3954,7 +4492,9 @@ ACQLOC: ---
 DLRAMT: ---
 PURCHASER: "Mobex Corp"
 PURCHASER: "Grant Industries Inc"
-SELLER: ---
+SELLER: "Mobex Corp"
+SELLER: "Grant Industries Inc"
+SELLER: "Mobex"
 STATUS: ---
 
 TEXT: 6477
@@ -3967,7 +4507,9 @@ ACQLOC: "Wawa"
 DLRAMT: ---
 PURCHASER: "Canamax Resources Inc"
 PURCHASER: "Algoma Steel Corp Ltd"
-SELLER: ---
+SELLER: "Canamax Resources Inc"
+SELLER: "Algoma Steel Corp Ltd"
+SELLER: "Canamax"
 STATUS: ---
 
 TEXT: 6497
@@ -3980,7 +4522,9 @@ ACQLOC: "U.S."
 DLRAMT: ---
 PURCHASER: "Gelco Express Ltd"
 PURCHASER: "Gelco Corp"
-SELLER: ---
+SELLER: "Gelco Express Ltd"
+SELLER: "Gelco Corp"
+SELLER: "Air Canada"
 STATUS: ---
 
 TEXT: 6499
@@ -3989,7 +4533,7 @@ ACQBUS: ---
 ACQLOC: ---
 DLRAMT: ---
 PURCHASER: "Siebe PLC"
-SELLER: ---
+SELLER: "Siebe PLC"
 STATUS: ---
 
 TEXT: 6538
@@ -4000,7 +4544,8 @@ ACQLOC: ---
 DLRAMT: ---
 PURCHASER: "Trus Joist Corp"
 PURCHASER: "Dashwood Industries Ltd"
-SELLER: ---
+SELLER: "Trus Joist Corp"
+SELLER: "Dashwood Industries Ltd"
 STATUS: ---
 
 TEXT: 6616
@@ -4013,7 +4558,9 @@ ACQLOC: "Sunrise"
 DLRAMT: ---
 PURCHASER: "Financial Security Savings"
 PURCHASER: "Loan Association"
-SELLER: ---
+SELLER: "Financial Security Savings"
+SELLER: "Loan Association"
+SELLER: "Fortune Financial Group"
 STATUS: ---
 
 TEXT: 6659
@@ -4025,7 +4572,9 @@ ACQLOC: ---
 DLRAMT: ---
 PURCHASER: "Bancorp"
 PURCHASER: "Fleet Financial Group"
-SELLER: ---
+SELLER: "Bancorp"
+SELLER: "Fleet Financial Group"
+SELLER: "Norstar"
 STATUS: ---
 
 TEXT: 6689
@@ -4039,7 +4588,9 @@ ACQLOC: "Rhode Island"
 DLRAMT: ---
 PURCHASER: "Fleet"
 PURCHASER: "Norstar"
-SELLER: ---
+SELLER: "Fleet"
+SELLER: "Norstar"
+SELLER: "Fleet Financial Group"
 STATUS: ---
 
 TEXT: 6694
@@ -4052,7 +4603,9 @@ ACQLOC: ---
 DLRAMT: ---
 PURCHASER: "Trilogy"
 PURCHASER: "Trilogy Resource Corp"
-SELLER: ---
+SELLER: "Trilogy"
+SELLER: "Trilogy Resource Corp"
+SELLER: "Teck Corp"
 STATUS: ---
 
 TEXT: 6697
@@ -4064,7 +4617,9 @@ ACQLOC: ---
 DLRAMT: ---
 PURCHASER: "Bard"
 PURCHASER: "Amour Inc"
-SELLER: ---
+SELLER: "Bard"
+SELLER: "Amour Inc"
+SELLER: "Bard International Associates Inc"
 STATUS: ---
 
 TEXT: 6702
@@ -4076,7 +4631,9 @@ ACQLOC: "Dallas"
 DLRAMT: ---
 PURCHASER: "American Travellers Corp"
 PURCHASER: "ISL Life Insurance Co"
-SELLER: ---
+SELLER: "American Travellers Corp"
+SELLER: "ISL Life Insurance Co"
+SELLER: "American Travellers"
 STATUS: ---
 
 TEXT: 6719
@@ -4090,7 +4647,9 @@ ACQLOC: "Washington"
 DLRAMT: ---
 PURCHASER: "Brooks"
 PURCHASER: "Fujitsu"
-SELLER: ---
+SELLER: "Brooks"
+SELLER: "Fujitsu"
+SELLER: "Fairchild Semiconductor Corp"
 STATUS: ---
 
 TEXT: 6731
@@ -4101,7 +4660,8 @@ ACQLOC: ---
 DLRAMT: ---
 PURCHASER: "Puritan-Bennedtt Corp"
 PURCHASER: "Medicom Inc"
-SELLER: ---
+SELLER: "Puritan-Bennedtt Corp"
+SELLER: "Medicom Inc"
 STATUS: ---
 
 TEXT: 6767
@@ -4113,7 +4673,9 @@ ACQLOC: "Houston"
 DLRAMT: ---
 PURCHASER: "Union Corp"
 PURCHASER: "Union Flonetics Corp"
-SELLER: ---
+SELLER: "Union Corp"
+SELLER: "Union Flonetics Corp"
+SELLER: "Hunt Valve Co Inc."
 STATUS: ---
 
 TEXT: 6789
@@ -4125,7 +4687,8 @@ ACQLOC: "U.S."
 DLRAMT: ---
 PURCHASER: "Robertshaw Controls Co."
 PURCHASER: "Teccor"
-SELLER: ---
+SELLER: "Robertshaw Controls Co."
+SELLER: "Teccor"
 STATUS: ---
 
 TEXT: 6818
@@ -4139,7 +4702,9 @@ ACQLOC: "N.Y."
 DLRAMT: ---
 PURCHASER: "Pilgrim Venture Corp"
 PURCHASER: "Marketing Technologies Group Inc"
-SELLER: ---
+SELLER: "Pilgrim Venture Corp"
+SELLER: "Marketing Technologies Group Inc"
+SELLER: "Pilgrim"
 STATUS: ---
 
 TEXT: 6819
@@ -4152,7 +4717,9 @@ ACQLOC: ---
 DLRAMT: ---
 PURCHASER: "General Partners"
 PURCHASER: "Reynolds"
-SELLER: ---
+SELLER: "General Partners"
+SELLER: "Reynolds"
+SELLER: "Wagner"
 STATUS: ---
 
 TEXT: 6853
@@ -4164,7 +4731,9 @@ ACQLOC: ---
 DLRAMT: ---
 PURCHASER: "XTRA Corp"
 PURCHASER: "RentCo Trailer Corp"
-SELLER: ---
+SELLER: "XTRA Corp"
+SELLER: "RentCo Trailer Corp"
+SELLER: "Fruehauf Corp"
 STATUS: ---
 
 TEXT: 6856
@@ -4177,7 +4746,9 @@ ACQLOC: ---
 DLRAMT: ---
 PURCHASER: "LDBrinkman Corp"
 PURCHASER: "Cenergy Corp"
-SELLER: ---
+SELLER: "LDBrinkman Corp"
+SELLER: "Cenergy Corp"
+SELLER: "the Securities and Exchange Commission"
 STATUS: ---
 
 TEXT: 6873
@@ -4188,7 +4759,8 @@ ACQLOC: ---
 DLRAMT: ---
 PURCHASER: "Snyder Oil Partners LP"
 PURCHASER: "Cenergy Corp."
-SELLER: ---
+SELLER: "Snyder Oil Partners LP"
+SELLER: "Cenergy Corp."
 STATUS: ---
 
 TEXT: 6886
@@ -4200,7 +4772,9 @@ ACQLOC: "Dallas"
 DLRAMT: ---
 PURCHASER: "Greyhound Lines"
 PURCHASER: "GLI Holdings Inc"
-SELLER: ---
+SELLER: "Greyhound Lines"
+SELLER: "GLI Holdings Inc"
+SELLER: "GLI"
 STATUS: ---
 
 TEXT: 6928
@@ -4214,7 +4788,9 @@ ACQLOC: "Los Angeles"
 DLRAMT: ---
 PURCHASER: "General Partners"
 PURCHASER: "GenCorp"
-SELLER: ---
+SELLER: "General Partners"
+SELLER: "GenCorp"
+SELLER: "Wagner"
 STATUS: ---
 
 TEXT: 6961
@@ -4228,7 +4804,9 @@ ACQLOC: "Portugal"
 DLRAMT: ---
 PURCHASER: "Sanwa"
 PURCHASER: "Sanwa Bank Ltd"
-SELLER: ---
+SELLER: "Sanwa"
+SELLER: "Sanwa Bank Ltd"
+SELLER: "Banco Portugues de Investmento Sarl"
 STATUS: ---
 
 TEXT: 7041
@@ -4241,7 +4819,9 @@ ACQLOC: ---
 DLRAMT: ---
 PURCHASER: "Shearson Lehman"
 PURCHASER: "Nippon Life"
-SELLER: ---
+SELLER: "Shearson Lehman"
+SELLER: "Nippon Life"
+SELLER: "American Express"
 STATUS: ---
 
 TEXT: 706
@@ -4254,7 +4834,9 @@ ACQLOC: "New York"
 DLRAMT: ---
 PURCHASER: "Rospatch Corp"
 PURCHASER: "Diagnostic Retrieval Systems Inc"
-SELLER: ---
+SELLER: "Rospatch Corp"
+SELLER: "Diagnostic Retrieval Systems Inc"
+SELLER: "Diagnostic"
 STATUS: ---
 
 TEXT: 7136
@@ -4268,7 +4850,9 @@ ACQLOC: "South Africa"
 DLRAMT: ---
 PURCHASER: "Fintech"
 PURCHASER: "Xerox Corp's"
-SELLER: ---
+SELLER: "Fintech"
+SELLER: "Xerox Corp's"
+SELLER: "Rank Xerox Ltd"
 STATUS: ---
 
 TEXT: 7149
@@ -4281,7 +4865,9 @@ ACQLOC: "Indiana"
 DLRAMT: ---
 PURCHASER: "Amcast"
 PURCHASER: "Amcast Industrial Corp"
-SELLER: ---
+SELLER: "Amcast"
+SELLER: "Amcast Industrial Corp"
+SELLER: "Newman Division"
 STATUS: ---
 
 TEXT: 7433
@@ -4292,7 +4878,8 @@ ACQLOC: ---
 DLRAMT: ---
 PURCHASER: "FCS Laboratories"
 PURCHASER: "Butcher"
-SELLER: ---
+SELLER: "FCS Laboratories"
+SELLER: "Butcher"
 STATUS: ---
 
 TEXT: 7469
@@ -4303,7 +4890,8 @@ ACQLOC: "New York"
 DLRAMT: ---
 PURCHASER: "King World Productions Inc"
 PURCHASER: "the Securities and Exchange Commission"
-SELLER: ---
+SELLER: "King World Productions Inc"
+SELLER: "the Securities and Exchange Commission"
 STATUS: ---
 
 TEXT: 762
@@ -4317,7 +4905,9 @@ ACQLOC: "Edmonton"
 DLRAMT: ---
 PURCHASER: "AMCA International Ltd"
 PURCHASER: "Federal Industries Ltd's"
-SELLER: ---
+SELLER: "AMCA International Ltd"
+SELLER: "Federal Industries Ltd's"
+SELLER: "Russelsteel Inc"
 STATUS: ---
 
 TEXT: 7672
@@ -4331,7 +4921,9 @@ ACQLOC: "Ore."
 DLRAMT: ---
 PURCHASER: "Louisiana Pacific Corp"
 PURCHASER: "Louisiana Pacific"
-SELLER: ---
+SELLER: "Louisiana Pacific Corp"
+SELLER: "Louisiana Pacific"
+SELLER: "Adventist Church"
 STATUS: ---
 
 TEXT: 768
@@ -4343,7 +4935,8 @@ ACQLOC: "U.S."
 DLRAMT: ---
 PURCHASER: "Hutton"
 PURCHASER: "E.F. Hutton LBO Inc"
-SELLER: ---
+SELLER: "Hutton"
+SELLER: "E.F. Hutton LBO Inc"
 STATUS: ---
 
 TEXT: 7693
@@ -4356,7 +4949,9 @@ ACQLOC: "the United States"
 DLRAMT: ---
 PURCHASER: "Vertex"
 PURCHASER: "Computer"
-SELLER: ---
+SELLER: "Vertex"
+SELLER: "Computer"
+SELLER: "Vertex Industries Inc and Computer Transceiver Systems Inc"
 STATUS: ---
 
 TEXT: 7729
@@ -4367,7 +4962,8 @@ ACQLOC: ---
 DLRAMT: ---
 PURCHASER: "Enviropact Inc"
 PURCHASER: "Willms Trucking Co Inc"
-SELLER: ---
+SELLER: "Enviropact Inc"
+SELLER: "Willms Trucking Co Inc"
 STATUS: ---
 
 TEXT: 7796
@@ -4381,7 +4977,9 @@ ACQLOC: "Southfield"
 DLRAMT: ---
 PURCHASER: "American Motors"
 PURCHASER: "American Motors Corp"
-SELLER: ---
+SELLER: "American Motors"
+SELLER: "American Motors Corp"
+SELLER: "Chrysler Corp"
 STATUS: ---
 
 TEXT: 7964
@@ -4394,7 +4992,9 @@ ACQLOC: ---
 DLRAMT: ---
 PURCHASER: "Eskey"
 PURCHASER: "Eskey Inc"
-SELLER: ---
+SELLER: "Eskey"
+SELLER: "Eskey Inc"
+SELLER: "Yale E. Key Inc"
 STATUS: ---
 
 TEXT: 7997
@@ -4407,7 +5007,9 @@ ACQLOC: ---
 DLRAMT: ---
 PURCHASER: "Hancock Mutual Life Insurance Co"
 PURCHASER: "the Securities and Exchange Commission"
-SELLER: ---
+SELLER: "Hancock Mutual Life Insurance Co"
+SELLER: "the Securities and Exchange Commission"
+SELLER: "Price Communications Corp"
 STATUS: ---
 
 TEXT: 8327
@@ -4420,7 +5022,9 @@ ACQLOC: "Dallas"
 DLRAMT: ---
 PURCHASER: "Munford Inc."
 PURCHASER: "the Securities and Exchange Commission"
-SELLER: ---
+SELLER: "Munford Inc."
+SELLER: "the Securities and Exchange Commission"
+SELLER: "Paragon Associates"
 STATUS: ---
 
 TEXT: 8351
@@ -4433,7 +5037,9 @@ ACQLOC: ---
 DLRAMT: ---
 PURCHASER: "American Television"
 PURCHASER: "Time"
-SELLER: ---
+SELLER: "American Television"
+SELLER: "Time"
+SELLER: "American Television and Communications Corp"
 STATUS: ---
 
 TEXT: 8359
@@ -4447,7 +5053,9 @@ ACQLOC: "U.S."
 DLRAMT: ---
 PURCHASER: "KLM"
 PURCHASER: "Air Atlanta"
-SELLER: ---
+SELLER: "KLM"
+SELLER: "Air Atlanta"
+SELLER: "KLM Royal Dutch Airlines"
 STATUS: ---
 
 TEXT: 8367
@@ -4460,7 +5068,9 @@ ACQLOC: "Colo."
 DLRAMT: ---
 PURCHASER: "Neo-Tech Inc"
 PURCHASER: "Seismic Holdings Inc and Energy Holdings Inc"
-SELLER: ---
+SELLER: "Neo-Tech Inc"
+SELLER: "Seismic Holdings Inc and Energy Holdings Inc"
+SELLER: "Energy Holdings"
 STATUS: ---
 
 TEXT: 8396
@@ -4473,7 +5083,9 @@ ACQLOC: ---
 DLRAMT: ---
 PURCHASER: "Coca Cola Co"
 PURCHASER: "Wendy's"
-SELLER: ---
+SELLER: "Coca Cola Co"
+SELLER: "Wendy's"
+SELLER: "Wendy's International"
 STATUS: ---
 
 TEXT: 8467
@@ -4485,7 +5097,9 @@ ACQLOC: "Dataserv"
 DLRAMT: ---
 PURCHASER: "BellSouth Corp"
 PURCHASER: "Dataserv Inc"
-SELLER: ---
+SELLER: "BellSouth Corp"
+SELLER: "Dataserv Inc"
+SELLER: "BellSouth"
 STATUS: ---
 
 TEXT: 8472
@@ -4499,7 +5113,9 @@ ACQLOC: "Nortek"
 DLRAMT: ---
 PURCHASER: "Rexham"
 PURCHASER: "Rexham Corp"
-SELLER: ---
+SELLER: "Rexham"
+SELLER: "Rexham Corp"
+SELLER: "Nortek Inc"
 STATUS: ---
 
 TEXT: 8496
@@ -4512,7 +5128,9 @@ ACQLOC: ---
 DLRAMT: ---
 PURCHASER: "Caesars"
 PURCHASER: "MTS"
-SELLER: ---
+SELLER: "Caesars"
+SELLER: "MTS"
+SELLER: "Caesars World"
 STATUS: ---
 
 TEXT: 8518
@@ -4525,7 +5143,9 @@ ACQLOC: "Harcourt"
 DLRAMT: ---
 PURCHASER: "Harcourt"
 PURCHASER: "Harper"
-SELLER: ---
+SELLER: "Harcourt"
+SELLER: "Harper"
+SELLER: "Harcourt Brace Jovanovich Inc"
 STATUS: ---
 
 TEXT: 8544
@@ -4539,7 +5159,9 @@ ACQLOC: "Wash."
 DLRAMT: ---
 PURCHASER: "Vernell"
 PURCHASER: "Quaker"
-SELLER: ---
+SELLER: "Vernell"
+SELLER: "Quaker"
+SELLER: "Quaker Oats Co"
 STATUS: ---
 
 TEXT: 8571
@@ -4552,7 +5174,9 @@ ACQLOC: ---
 DLRAMT: ---
 PURCHASER: "Avalon"
 PURCHASER: "Deltec"
-SELLER: ---
+SELLER: "Avalon"
+SELLER: "Deltec"
+SELLER: "Avalon Corp"
 STATUS: ---
 
 TEXT: 8628
@@ -4566,7 +5190,9 @@ ACQLOC: "Tokyo"
 DLRAMT: ---
 PURCHASER: "Nippon Life"
 PURCHASER: "Smithson"
-SELLER: ---
+SELLER: "Nippon Life"
+SELLER: "Smithson"
+SELLER: "Nippon Life Insurance Co's"
 STATUS: ---
 
 TEXT: 8704
@@ -4579,7 +5205,9 @@ ACQLOC: ---
 DLRAMT: ---
 PURCHASER: "Triangle Microwave"
 PURCHASER: "KDI"
-SELLER: ---
+SELLER: "Triangle Microwave"
+SELLER: "KDI"
+SELLER: "KDI Corp"
 STATUS: ---
 
 TEXT: 8771
@@ -4592,7 +5220,9 @@ ACQLOC: "New York"
 DLRAMT: ---
 PURCHASER: "Claremont"
 PURCHASER: "Champion Products"
-SELLER: ---
+SELLER: "Claremont"
+SELLER: "Champion Products"
+SELLER: "Champion"
 STATUS: ---
 
 TEXT: 8781
@@ -4604,7 +5234,9 @@ ACQLOC: ---
 DLRAMT: ---
 PURCHASER: "Astrotech"
 PURCHASER: "Astrotech International Corp"
-SELLER: ---
+SELLER: "Astrotech"
+SELLER: "Astrotech International Corp"
+SELLER: "Rockwell Venture Capital Inc"
 STATUS: ---
 
 TEXT: 8823
@@ -4617,7 +5249,9 @@ ACQLOC: ---
 DLRAMT: ---
 PURCHASER: "Cyclops"
 PURCHASER: "Citicorp"
-SELLER: ---
+SELLER: "Cyclops"
+SELLER: "Citicorp"
+SELLER: "Dixons"
 STATUS: ---
 
 TEXT: 8849
@@ -4630,7 +5264,9 @@ ACQLOC: ---
 DLRAMT: ---
 PURCHASER: "National Heritage"
 PURCHASER: "Southmark"
-SELLER: ---
+SELLER: "National Heritage"
+SELLER: "Southmark"
+SELLER: "National Heritage Inc"
 STATUS: ---
 
 TEXT: 8877
@@ -4643,7 +5279,9 @@ ACQLOC: "Alaska"
 DLRAMT: ---
 PURCHASER: "Hecla Minging Co"
 PURCHASER: "the Greens Creek Joint Venture"
-SELLER: ---
+SELLER: "Hecla Minging Co"
+SELLER: "the Greens Creek Joint Venture"
+SELLER: "British Petroleum Co PLC's"
 STATUS: ---
 
 TEXT: 8909
@@ -4656,7 +5294,9 @@ ACQLOC: ---
 DLRAMT: ---
 PURCHASER: "Nestle S.A.'s"
 PURCHASER: "Nestle Enterprises Ltd"
-SELLER: ---
+SELLER: "Nestle S.A.'s"
+SELLER: "Nestle Enterprises Ltd"
+SELLER: "Nabisco Brands Ltd's Club, Melrose, Dickson and Chase"
 STATUS: ---
 
 TEXT: 8947
@@ -4667,7 +5307,8 @@ ACQLOC: ---
 DLRAMT: ---
 PURCHASER: "Conrac Corp"
 PURCHASER: "Mark IV Industries Inc"
-SELLER: ---
+SELLER: "Conrac Corp"
+SELLER: "Mark IV Industries Inc"
 STATUS: ---
 
 TEXT: 8996
@@ -4679,7 +5320,9 @@ ACQLOC: ---
 DLRAMT: ---
 PURCHASER: "Sundor Group Inc"
 PURCHASER: "DWG Corp's"
-SELLER: ---
+SELLER: "Sundor Group Inc"
+SELLER: "DWG Corp's"
+SELLER: "Texun Inc's"
 STATUS: ---
 
 TEXT: 8998
@@ -4692,7 +5335,9 @@ ACQLOC: "Jackson"
 DLRAMT: ---
 PURCHASER: "Hayes-Albion Corp"
 PURCHASER: "Harvard Industries Inc."
-SELLER: ---
+SELLER: "Hayes-Albion Corp"
+SELLER: "Harvard Industries Inc."
+SELLER: "Harvard Industries"
 STATUS: ---
 
 TEXT: 9027
@@ -4706,7 +5351,9 @@ ACQLOC: "Montreal"
 DLRAMT: ---
 PURCHASER: "Noverco"
 PURCHASER: "Noverco Inc"
-SELLER: ---
+SELLER: "Noverco"
+SELLER: "Noverco Inc"
+SELLER: "the Securities and Exchange Commission"
 STATUS: ---
 
 TEXT: 904
@@ -4719,7 +5366,9 @@ ACQLOC: "Ohio"
 DLRAMT: ---
 PURCHASER: "The U.K. Trade Department"
 PURCHASER: "Consolidated Goldfields Plc's"
-SELLER: ---
+SELLER: "The U.K. Trade Department"
+SELLER: "Consolidated Goldfields Plc's"
+SELLER: "American Aggregates Corp"
 STATUS: ---
 
 TEXT: 9102
@@ -4732,7 +5381,9 @@ ACQLOC: "Los Angeles"
 DLRAMT: ---
 PURCHASER: "Engineered Magnetics"
 PURCHASER: "Fleet Aerospace Corp"
-SELLER: ---
+SELLER: "Engineered Magnetics"
+SELLER: "Fleet Aerospace Corp"
+SELLER: "Gulton Industries Inc"
 STATUS: ---
 
 TEXT: 9108
@@ -4745,7 +5396,9 @@ ACQLOC: ---
 DLRAMT: ---
 PURCHASER: "PS Group Inc"
 PURCHASER: "USAir Group"
-SELLER: ---
+SELLER: "PS Group Inc"
+SELLER: "USAir Group"
+SELLER: "USAir"
 STATUS: ---
 
 TEXT: 9156
@@ -4759,7 +5412,9 @@ ACQLOC: "New York"
 DLRAMT: ---
 PURCHASER: "EC"
 PURCHASER: "Ferruzzi"
-SELLER: ---
+SELLER: "EC"
+SELLER: "Ferruzzi"
+SELLER: "The Ferruzzi Group's"
 STATUS: ---
 
 TEXT: 9239
@@ -4771,7 +5426,9 @@ ACQLOC: ---
 DLRAMT: ---
 PURCHASER: "Duriron Co Inc"
 PURCHASER: "Valtek Inc"
-SELLER: ---
+SELLER: "Duriron Co Inc"
+SELLER: "Valtek Inc"
+SELLER: "Valtek"
 STATUS: ---
 
 TEXT: 932
@@ -4785,7 +5442,9 @@ ACQLOC: "UK"
 DLRAMT: ---
 PURCHASER: "KLM"
 PURCHASER: "KLM Royal Dutch Airlines"
-SELLER: ---
+SELLER: "KLM"
+SELLER: "KLM Royal Dutch Airlines"
+SELLER: "Air U.K. Ltd"
 STATUS: ---
 
 TEXT: 9324
@@ -4797,7 +5456,9 @@ ACQLOC: ---
 DLRAMT: ---
 PURCHASER: "Thermo Process Systems Inc"
 PURCHASER: "the Surface Combustion Division"
-SELLER: ---
+SELLER: "Thermo Process Systems Inc"
+SELLER: "the Surface Combustion Division"
+SELLER: "Midland-Ross Corp"
 STATUS: ---
 
 TEXT: 9332
@@ -4808,7 +5469,8 @@ ACQLOC: ---
 DLRAMT: ---
 PURCHASER: "Stockholder Systems Inc"
 PURCHASER: "Software Concepts Inc"
-SELLER: ---
+SELLER: "Stockholder Systems Inc"
+SELLER: "Software Concepts Inc"
 STATUS: ---
 
 TEXT: 9338
@@ -4821,7 +5483,9 @@ ACQLOC: "U.S."
 DLRAMT: ---
 PURCHASER: "The Travelers Corp's"
 PURCHASER: "Travelers Mortgage Services"
-SELLER: ---
+SELLER: "The Travelers Corp's"
+SELLER: "Travelers Mortgage Services"
+SELLER: "Equitable Life Assurance Society"
 STATUS: ---
 
 TEXT: 9431
@@ -4833,7 +5497,9 @@ ACQLOC: ---
 DLRAMT: ---
 PURCHASER: "Synalloy Corp"
 PURCHASER: "Blackman Uhler Chemical Division"
-SELLER: ---
+SELLER: "Synalloy Corp"
+SELLER: "Blackman Uhler Chemical Division"
+SELLER: "Intex Products Inc"
 STATUS: ---
 
 TEXT: 9432
@@ -4845,7 +5511,8 @@ ACQLOC: "U.S."
 DLRAMT: ---
 PURCHASER: "Tricil Ltd"
 PURCHASER: "Tricil"
-SELLER: ---
+SELLER: "Tricil Ltd"
+SELLER: "Tricil"
 STATUS: ---
 
 TEXT: 9434
@@ -4857,7 +5524,8 @@ ACQLOC: "Denver"
 DLRAMT: ---
 PURCHASER: "Pantera"
 PURCHASER: "Pantera's Corp"
-SELLER: ---
+SELLER: "Pantera"
+SELLER: "Pantera's Corp"
 STATUS: ---
 
 TEXT: 9443
@@ -4871,7 +5539,9 @@ ACQLOC: "Eschborn"
 DLRAMT: ---
 PURCHASER: "Linotype"
 PURCHASER: "Allied-Signal"
-SELLER: ---
+SELLER: "Linotype"
+SELLER: "Allied-Signal"
+SELLER: "Allied-Signal Inc"
 STATUS: ---
 
 TEXT: 9544
@@ -4885,7 +5555,9 @@ ACQLOC: "Hong Kong"
 DLRAMT: ---
 PURCHASER: "Husky"
 PURCHASER: "Nova"
-SELLER: ---
+SELLER: "Husky"
+SELLER: "Nova"
+SELLER: "Husky Oil Ltd"
 STATUS: ---
 
 TEXT: 9557
@@ -4897,7 +5569,9 @@ ACQLOC: "Helm"
 DLRAMT: ---
 PURCHASER: "Bamberger"
 PURCHASER: "Helm Resources Inc"
-SELLER: ---
+SELLER: "Bamberger"
+SELLER: "Helm Resources Inc"
+SELLER: "Bamberger Polymers"
 STATUS: ---
 
 TEXT: 963
@@ -4910,7 +5584,9 @@ ACQLOC: ---
 DLRAMT: ---
 PURCHASER: "Bryson Oil and Gas Plc"
 PURCHASER: "Cenergy Corp"
-SELLER: ---
+SELLER: "Bryson Oil and Gas Plc"
+SELLER: "Cenergy Corp"
+SELLER: "U.S. Oil"
 STATUS: ---
 
 TEXT: 9661
@@ -4923,7 +5599,9 @@ ACQLOC: ---
 DLRAMT: ---
 PURCHASER: "AmBrit"
 PURCHASER: "Clabir"
-SELLER: ---
+SELLER: "AmBrit"
+SELLER: "Clabir"
+SELLER: "Clabir Corp"
 STATUS: ---
 
 TEXT: 9677
@@ -4935,7 +5613,9 @@ ACQLOC: "Genova"
 DLRAMT: ---
 PURCHASER: "Genova Inc"
 PURCHASER: "Genova Products Inc."
-SELLER: ---
+SELLER: "Genova Inc"
+SELLER: "Genova Products Inc."
+SELLER: "Genova Products"
 STATUS: ---
 
 TEXT: 9733
@@ -4949,7 +5629,9 @@ ACQLOC: "New York"
 DLRAMT: ---
 PURCHASER: "BP"
 PURCHASER: "Standard"
-SELLER: ---
+SELLER: "BP"
+SELLER: "Standard"
+SELLER: "British Petroleum Co Plc"
 STATUS: ---
 
 TEXT: 9809
@@ -4961,7 +5643,9 @@ ACQLOC: ---
 DLRAMT: ---
 PURCHASER: "W Group"
 PURCHASER: "N W Ayer Inc"
-SELLER: ---
+SELLER: "W Group"
+SELLER: "N W Ayer Inc"
+SELLER: "Ayer"
 STATUS: ---
 
 TEXT: 982
@@ -4974,7 +5658,9 @@ ACQLOC: "London"
 DLRAMT: ---
 PURCHASER: "Guinness"
 PURCHASER: "Guinness PLC 's"
-SELLER: ---
+SELLER: "Guinness"
+SELLER: "Guinness PLC 's"
+SELLER: "the Irish magazine Business and Finance"
 STATUS: ---
 
 TEXT: 9858
@@ -4987,7 +5673,9 @@ ACQLOC: ---
 DLRAMT: ---
 PURCHASER: "MCO Holdings Inc"
 PURCHASER: "MAXXAM Group Inc"
-SELLER: ---
+SELLER: "MCO Holdings Inc"
+SELLER: "MAXXAM Group Inc"
+SELLER: "MCO"
 STATUS: ---
 
 TEXT: 9893
@@ -5000,6 +5688,8 @@ ACQLOC: ---
 DLRAMT: ---
 PURCHASER: "Trecker"
 PURCHASER: "the Alliance Automation Systems"
-SELLER: ---
+SELLER: "Trecker"
+SELLER: "the Alliance Automation Systems"
+SELLER: "Gleason Corp"
 STATUS: ---
 
