@@ -297,11 +297,12 @@ TOTAL           0.34 (572/1693)	   0.16 (572/3686)    0.21
     #purchaser = list(set(arg0_spans))
 
 
-    acqbus = n_most_common(2, org_ents)
+    #acqbus = n_most_common(2, org_ents)
+    acqbus = [] # Best strategy so far is to leave empty (for f-score)
 
 
-    seller = n_most_common(3, org_ents)
-    #seller = [] # Best strategy so far is to leave empty (for f-score, but not recal)
+    #seller = n_most_common(3, org_ents)
+    seller = [] # Best strategy so far is to leave empty (for f-score, but not recall)
     #seller = list(set(arg0_spans))
     #seller = list(set(org_ents)) #RECALL=0.69 (108/156); PRECISION=0.06 (108/1748); F-SCORE=0.11
     #TODO: use this high recall heuristic as a good starting point. Then use more heuristics (maybe SRL) to filter down
