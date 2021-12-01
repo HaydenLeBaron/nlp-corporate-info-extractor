@@ -4,8 +4,13 @@ TODO: improve README and don't make it just an info dump.
 
 ## Overview
 
-My IE system uses manual linguistic heuristics and NE recognition to extract entities.
+The information extraction system uses manual linguistic heuristics and NE recognition to extract entities.
 Further heuristics using semantic role labeling are in progress, but do not yet enhance performance.
+
+## Performance
+
+Current F-score=0.23
+
 
 ## USAGE
 
