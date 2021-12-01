@@ -1,11 +1,8 @@
 # NLP Corporate Acquisition Information Extraction System
 
-## TEAM
-- 1 person team: Hayden LeBaron u1081509
+TODO: improve README and don't make it just an info dump.
 
-## CADE MACHINE
-
-- Tested on CADE Lab1-1
+## Overview
 
 My IE system uses manual linguistic heuristics and NE recognition to extract entities.
 Further heuristics using semantic role labeling are in progress, but do not yet enhance performance.
